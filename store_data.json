@@ -1,0 +1,45 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "سماعة بلوتوث برو",
+            "price": 150,
+            "category": "الكترونيات",
+            "description": "سماعة عزل ضوضاء عالية الجودة مع بطارية تدوم 24 ساعة.",
+            "image": "https://placehold.co/300x300/333/white?text=Headphones"
+        },
+        {
+            "id": 2,
+            "name": "ساعة ذكية رياضية",
+            "price": 299,
+            "category": "الكترونيات",
+            "description": "تتبع نبضات القلب والخطوات، مقاومة للماء.",
+            "image": "https://placehold.co/300x300/222/white?text=SmartWatch"
+        },
+        {
+            "id": 3,
+            "name": "دورة التجارة الإلكترونية",
+            "price": 499,
+            "category": "خدمات رقمية",
+            "description": "تعلم كيف تبني متجرك من الصفر حتى الاحتراف.",
+            "image": "https://placehold.co/300x300/444/white?text=Course"
+        },
+        {
+            "id": 4,
+            "name": "بكج التسويق الشامل",
+            "price": 999,
+            "category": "خدمات تسويقية",
+            "description": "إدارة حملاتك الإعلانية لمدة شهر كامل.",
+            "image": "https://placehold.co/300x300/555/white?text=Marketing"
+        },
+        {
+            "id": 5,
+            "name": "الضمان الاجتماعي المطور",
+            "price": 59,
+            "category": "خدمات حكومية",
+            "description": "خدمة التسجيل في الضمان الاجتماعي المطور بدقة واحترافية.",
+            "image": "https://placehold.co/300x300/666/white?text=Daman"
+        }
+    ],
+    "orders": []
+}

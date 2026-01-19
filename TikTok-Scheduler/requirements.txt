@@ -1,0 +1,11 @@
+selenium>=4.0.0
+webdriver-manager
+google-auth
+google-auth-oauthlib
+google-auth-httplib2
+google-api-python-client
+apscheduler
+pandas
+colorama
+tqdm
+undetected-chromedriver

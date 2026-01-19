@@ -1,0 +1,33 @@
+2025/12/30-09:00:07.733 7d20 Reusing MANIFEST C:\Users\WinDows\Documents\trae_projects\khaled1593\chrome_profile\Default\Session Storage/MANIFEST-000001
+2025/12/30-09:00:07.737 7d20 Recovering log #3
+2025/12/30-09:00:07.743 7d20 Reusing old log C:\Users\WinDows\Documents\trae_projects\khaled1593\chrome_profile\Default\Session Storage/000003.log 
+2025/12/30-10:34:49.650 7064 Level-0 table #5: started
+2025/12/30-10:34:49.657 7064 Level-0 table #5: 20827 bytes OK
+2025/12/30-10:34:49.660 7064 Delete type=0 #3
+2025/12/30-11:30:30.839 7064 Level-0 table #7: started
+2025/12/30-11:30:30.847 7064 Level-0 table #7: 10322 bytes OK
+2025/12/30-11:30:30.851 7064 Delete type=0 #4
+2025/12/30-12:12:49.653 7064 Level-0 table #9: started
+2025/12/30-12:12:49.659 7064 Level-0 table #9: 10834 bytes OK
+2025/12/30-12:12:49.663 7064 Delete type=0 #6
+2025/12/30-13:00:20.556 7064 Level-0 table #11: started
+2025/12/30-13:00:20.565 7064 Level-0 table #11: 11594 bytes OK
+2025/12/30-13:00:20.568 7064 Delete type=0 #8
+2025/12/30-13:30:30.472 7064 Level-0 table #13: started
+2025/12/30-13:30:30.477 7064 Level-0 table #13: 11041 bytes OK
+2025/12/30-13:30:30.479 7064 Delete type=0 #10
+2025/12/30-14:01:54.730 7064 Level-0 table #15: started
+2025/12/30-14:01:54.736 7064 Level-0 table #15: 11858 bytes OK
+2025/12/30-14:01:54.739 7064 Delete type=0 #12
+2025/12/30-14:01:54.740 7064 Compacting 4@0 + 1@1 files
+2025/12/30-14:01:54.748 7064 Generated table #16@0: 19 keys, 1906 bytes
+2025/12/30-14:01:54.748 7064 Compacted 4@0 + 1@1 files => 1906 bytes
+2025/12/30-14:01:54.749 7064 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/12/30-14:01:54.751 7064 Delete type=2 #7
+2025/12/30-14:01:54.752 7064 Delete type=2 #9
+2025/12/30-14:01:54.752 7064 Delete type=2 #11
+2025/12/30-14:01:54.752 7064 Delete type=2 #13
+2025/12/30-14:01:54.752 7064 Delete type=2 #15
+2025/12/30-16:44:49.664 7064 Level-0 table #18: started
+2025/12/30-16:44:49.670 7064 Level-0 table #18: 12134 bytes OK
+2025/12/30-16:44:49.672 7064 Delete type=0 #14

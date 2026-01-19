@@ -1,0 +1,1324 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>المكتبة الرقمية - خدمات حكومية ومهنية</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;800&family=Amiri:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #1a5f4a;
+            --primary-light: #2d8f6f;
+            --primary-dark: #0f3d2f;
+            --accent: #d4af37;
+            --accent-light: #f4d47e;
+            --text-dark: #1a1a1a;
+            --text-light: #4a4a4a;
+            --bg-light: #f8f9fa;
+            --bg-white: #ffffff;
+            --border: #e0e0e0;
+            --success: #28a745;
+            --shadow: rgba(26, 95, 74, 0.1);
+            --shadow-lg: rgba(26, 95, 74, 0.2);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Cairo', sans-serif;
+            color: var(--text-dark);
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            line-height: 1.8;
+            overflow-x: hidden;
+        }
+
+        /* Header & Navigation */
+        .header {
+            background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary) 100%);
+            padding: 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 8px 32px var(--shadow-lg);
+        }
+
+        .header-top {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 10px 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .header-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .contact-info {
+            display: flex;
+            gap: 25px;
+            align-items: center;
+        }
+
+        .contact-item {
+            color: rgba(255, 255, 255, 0.9);
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+        .contact-item:hover {
+            color: var(--accent);
+            transform: translateY(-2px);
+        }
+
+        .nav-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .logo-icon {
+            width: 120px;
+            height: 120px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            animation: pulse 2s ease-in-out infinite;
+        }
+
+        .logo-icon img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            filter: drop-shadow(0 4px 16px rgba(0, 0, 0, 0.2));
+        }
+
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+        }
+
+        .logo-text h1 {
+            font-family: 'Amiri', serif;
+            font-size: 32px;
+            font-weight: 700;
+            color: white;
+            margin: 0;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        .logo-text p {
+            font-size: 13px;
+            color: rgba(255, 255, 255, 0.8);
+            margin: 0;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 50%, var(--primary-dark) 100%);
+            padding: 100px 30px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: 
+                radial-gradient(circle at 20% 50%, rgba(212, 175, 55, 0.1) 0%, transparent 50%),
+                radial-gradient(circle at 80% 80%, rgba(255, 255, 255, 0.05) 0%, transparent 50%);
+            pointer-events: none;
+        }
+
+        .hero-content {
+            max-width: 900px;
+            margin: 0 auto;
+            position: relative;
+            z-index: 1;
+        }
+
+        .hero h2 {
+            font-family: 'Amiri', serif;
+            font-size: 56px;
+            font-weight: 700;
+            color: white;
+            margin-bottom: 20px;
+            line-height: 1.3;
+            animation: fadeInDown 1s ease;
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        .hero p {
+            font-size: 22px;
+            color: rgba(255, 255, 255, 0.95);
+            margin-bottom: 40px;
+            line-height: 1.8;
+            animation: fadeInUp 1s ease 0.2s both;
+        }
+
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Services Section */
+        .services {
+            padding: 80px 30px;
+            background: var(--bg-white);
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .section-header h2 {
+            font-family: 'Amiri', serif;
+            font-size: 42px;
+            font-weight: 700;
+            color: var(--primary-dark);
+            margin-bottom: 15px;
+            position: relative;
+            display: inline-block;
+        }
+
+        .section-header h2::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80px;
+            height: 4px;
+            background: linear-gradient(90deg, var(--accent) 0%, var(--accent-light) 100%);
+            border-radius: 2px;
+        }
+
+        .section-header p {
+            font-size: 18px;
+            color: var(--text-light);
+            margin-top: 25px;
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+        }
+
+        .service-card {
+            background: white;
+            padding: 35px 25px;
+            border-radius: 16px;
+            box-shadow: 0 4px 20px var(--shadow);
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            border: 2px solid transparent;
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .service-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 4px;
+            background: linear-gradient(90deg, var(--primary) 0%, var(--accent) 100%);
+            transform: scaleX(0);
+            transform-origin: right;
+            transition: transform 0.4s ease;
+        }
+
+        .service-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 12px 40px var(--shadow-lg);
+            border-color: var(--accent);
+        }
+
+        .service-card:hover::before {
+            transform: scaleX(1);
+            transform-origin: left;
+        }
+
+        .service-icon {
+            width: 70px;
+            height: 70px;
+            background: linear-gradient(135deg, var(--primary-light) 0%, var(--primary) 100%);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 20px;
+            font-size: 32px;
+            transition: all 0.4s ease;
+        }
+
+        .service-card:hover .service-icon {
+            background: linear-gradient(135deg, var(--accent) 0%, var(--accent-light) 100%);
+            transform: rotate(360deg) scale(1.1);
+        }
+
+        .service-card h3 {
+            font-size: 20px;
+            font-weight: 700;
+            color: var(--primary-dark);
+            margin-bottom: 12px;
+            text-align: center;
+        }
+
+        .service-card p {
+            font-size: 15px;
+            color: var(--text-light);
+            text-align: center;
+            line-height: 1.6;
+        }
+
+        /* Form Section */
+        .booking-section {
+            padding: 80px 30px;
+            background: linear-gradient(135deg, var(--bg-light) 0%, white 100%);
+        }
+
+        .form-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 50px;
+            border-radius: 24px;
+            box-shadow: 0 8px 40px var(--shadow-lg);
+            border: 1px solid var(--border);
+        }
+
+        .form-group {
+            margin-bottom: 25px;
+            animation: slideInRight 0.6s ease both;
+        }
+
+        .form-group:nth-child(1) { animation-delay: 0.1s; }
+        .form-group:nth-child(2) { animation-delay: 0.2s; }
+        .form-group:nth-child(3) { animation-delay: 0.3s; }
+        .form-group:nth-child(4) { animation-delay: 0.4s; }
+        .form-group:nth-child(5) { animation-delay: 0.5s; }
+        .form-group:nth-child(6) { animation-delay: 0.6s; }
+        .form-group:nth-child(7) { animation-delay: 0.7s; }
+        .form-group:nth-child(8) { animation-delay: 0.8s; }
+
+        @keyframes slideInRight {
+            from {
+                opacity: 0;
+                transform: translateX(-30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        .form-group label {
+            display: block;
+            font-size: 16px;
+            font-weight: 600;
+            color: var(--primary-dark);
+            margin-bottom: 10px;
+        }
+
+        .form-group label .required {
+            color: #dc3545;
+            margin-right: 4px;
+        }
+
+        .form-control {
+            width: 100%;
+            padding: 14px 18px;
+            border: 2px solid var(--border);
+            border-radius: 12px;
+            font-size: 16px;
+            font-family: 'Cairo', sans-serif;
+            transition: all 0.3s ease;
+            background: var(--bg-light);
+        }
+
+        .form-control:focus {
+            outline: none;
+            border-color: var(--primary);
+            background: white;
+            box-shadow: 0 0 0 4px rgba(26, 95, 74, 0.1);
+        }
+
+        select.form-control {
+            cursor: pointer;
+            appearance: none;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%231a5f4a' d='M6 9L1 4h10z'/%3E%3C/svg%3E");
+            background-repeat: no-repeat;
+            background-position: left 18px center;
+            padding-right: 45px;
+        }
+
+        .submit-btn {
+            width: 100%;
+            padding: 18px;
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+            color: white;
+            border: none;
+            border-radius: 12px;
+            font-size: 18px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.4s ease;
+            box-shadow: 0 4px 20px var(--shadow);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .submit-btn::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 0;
+            height: 0;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.3);
+            transform: translate(-50%, -50%);
+            transition: width 0.6s, height 0.6s;
+        }
+
+        .submit-btn:hover::before {
+            width: 300px;
+            height: 300px;
+        }
+
+        .submit-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 30px var(--shadow-lg);
+        }
+
+        .submit-btn:active {
+            transform: translateY(-1px);
+        }
+
+        /* WhatsApp Floating Button */
+        .whatsapp-float {
+            position: fixed;
+            bottom: 30px;
+            left: 30px;
+            width: 70px;
+            height: 70px;
+            background: linear-gradient(135deg, #25D366 0%, #128C7E 100%);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 6px 30px rgba(37, 211, 102, 0.4);
+            cursor: pointer;
+            z-index: 999;
+            transition: all 0.4s ease;
+            animation: bounceIn 1s ease, float 3s ease-in-out infinite;
+        }
+
+        @keyframes bounceIn {
+            0% {
+                opacity: 0;
+                transform: scale(0.3);
+            }
+            50% {
+                opacity: 1;
+                transform: scale(1.1);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+
+        @keyframes float {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+
+        .whatsapp-float:hover {
+            transform: scale(1.15);
+            box-shadow: 0 8px 40px rgba(37, 211, 102, 0.6);
+        }
+
+        .whatsapp-float svg {
+            width: 40px;
+            height: 40px;
+            fill: white;
+        }
+
+        /* Snapchat Floating Button */
+        .snapchat-float {
+            position: fixed;
+            bottom: 25px;
+            left: 130px; /* Next to WhatsApp */
+            width: 100px;
+            height: 100px;
+            background: linear-gradient(135deg, #FFFC00 0%, #FFD700 100%);
+            border-radius: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 6px 30px rgba(255, 252, 0, 0.4);
+            cursor: pointer;
+            z-index: 999;
+            transition: all 0.4s ease;
+            animation: bounceIn 1s ease, float 3s ease-in-out infinite;
+            animation-delay: 0.2s; /* Slight delay to offset from WhatsApp */
+        }
+
+        .snapchat-float:hover {
+            transform: scale(1.1);
+            box-shadow: 0 8px 40px rgba(255, 252, 0, 0.6);
+            z-index: 1000;
+        }
+
+        .snapchat-float svg {
+            width: 50px;
+            height: 50px;
+            fill: black; /* Black icon for better contrast on yellow */
+        }
+
+        /* Footer */
+        .footer {
+            background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary) 100%);
+            color: white;
+            padding: 50px 30px 30px;
+            text-align: center;
+        }
+
+        .footer-content {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .footer h3 {
+            font-family: 'Amiri', serif;
+            font-size: 28px;
+            margin-bottom: 20px;
+            color: var(--accent);
+        }
+
+        .footer p {
+            font-size: 16px;
+            line-height: 1.8;
+            margin-bottom: 30px;
+            color: rgba(255, 255, 255, 0.9);
+        }
+
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-bottom: 30px;
+            flex-wrap: wrap;
+        }
+
+        .footer-link {
+            color: rgba(255, 255, 255, 0.8);
+            text-decoration: none;
+            transition: all 0.3s ease;
+            font-size: 15px;
+        }
+
+        .footer-link:hover {
+            color: var(--accent);
+            transform: translateY(-2px);
+        }
+
+        .copyright {
+            border-top: 1px solid rgba(255, 255, 255, 0.2);
+            padding-top: 25px;
+            margin-top: 25px;
+            font-size: 14px;
+            color: rgba(255, 255, 255, 0.7);
+        }
+
+        /* Success Message */
+        .success-message {
+            display: none;
+            background: linear-gradient(135deg, var(--success) 0%, #20c997 100%);
+            color: white;
+            padding: 25px;
+            border-radius: 12px;
+            text-align: center;
+            margin-top: 30px;
+            animation: slideInUp 0.5s ease;
+            box-shadow: 0 4px 20px rgba(40, 167, 69, 0.3);
+        }
+
+        .success-message h3 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .success-message p {
+            font-size: 16px;
+            margin-bottom: 0;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .hero h2 {
+                font-size: 36px;
+            }
+
+            .hero p {
+                font-size: 18px;
+            }
+
+            .section-header h2 {
+                font-size: 32px;
+            }
+
+            .services-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .form-container {
+                padding: 30px 20px;
+            }
+
+            .logo-text h1 {
+                font-size: 24px;
+            }
+
+            .contact-info {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            .whatsapp-float {
+                width: 60px;
+                height: 60px;
+                bottom: 20px;
+                left: 20px;
+            }
+
+            .snapchat-float {
+                width: 60px;
+                height: 60px;
+                bottom: 20px;
+                left: 90px; /* 20px + 60px + 10px gap */
+            }
+
+            .whatsapp-float svg, .snapchat-float svg {
+                width: 32px;
+                height: 32px;
+            }
+        }
+
+        .loader {
+            display: none;
+            width: 20px;
+            height: 20px;
+            border: 3px solid rgba(255, 255, 255, 0.3);
+            border-top-color: white;
+            border-radius: 50%;
+            animation: spin 0.8s linear infinite;
+            margin: 0 auto;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        .submit-btn.loading .loader {
+            display: block;
+        }
+
+        .submit-btn.loading span {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-top">
+            <div class="header-content">
+                <div class="contact-info">
+                    <a href="https://wa.me/966545888559" class="contact-item" target="_blank">
+                        <span>📱</span>
+                        <span>966545888559+</span>
+                    </a>
+                    <span class="contact-item">
+                        <span>🕐</span>
+                        <span>نعمل على مدار الساعة</span>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <nav class="nav-container">
+            <div class="logo">
+                <div class="logo-icon">
+                    <img src="logo.png" alt="المكتبة الرقمية" style="width: 100%; height: 100%; object-fit: contain;">
+                </div>
+                <div class="logo-text">
+                    <h1>المكتبة الرقمية</h1>
+                    <p>شريكك في النجاح الرقمي</p>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2>رحلتك نحو النجاح تبدأ هنا</h2>
+            <p>نقدم لك مجموعة شاملة من الخدمات الحكومية والمهنية بكل احترافية وسرعة</p>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>خدماتنا المتميزة</h2>
+                <p>نغطي جميع احتياجاتك من خدمات حكومية ومهنية وتدريبية</p>
+            </div>
+            <div class="services-grid">
+                <a class='service-card' href='/damman-form' style='text-decoration: none; color: inherit;'>
+                    <div class="service-icon">🏛️</div>
+                    <h3>الضمان الاجتماعي المطور</h3>
+                    <p>مساعدتك في التقديم والمتابعة للحصول على الدعم المستحق</p>
+                </a>
+                <a class='service-card' href='/citizen-account-form' style='text-decoration: none; color: inherit;'>
+                    <div class="service-icon">💼</div>
+                    <h3>حساب المواطن</h3>
+                    <p>التسجيل في برنامج حساب المواطن بكل سهولة</p>
+                </a>
+                <a class='service-card' href='/hafiz-form' style='text-decoration: none; color: inherit;'>
+                    <div class="service-icon">💰</div>
+                    <h3>حافز</h3>
+                    <p>التسجيل في برنامج حافز للباحثين عن عمل</p>
+                </a>
+                <a class='service-card' href='/sanad-form' style='text-decoration: none; color: inherit;'>
+                    <div class="service-icon">🤝</div>
+                    <h3>ساند</h3>
+                    <p>برنامج دعم العاطلين عن العمل</p>
+                </a>
+                <div class="service-card">
+                    <div class="service-icon">📊</div>
+                    <h3>قياس - جدارات</h3>
+                    <p>الاستعداد والتسجيل لاختبارات القدرات والكفايات</p>
+                </div>
+                <a class='service-card' href='/tamheer-form' style='text-decoration: none; color: inherit;'>
+                    <div class="service-icon">🎓</div>
+                    <h3>تمهير</h3>
+                    <p>برنامج التدريب على رأس العمل لحديثي التخرج</p>
+                </a>
+                <a class='service-card' href='/towteen-form' style='text-decoration: none; color: inherit;'>
+                    <div class="service-icon">👔</div>
+                    <h3>توطين</h3>
+                    <p>دعم توطين الوظائف والحصول على المزايا</p>
+                </a>
+                <div class="service-card">
+                    <div class="service-icon">🛒</div>
+                    <h3>إنشاء متجر إلكتروني</h3>
+                    <p>متجرك الخاص بتصميم احترافي وإدارة متكاملة</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">💻</div>
+                    <h3>دورات التجارة الإلكترونية</h3>
+                    <p>تعلم أسرار النجاح في عالم التجارة الرقمية</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">📚</div>
+                    <h3>التدريس من المنزل</h3>
+                    <p>منصات وأدوات لبدء مشروع التدريس الخاص</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">📈</div>
+                    <h3>التسويق الرقمي</h3>
+                    <p>استراتيجيات تسويقية متكاملة لنجاح أعمالك</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">👥</div>
+                    <h3>زيادة المتابعين</h3>
+                    <p>نمو حقيقي وتفاعل فعال على جميع المنصات</p>
+                </div>
+                <a class='service-card' href='/cv-form' style='text-decoration: none; color: inherit;'>
+                    <div class="service-icon">📄</div>
+                    <h3>إعداد السيرة الذاتية</h3>
+                    <p>سيرة ذاتية احترافية تبرز مهاراتك وخبراتك</p>
+                </a>
+                <div class="service-card">
+                    <div class="service-icon">🎯</div>
+                    <h3>متابعة التوظيف</h3>
+                    <p>مرافقتك في رحلة البحث عن الوظيفة المثالية</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">⭐</div>
+                    <h3>استشارات مهنية</h3>
+                    <p>خبراء لمساعدتك في اتخاذ القرارات الصحيحة</p>
+                </div>
+                <a class='service-card' href='/jobs.html' style='text-decoration: none; color: inherit;'>
+                    <div class="service-icon">🆕</div>
+                    <h3>جديد الوظائف</h3>
+                    <p>أحدث 20 وظيفة يومياً بروابط مباشرة</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Form Section -->
+    <section class="booking-section" id="booking">
+        <div class="container">
+            <div class="section-header">
+                <h2>احجز موعدك الآن</h2>
+                <p>املأ البيانات وسنتواصل معك في أقرب وقت</p>
+            </div>
+            <div class="form-container">
+                <form id="bookingForm">
+                    <div class="form-group">
+                        <label><span class="required">*</span> الاسم الكامل</label>
+                        <input type="text" class="form-control" name="fullName" required placeholder="أدخل اسمك الكامل">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label><span class="required">*</span> رقم السجل المدني</label>
+                        <input type="text" class="form-control" name="nationalId" required placeholder="أدخل رقم السجل المدني" pattern="[0-9]{10}" maxlength="10">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label><span class="required">*</span> رقم الجوال</label>
+                        <input type="tel" class="form-control" name="phone" required placeholder="05xxxxxxxx" pattern="[0-9]{10}" maxlength="10">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label><span class="required">*</span> عنوان السكن</label>
+                        <input type="text" class="form-control" name="address" required placeholder="المدينة - الحي">
+                    </div>
+                    
+                    <div class="form-group">
+        <label><span class="required">*</span> تاريخ الميلاد (هجري)</label>
+        <input type="text" class="form-control" name="birthDate" required placeholder="مثال: 15/05/1410" inputmode="numeric" maxlength="10">
+    </div>
+                    
+                    <div class="form-group">
+                        <label><span class="required">*</span> آخر مؤهل</label>
+                        <select class="form-control" name="qualification" required>
+                            <option value="">اختر المؤهل</option>
+                            <option value="ابتدائي">ابتدائي</option>
+                            <option value="متوسط">متوسط</option>
+                            <option value="ثانوي">ثانوي</option>
+                            <option value="دبلوم">دبلوم</option>
+                            <option value="بكالوريوس">بكالوريوس</option>
+                            <option value="ماجستير">ماجستير</option>
+                            <option value="دكتوراه">دكتوراه</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label><span class="required">*</span> الخدمة المطلوبة</label>
+                        <select class="form-control" name="service" id="serviceSelect" required>
+                            <option value="">اختر الخدمة</option>
+                            <option value="الضمان الاجتماعي المطور" data-price="59">الضمان الاجتماعي المطور (59 ريال)</option>
+                            <option value="حافز" data-price="20">حافز (20 ريال)</option>
+                            <option value="حساب المواطن" data-price="20">حساب المواطن (20 ريال)</option>
+                            <option value="ساند" data-price="20">ساند (20 ريال)</option>
+                            <option value="قياس" data-price="20">قياس (20 ريال)</option>
+                            <option value="جدارات" data-price="20">جدارات (20 ريال)</option>
+                            <option value="تمهير" data-price="20">تمهير (20 ريال)</option>
+                            <option value="توطين" data-price="20">توطين (20 ريال)</option>
+                            <option value="إنشاء متجر إلكتروني" data-price="100">إنشاء متجر إلكتروني (100 ريال)</option>
+                            <option value="دورة التجارة الإلكترونية" data-price="20">دورة التجارة الإلكترونية (20 ريال)</option>
+                            <option value="التدريس من المنزل" data-price="20">التدريس من المنزل (20 ريال)</option>
+                            <option value="التسويق الرقمي" data-price="20">التسويق الرقمي (20 ريال)</option>
+                            <option value="زيادة المتابعين" data-price="20">زيادة المتابعين (20 ريال)</option>
+                            <option value="إعداد السيرة الذاتية" data-price="20">إعداد السيرة الذاتية (20 ريال)</option>
+                            <option value="متابعة التوظيف" data-price="20">متابعة التوظيف (20 ريال)</option>
+                        </select>
+
+                        <!-- قسم التابعين (يظهر فقط للضمان وحساب المواطن) -->
+                        <div class="form-group" id="dependentsSection" style="display: none; margin-top: 20px; animation: slideInRight 0.5s ease;">
+                            <label>بيانات التابعين (إن وجد)</label>
+                            <div style="background: var(--bg-light); padding: 15px; border-radius: 12px; border: 1px solid var(--border);">
+                                <div id="dependentsList">
+                                    <!-- Dynamic dependents will be added here -->
+                                </div>
+                                <button type="button" id="addDependentBtn" style="width: 100%; padding: 12px; margin-top: 10px; background: linear-gradient(135deg, var(--primary-light) 0%, var(--primary) 100%); color: white; border: none; border-radius: 8px; cursor: pointer; font-weight: bold; transition: all 0.3s ease; display: flex; align-items: center; justify-content: center; gap: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+                                    <span style="font-size: 20px; line-height: 1;">+</span>
+                                    <span>إضافة تابع جديد</span>
+                                </button>
+                            </div>
+                        </div>
+                        
+                        <!-- قسم معلومات الدفع --> 
+                        <div id="priceDisplay" class="payment-section" style="margin-top: 40px; padding: 30px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 15px; color: white; display: none;"> 
+                           <h3 style="text-align: center; margin-bottom: 25px; font-size: 24px;"> 
+                             💳 معلومات الدفع 
+                           </h3> 
+                           
+                           <div style="background: rgba(255,255,255,0.1); padding: 20px; border-radius: 10px; margin-bottom: 20px;"> 
+                             <h4 style="margin-bottom: 15px; font-size: 20px;">✅ قيمة الخدمة:</h4> 
+                             <p style="font-size: 32px; font-weight: bold; text-align: center; margin: 10px 0;"> 
+                               <span id="servicePrice">0</span> ريال سعودي 
+                             </p> 
+                           </div> 
+                           
+                           <div style="background: rgba(255,255,255,0.1); padding: 20px; border-radius: 10px; margin-bottom: 15px;"> 
+                             <h4 style="margin-bottom: 15px; font-size: 18px;">🏦 الحسابات البنكية:</h4> 
+                             
+                             <div style="margin-bottom: 15px; padding: 15px; background: rgba(255,255,255,0.15); border-radius: 8px;"> 
+                               <strong>🟢 البنك الأهلي</strong><br> 
+                               <code style="background: rgba(0,0,0,0.3); padding: 5px 10px; border-radius: 5px; display: inline-block; margin-top: 8px; font-size: 14px;"> 
+                                 SA6210000024200000066707 
+                               </code> 
+                             </div> 
+                             
+                             <div style="padding: 15px; background: rgba(255,255,255,0.15); border-radius: 8px;"> 
+                                <strong>🟢 بنك الراجحي</strong><br> 
+                                <code style="background: rgba(0,0,0,0.3); padding: 5px 10px; border-radius: 5px; display: inline-block; margin-top: 8px; font-size: 14px;"> 
+                                  SA54800002456086161270 
+                                </code> 
+                              </div> 
+                           </div> 
+                           
+                           <div style="background: rgba(255,255,255,0.1); padding: 15px; border-radius: 10px; text-align: center;"> 
+                             <p style="margin: 0; font-size: 14px;"> 
+                               ℹ️ بعد التحويل، يرجى إرسال إيصال الدفع عبر الواتساب 
+                             </p> 
+                           </div> 
+                        </div>
+                     </div>
+                    
+                    <div class="form-group">
+        <label><span class="required">*</span> موعد التواصل المفضل (هجري)</label>
+        <input type="text" class="form-control" name="appointmentDate" required placeholder="مثال: 20/06/1446" inputmode="numeric" maxlength="10">
+    </div>
+
+                    <div class="form-group">
+                        <label><span class="required">*</span> وقت التواصل المفضل</label>
+                        <select class="form-control" name="appointmentTime" required>
+                            <option value="">اختر الوقت</option>
+                            <optgroup label="الفترة الصباحية">
+                                <option value="09:00">09:00 صباحاً</option>
+                                <option value="09:30">09:30 صباحاً</option>
+                                <option value="10:00">10:00 صباحاً</option>
+                                <option value="10:30">10:30 صباحاً</option>
+                                <option value="11:00">11:00 صباحاً</option>
+                                <option value="11:30">11:30 صباحاً</option>
+                            </optgroup>
+                            <optgroup label="الفترة المسائية">
+                                <option value="12:00">12:00 ظهراً</option>
+                                <option value="12:30">12:30 ظهراً</option>
+                                <option value="13:00">01:00 مساءً</option>
+                                <option value="13:30">01:30 مساءً</option>
+                                <option value="14:00">02:00 مساءً</option>
+                                <option value="14:30">02:30 مساءً</option>
+                                <option value="15:00">03:00 مساءً</option>
+                                <option value="15:30">03:30 مساءً</option>
+                                <option value="16:00">04:00 مساءً</option>
+                                <option value="16:30">04:30 مساءً</option>
+                                <option value="17:00">05:00 مساءً</option>
+                                <option value="17:30">05:30 مساءً</option>
+                                <option value="18:00">06:00 مساءً</option>
+                                <option value="18:30">06:30 مساءً</option>
+                                <option value="19:00">07:00 مساءً</option>
+                                <option value="19:30">07:30 مساءً</option>
+                                <option value="20:00">08:00 مساءً</option>
+                                <option value="20:30">08:30 مساءً</option>
+                                <option value="21:00">09:00 مساءً</option>
+                                <option value="21:30">09:30 مساءً</option>
+                                <option value="22:00">10:00 مساءً</option>
+                                <option value="22:30">10:30 مساءً</option>
+                                <option value="23:00">11:00 مساءً</option>
+                            </optgroup>
+                        </select>
+                    </div>
+                    
+                    <button type="submit" class="submit-btn">
+                        <span>إرسال الطلب</span>
+                        <div class="loader"></div>
+                    </button>
+                </form>
+                
+                <div class="success-message" id="successMessage">
+                    <h3>✅ تم إرسال طلبك بنجاح!</h3>
+                    <p>سنتواصل معك قريباً عبر الواتساب</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <h3>المكتبة الرقمية</h3>
+            <p>نحن هنا لمساعدتك في تحقيق أهدافك المهنية والشخصية من خلال خدمات رقمية متكاملة وموثوقة</p>
+            <div class="footer-links">
+                <a href="#" class="footer-link">الرئيسية</a>
+                <a href="#booking" class="footer-link">احجز موعد</a>
+                <a href="/jobs.html" class="footer-link">جديد الوظائف</a>
+                <a href="https://wa.me/966545888559" class="footer-link" target="_blank">تواصل معنا</a>
+            </div>
+            <div class="copyright">
+                <p>© 2024 المكتبة الرقمية - جميع الحقوق محفوظة</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/966545888559" class="whatsapp-float" target="_blank" title="تواصل معنا عبر الواتساب">
+        <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+            <path d="M16 0C7.164 0 0 7.163 0 16c0 2.816.736 5.464 2.014 7.76L0 32l8.407-2.193A15.938 15.938 0 0016 32c8.837 0 16-7.163 16-16S24.837 0 16 0zm9.403 22.943c-.395.948-2.326 2.041-3.213 2.135-.892.095-1.746.128-2.82-.178-1.073-.306-2.45-.713-4.22-1.394-7.412-2.85-12.24-10.324-12.61-10.796-.37-.472-3.025-4.023-3.025-7.677 0-3.653 1.912-5.449 2.589-6.194.678-.745 1.48-.931 1.973-.931.494 0 .987.005 1.418.026.455.022.843.052 1.32 1.003.47.95 1.611 3.922 1.75 4.206.14.283.234.616.047.988-.188.372-.282.604-.563.93-.282.327-.594.73-.847 1.054-.282.373-.577.776-.247 1.52.329.745 1.467 2.42 3.151 3.92 2.165 1.927 3.99 2.525 4.558 2.808.568.283.899.236 1.229-.141.329-.377 1.416-1.657 1.792-2.225.377-.568.755-.473 1.276-.283.521.189 3.306 1.56 3.873 1.842.568.283.946.425 1.086.663.14.236.14 1.37-.254 2.319z"/>
+        </svg>
+    </a>
+
+    <!-- Snapchat Floating Button -->
+    <a href="https://www.snapchat.com/add/pvn7_7" class="snapchat-float" target="_blank" title="تابعنا على سناب شات">
+        <img src="snap-logo.png" alt="Snapchat" style="width: 100%; height: 100%; border-radius: 15px; object-fit: cover;">
+    </a>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Helper to check and block Arabic numerals
+            function validateDigits(input) {
+                const arabicDigits = /[\u0660-\u0669\u06F0-\u06F9]/;
+                if (arabicDigits.test(input.value)) {
+                    alert('⚠️ تنبيه: يرجى كتابة الأرقام باللغة الإنجليزية فقط (123...) ولا يقبل الأرقام العربية.');
+                    input.value = input.value.replace(/[\u0660-\u0669\u06F0-\u06F9]/g, '');
+                    return false;
+                }
+                return true;
+            }
+
+            // Date Formatting Helper (DD/MM/YYYY)
+            function formatDateInput(input) {
+                if (!validateDigits(input)) return;
+
+                // Store cursor position logic is complex with auto-format, simplified for now
+                let value = input.value.replace(/\D/g, ''); // Remove non-digits
+                if (value.length > 8) value = value.slice(0, 8); // Limit to 8 digits
+
+                let formatted = '';
+                if (value.length >= 5) {
+                    formatted = value.slice(0, 2) + '/' + value.slice(2, 4) + '/' + value.slice(4);
+                } else if (value.length >= 3) {
+                    formatted = value.slice(0, 2) + '/' + value.slice(2);
+                } else {
+                    formatted = value;
+                }
+                
+                input.value = formatted;
+            }
+
+            // Apply to main date inputs
+            ['birthDate', 'appointmentDate'].forEach(name => {
+                const input = document.querySelector(`input[name="${name}"]`);
+                if (input) {
+                    input.addEventListener('input', function() {
+                        formatDateInput(this);
+                    });
+                }
+            });
+
+            // Apply validation to National ID and Phone
+            ['nationalId', 'phone'].forEach(name => {
+                const input = document.querySelector(`input[name="${name}"]`);
+                if (input) {
+                    input.addEventListener('input', function() {
+                        validateDigits(this);
+                        // Also ensure only numbers
+                        this.value = this.value.replace(/[^0-9]/g, '');
+                    });
+                }
+            });
+            
+            // Expose for dynamic fields
+            window.formatDateInput = formatDateInput;
+        });
+
+        // Hijri Date Validation Helper (Updated for DD/MM/YYYY)
+        function isValidHijriDate(dateStr) {
+            // Regex for DD/MM/YYYY: (01-30)/(01-12)/14xx
+            const regex = /^(0[1-9]|[12][0-9]|30)\/(0[1-9]|1[0-2])\/14\d{2}$/;
+            return regex.test(dateStr);
+        }
+
+        // Dependents Logic
+        const dependentsList = document.getElementById('dependentsList');
+        const addDependentBtn = document.getElementById('addDependentBtn');
+
+        function createDependentField(index) {
+            const div = document.createElement('div');
+            div.className = 'dependent-item';
+            div.style.cssText = 'background: white; padding: 15px; border-radius: 8px; margin-bottom: 10px; border: 1px solid var(--border); position: relative; animation: fadeIn 0.3s ease;';
+            div.innerHTML = `
+                <h4 style="font-size: 14px; color: var(--primary); margin-bottom: 10px; display: flex; justify-content: space-between; align-items: center;">
+                    <span>تابع #${index + 1}</span>
+                    <button type="button" class="remove-dep-btn" style="background: none; border: none; color: #dc3545; cursor: pointer; font-size: 20px; line-height: 1;">&times;</button>
+                </h4>
+                <div style="display: grid; gap: 10px;">
+                    <input type="text" class="form-control" name="dep_name[]" placeholder="الاسم الكامل" required style="font-size: 14px;">
+                    <input type="text" class="form-control" name="dep_dob[]" placeholder="مثال: 15/05/1410" required style="font-size: 14px;" inputmode="numeric" maxlength="10">
+                    <select class="form-control" name="dep_stage[]" required style="font-size: 14px;">
+                        <option value="">المرحلة الدراسية</option>
+                        <option value="دون سن الدراسة">دون سن الدراسة</option>
+                        <option value="رياض أطفال">رياض أطفال</option>
+                        <option value="ابتدائي">ابتدائي</option>
+                        <option value="متوسط">متوسط</option>
+                        <option value="ثانوي">ثانوي</option>
+                        <option value="جامعي">جامعي</option>
+                        <option value="لا يوجد">لا يوجد</option>
+                    </select>
+                </div>
+            `;
+            
+            // Add remove functionality
+            div.querySelector('.remove-dep-btn').addEventListener('click', function() {
+                div.remove();
+                updateDependentNumbers();
+            });
+
+            // Add date formatting to new input
+            div.querySelector('input[name="dep_dob[]"]').addEventListener('input', function() {
+                formatDateInput(this);
+            });
+
+            return div;
+        }
+
+        function updateDependentNumbers() {
+            const items = dependentsList.querySelectorAll('.dependent-item');
+            items.forEach((item, index) => {
+                item.querySelector('h4 span').textContent = `تابع #${index + 1}`;
+            });
+        }
+
+        addDependentBtn.addEventListener('click', function() {
+            const count = dependentsList.children.length;
+            dependentsList.appendChild(createDependentField(count));
+        });
+
+        // Form Submission Handler
+        document.getElementById('bookingForm').addEventListener('submit', async function(e) {
+            e.preventDefault();
+            
+            const submitBtn = this.querySelector('.submit-btn');
+            submitBtn.classList.add('loading');
+            
+            // Get form data
+            const formData = new FormData(this);
+            const data = Object.fromEntries(formData.entries());
+            
+            // Validate Hijri dates
+            if (!isValidHijriDate(data.birthDate)) {
+                alert('يرجى إدخال تاريخ الميلاد بصيغة صحيحة (مثال: 15/05/1410)');
+                submitBtn.classList.remove('loading');
+                return;
+            }
+            
+            if (!isValidHijriDate(data.appointmentDate)) {
+                alert('يرجى إدخال موعد التواصل بصيغة صحيحة (مثال: 20/06/1446)');
+                submitBtn.classList.remove('loading');
+                return;
+            }
+            
+            // Collect dependents data
+            let dependentsMsg = '';
+            const depNames = document.getElementsByName('dep_name[]');
+            const depDobs = document.getElementsByName('dep_dob[]');
+            const depStages = document.getElementsByName('dep_stage[]');
+
+            if (depNames.length > 0) {
+                let hasDependents = false;
+                for(let i=0; i < depNames.length; i++) {
+                    if(depNames[i].value) {
+                        if (!hasDependents) {
+                            dependentsMsg = '\n👨‍👩‍👧‍👦 *التابعين:*';
+                            hasDependents = true;
+                        }
+                        dependentsMsg += `\n\n🔹 *تابع ${i+1}:*`;
+                        dependentsMsg += `\n👤 الاسم: ${depNames[i].value}`;
+                        dependentsMsg += `\n📅 الميلاد: ${depDobs[i].value}`;
+                        dependentsMsg += `\n🎓 المرحلة: ${depStages[i].value}`;
+                    }
+                }
+                if(hasDependents) dependentsMsg += '\n';
+            }
+
+            const message = `
+🌟 *طلب جديد - المكتبة الرقمية* 🌟
+
+📋 *بيانات العميل:*
+━━━━━━━━━━━━━━━
+👤 الاسم: ${data.fullName}
+🆔 السجل المدني: ${data.nationalId}
+📱 الجوال: ${data.phone}
+📍 العنوان: ${data.address}
+📅 تاريخ الميلاد: ${data.birthDate}
+🎓 المؤهل: ${data.qualification}
+
+🎯 *الخدمة المطلوبة:*
+${data.service}
+${dependentsMsg}
+⏰ *موعد التواصل المفضل:*
+📅 التاريخ: ${data.appointmentDate}
+🕐 الوقت: ${data.appointmentTime}
+
+━━━━━━━━━━━━━━━
+تم الإرسال من موقع المكتبة الرقمية
+            `.trim();
+            
+            // Send to WhatsApp
+            const whatsappUrl = `https://wa.me/966545888559?text=${encodeURIComponent(message)}`;
+            
+            // Simulate processing time
+            setTimeout(() => {
+                submitBtn.classList.remove('loading');
+                
+                // Show success message
+                document.getElementById('successMessage').style.display = 'block';
+                this.reset();
+                
+                // Open WhatsApp
+                window.open(whatsappUrl, '_blank');
+                
+                // Scroll to success message
+                document.getElementById('successMessage').scrollIntoView({ behavior: 'smooth' });
+                
+                // Hide success message after 5 seconds
+                setTimeout(() => {
+                    document.getElementById('successMessage').style.display = 'none';
+                }, 5000);
+            }, 1500);
+        });
+
+        // Smooth scrolling for links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            });
+        });
+
+        // Input validation for National ID
+        document.querySelector('input[name="nationalId"]').addEventListener('input', function(e) {
+            this.value = this.value.replace(/[^0-9]/g, '');
+        });
+
+        // Input validation for Phone
+        document.querySelector('input[name="phone"]').addEventListener('input', function(e) {
+            this.value = this.value.replace(/[^0-9]/g, '');
+        });
+
+        // Service card click animation
+        document.querySelectorAll('.service-card').forEach(card => {
+            card.addEventListener('click', function(e) {
+                // Allow navigation for specific links like jobs.html
+                if (this.getAttribute('href') && this.getAttribute('href').includes('jobs.html')) {
+                    return;
+                }
+
+                e.preventDefault();
+                const serviceName = this.querySelector('h3').textContent;
+                const select = document.querySelector('select[name="service"]');
+                
+                // Find matching option
+                for(let i=0; i<select.options.length; i++) {
+                    if(select.options[i].text.includes(serviceName)) {
+                        select.selectedIndex = i;
+                        break;
+                    }
+                }
+                
+                // Trigger change event to show price
+                select.dispatchEvent(new Event('change'));
+                
+                document.querySelector('#booking').scrollIntoView({ behavior: 'smooth' });
+            });
+        });
+
+        // Price Display Logic
+        const serviceSelect = document.getElementById('serviceSelect');
+        const dependentsSection = document.getElementById('dependentsSection');
+
+        serviceSelect.addEventListener('change', function() {
+            const priceDisplay = document.getElementById('priceDisplay');
+            const selectedOption = this.options[this.selectedIndex];
+            const price = selectedOption.getAttribute('data-price');
+            const serviceName = selectedOption.value;
+            
+            // Toggle Dependents Section
+            if (serviceName.includes('الضمان') || serviceName.includes('حساب المواطن')) {
+                dependentsSection.style.display = 'block';
+                // Enable inputs if any
+                dependentsList.querySelectorAll('input, select').forEach(el => el.disabled = false);
+            } else {
+                dependentsSection.style.display = 'none';
+                // Disable inputs to prevent validation issues
+                dependentsList.querySelectorAll('input, select').forEach(el => el.disabled = true);
+            }
+
+            if (price) {
+                document.getElementById('servicePrice').textContent = price;
+                priceDisplay.style.display = 'block';
+                // Add animation
+                priceDisplay.style.animation = 'none';
+                priceDisplay.offsetHeight; /* trigger reflow */
+                priceDisplay.style.animation = 'slideInRight 0.5s ease';
+            } else {
+                priceDisplay.style.display = 'none';
+            }
+        });
+    </script>
+</body>
+</html>

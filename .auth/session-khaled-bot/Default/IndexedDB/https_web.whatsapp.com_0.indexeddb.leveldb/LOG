@@ -1,0 +1,128 @@
+2025/12/26-20:54:52.318 4dac Reusing MANIFEST C:\Users\WinDows\Documents\trae_projects\khaled1593\.auth\session-khaled-bot\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/12/26-20:54:52.319 4dac Recovering log #299
+2025/12/26-20:54:52.509 4dac Reusing old log C:\Users\WinDows\Documents\trae_projects\khaled1593\.auth\session-khaled-bot\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000299.log 
+2025/12/26-20:54:54.827 4dac Level-0 table #315: started
+2025/12/26-20:54:54.843 4dac Level-0 table #315: 603193 bytes OK
+2025/12/26-20:54:54.845 4dac Delete type=0 #299
+2025/12/26-20:54:54.845 4dac Manual compaction at level-0 from '\x00\x19\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x1a\x00\x00\x00' @ 0 : 0; will stop at '\x00\x19\x00\x00\x05' @ 1354299 : 1
+2025/12/26-20:54:54.845 4dac Compacting 1@0 + 0@1 files
+2025/12/26-20:54:54.873 4dac Generated table #316@0: 21595 keys, 338688 bytes
+2025/12/26-20:54:54.877 4dac Generated table #317@0: 474 keys, 10310 bytes
+2025/12/26-20:54:54.877 4dac Compacted 1@0 + 0@1 files => 348998 bytes
+2025/12/26-20:54:54.878 4dac compacted to: files[ 0 2 11 0 0 0 0 ]
+2025/12/26-20:54:54.878 4dac Delete type=2 #315
+2025/12/26-20:54:54.879 4dac Manual compaction at level-0 from '\x00\x19\x00\x00\x05' @ 1354299 : 1 .. '\x00\x1a\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/12/26-20:54:54.892 8b0c Compacting 1@1 + 10@2 files
+2025/12/26-20:54:54.965 8b0c Generated table #318@1: 50078 keys, 2208678 bytes
+2025/12/26-20:54:55.048 8b0c Generated table #319@1: 32309 keys, 2185377 bytes
+2025/12/26-20:54:55.084 8b0c Generated table #320@1: 2833 keys, 2147044 bytes
+2025/12/26-20:54:55.128 8b0c Generated table #321@1: 3326 keys, 2146443 bytes
+2025/12/26-20:54:55.165 8b0c Generated table #322@1: 2607 keys, 2151306 bytes
+2025/12/26-20:54:55.204 8b0c Generated table #323@1: 2678 keys, 2152163 bytes
+2025/12/26-20:54:55.246 8b0c Generated table #324@1: 9872 keys, 2160496 bytes
+2025/12/26-20:54:55.341 8b0c Generated table #325@1: 34272 keys, 2254893 bytes
+2025/12/26-20:54:55.440 8b0c Generated table #326@1: 50945 keys, 2250671 bytes
+2025/12/26-20:54:55.548 8b0c Generated table #327@1: 68910 keys, 2213527 bytes
+2025/12/26-20:54:55.563 8b0c Generated table #328@1: 8115 keys, 191393 bytes
+2025/12/26-20:54:55.563 8b0c Compacted 1@1 + 10@2 files => 22061991 bytes
+2025/12/26-20:54:55.564 8b0c compacted to: files[ 0 1 12 0 0 0 0 ]
+2025/12/26-20:54:55.565 8b0c Delete type=2 #302
+2025/12/26-20:54:55.565 8b0c Delete type=2 #303
+2025/12/26-20:54:55.565 8b0c Delete type=2 #304
+2025/12/26-20:54:55.565 8b0c Delete type=2 #305
+2025/12/26-20:54:55.565 8b0c Delete type=2 #306
+2025/12/26-20:54:55.565 8b0c Delete type=2 #307
+2025/12/26-20:54:55.565 8b0c Delete type=2 #308
+2025/12/26-20:54:55.565 8b0c Delete type=2 #309
+2025/12/26-20:54:55.565 8b0c Delete type=2 #310
+2025/12/26-20:54:55.565 8b0c Delete type=2 #311
+2025/12/26-20:54:55.565 8b0c Delete type=2 #316
+2025/12/26-20:55:01.428 782c Level-0 table #330: started
+2025/12/26-20:55:01.449 782c Level-0 table #330: 1263669 bytes OK
+2025/12/26-20:55:01.451 782c Delete type=0 #314
+2025/12/26-20:55:01.454 782c Compacting 1@0 + 1@1 files
+2025/12/26-20:55:01.493 782c Generated table #331@0: 25417 keys, 1107421 bytes
+2025/12/26-20:55:01.496 782c Generated table #332@0: 493 keys, 11697 bytes
+2025/12/26-20:55:01.496 782c Compacted 1@0 + 1@1 files => 1119118 bytes
+2025/12/26-20:55:01.497 782c compacted to: files[ 0 2 12 0 0 0 0 ]
+2025/12/26-20:55:01.500 782c Compacting 1@1 + 10@2 files
+2025/12/26-20:55:01.564 782c Generated table #333@1: 55096 keys, 2210152 bytes
+2025/12/26-20:55:01.635 782c Generated table #334@1: 39481 keys, 2202949 bytes
+2025/12/26-20:55:01.664 782c Generated table #335@1: 2709 keys, 2143625 bytes
+2025/12/26-20:55:01.692 782c Generated table #336@1: 3211 keys, 2146142 bytes
+2025/12/26-20:55:01.718 782c Generated table #337@1: 2682 keys, 2148233 bytes
+2025/12/26-20:55:01.744 782c Generated table #338@1: 2636 keys, 2150482 bytes
+2025/12/26-20:55:01.773 782c Generated table #339@1: 2741 keys, 2150274 bytes
+2025/12/26-20:55:01.835 782c Generated table #340@1: 33730 keys, 2236207 bytes
+2025/12/26-20:55:01.923 782c Generated table #341@1: 32934 keys, 2249432 bytes
+2025/12/26-20:55:02.005 782c Generated table #342@1: 70520 keys, 2217032 bytes
+2025/12/26-20:55:02.028 782c Generated table #343@1: 24816 keys, 590993 bytes
+2025/12/26-20:55:02.028 782c Compacted 1@1 + 10@2 files => 22445521 bytes
+2025/12/26-20:55:02.029 782c compacted to: files[ 0 1 13 0 0 0 0 ]
+2025/12/26-20:55:02.029 782c Delete type=2 #317
+2025/12/26-20:55:02.029 782c Delete type=2 #318
+2025/12/26-20:55:02.029 782c Delete type=2 #319
+2025/12/26-20:55:02.029 782c Delete type=2 #320
+2025/12/26-20:55:02.029 782c Delete type=2 #321
+2025/12/26-20:55:02.029 782c Delete type=2 #322
+2025/12/26-20:55:02.029 782c Delete type=2 #323
+2025/12/26-20:55:02.029 782c Delete type=2 #324
+2025/12/26-20:55:02.029 782c Delete type=2 #325
+2025/12/26-20:55:02.030 782c Delete type=2 #326
+2025/12/26-20:55:02.030 782c Delete type=2 #327
+2025/12/26-20:55:02.030 782c Delete type=2 #330
+2025/12/26-20:55:02.030 782c Delete type=2 #331
+2025/12/26-20:55:02.128 8b0c Level-0 table #345: started
+2025/12/26-20:55:02.163 8b0c Level-0 table #345: 1171054 bytes OK
+2025/12/26-20:55:02.164 8b0c Delete type=0 #329
+2025/12/26-20:55:02.826 4dac Compacting 1@1 + 2@2 files
+2025/12/26-20:55:02.906 4dac Generated table #346@1: 51193 keys, 2210099 bytes
+2025/12/26-20:55:02.965 4dac Generated table #347@1: 35183 keys, 1815060 bytes
+2025/12/26-20:55:02.965 4dac Compacted 1@1 + 2@2 files => 4025159 bytes
+2025/12/26-20:55:02.966 4dac compacted to: files[ 0 1 13 0 0 0 0 ]
+2025/12/26-20:55:02.966 4dac Delete type=2 #333
+2025/12/26-20:55:02.967 4dac Delete type=2 #334
+2025/12/26-20:55:02.967 4dac Delete type=2 #345
+2025/12/26-20:55:07.526 4dac Compacting 1@1 + 1@2 files
+2025/12/26-20:55:07.534 4dac Generated table #348@1: 5576 keys, 135011 bytes
+2025/12/26-20:55:07.534 4dac Compacted 1@1 + 1@2 files => 135011 bytes
+2025/12/26-20:55:07.535 4dac compacted to: files[ 0 0 13 0 0 0 0 ]
+2025/12/26-20:55:07.535 4dac Delete type=2 #312
+2025/12/26-20:55:07.535 4dac Delete type=2 #332
+2025/12/26-20:55:45.717 8b0c Level-0 table #350: started
+2025/12/26-20:55:45.750 8b0c Level-0 table #350: 1126909 bytes OK
+2025/12/26-20:55:45.752 8b0c Delete type=0 #344
+2025/12/26-20:55:46.759 782c Compacting 1@0 + 0@1 files
+2025/12/26-20:55:46.805 782c Generated table #351@0: 29667 keys, 498620 bytes
+2025/12/26-20:55:46.817 782c Generated table #352@0: 7641 keys, 167899 bytes
+2025/12/26-20:55:46.817 782c Compacted 1@0 + 0@1 files => 666519 bytes
+2025/12/26-20:55:46.818 782c compacted to: files[ 0 2 13 0 0 0 0 ]
+2025/12/26-20:55:47.842 4dac Compacting 1@1 + 10@2 files
+2025/12/26-20:55:47.923 4dac Generated table #353@1: 51357 keys, 2213169 bytes
+2025/12/26-20:55:47.984 4dac Generated table #354@1: 35508 keys, 2191204 bytes
+2025/12/26-20:55:48.016 4dac Generated table #355@1: 2909 keys, 2148148 bytes
+2025/12/26-20:55:48.052 4dac Generated table #356@1: 3395 keys, 2147679 bytes
+2025/12/26-20:55:48.082 4dac Generated table #357@1: 2490 keys, 2149826 bytes
+2025/12/26-20:55:48.115 4dac Generated table #358@1: 2636 keys, 2149976 bytes
+2025/12/26-20:55:48.148 4dac Generated table #359@1: 5159 keys, 2154634 bytes
+2025/12/26-20:55:48.218 4dac Generated table #360@1: 36461 keys, 2251656 bytes
+2025/12/26-20:55:48.303 4dac Generated table #361@1: 52039 keys, 2259440 bytes
+2025/12/26-20:55:48.374 4dac Generated table #362@1: 54567 keys, 2121483 bytes
+2025/12/26-20:55:48.374 4dac Compacted 1@1 + 10@2 files => 21787215 bytes
+2025/12/26-20:55:48.375 4dac compacted to: files[ 0 1 13 0 0 0 0 ]
+2025/12/26-20:55:48.375 4dac Delete type=2 #335
+2025/12/26-20:55:48.376 4dac Delete type=2 #336
+2025/12/26-20:55:48.376 4dac Delete type=2 #337
+2025/12/26-20:55:48.376 4dac Delete type=2 #338
+2025/12/26-20:55:48.376 4dac Delete type=2 #339
+2025/12/26-20:55:48.376 4dac Delete type=2 #340
+2025/12/26-20:55:48.376 4dac Delete type=2 #341
+2025/12/26-20:55:48.376 4dac Delete type=2 #342
+2025/12/26-20:55:48.376 4dac Delete type=2 #346
+2025/12/26-20:55:48.376 4dac Delete type=2 #347
+2025/12/26-20:55:48.376 4dac Delete type=2 #350
+2025/12/26-20:55:48.376 4dac Delete type=2 #351
+2025/12/26-20:55:48.884 8b0c Compacting 1@1 + 3@2 files
+2025/12/26-20:55:48.940 8b0c Generated table #363@1: 46148 keys, 1102178 bytes
+2025/12/26-20:55:48.940 8b0c Compacted 1@1 + 3@2 files => 1102178 bytes
+2025/12/26-20:55:48.941 8b0c compacted to: files[ 0 0 11 0 0 0 0 ]

@@ -1,0 +1,47 @@
+{
+   "checksum": "d1d33ea7c1df5c936f125be15d86475a",
+   "roots": {
+      "bookmark_bar": {
+         "children": [  ],
+         "date_added": "13411663216173514",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "شريط الإشارات",
+         "type": "folder"
+      },
+      "other": {
+         "children": [ {
+            "date_added": "13411664147342393",
+            "date_last_used": "0",
+            "guid": "7a908b8b-8296-4681-b3a3-ac882baba794",
+            "id": "5",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "TikTok Studio",
+            "type": "url",
+            "url": "https://www.tiktok.com/tiktokstudio/content"
+         } ],
+         "date_added": "13411663216173514",
+         "date_last_used": "0",
+         "date_modified": "13411664147342393",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "الإشارات المرجعية الأخرى",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13411663216173514",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "الإشارات المرجعية للجوّال",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

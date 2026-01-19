@@ -1,0 +1,3733 @@
+2025-12-29 13:07:19,326 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-12-29 13:07:19,328 - INFO - Added job "„‰‘Ê— TikTok «·ÌÊ„Ì" to job store "default"
+2025-12-29 13:07:19,329 - INFO - Scheduler started
+2025-12-29 13:07:19,362 - INFO - «÷€ÿ Ctrl+C ··≈Ìﬁ«›
+2025-12-29 23:27:39,950 - INFO - Starting TikTok Scheduler...
+2025-12-29 23:27:39,950 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-12-29 23:27:39,951 - INFO - \U0001f4c5 Scheduler is running. Waiting for jobs...
+2025-12-29 23:27:39,953 - INFO - Added job "TikTokScheduler.check_and_post" to job store "default"
+2025-12-29 23:27:39,953 - INFO - Scheduler started
+2025-12-30 06:59:28,105 - INFO - Checking schedule for 2025-12-30...
+2025-12-30 06:59:28,106 - WARNING - No posts file found.
+2025-12-30 06:59:42,924 - INFO - Checking schedule for 2025-12-30...
+2025-12-30 06:59:42,928 - INFO - Found post for today: „‰‘Ê—  Ìﬂ  Êﬂ «·ÌÊ„ #1 #fyp #tiktok
+2025-12-30 06:59:42,928 - INFO - Setting up Undetected Chrome Driver...
+2025-12-30 06:59:44,382 - INFO - patching driver executable C:\Users\WinDows\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-12-30 06:59:50,166 - INFO - Checking login status...
+2025-12-30 06:59:58,184 - WARNING - \u26a0\ufe0f Not logged in! Please log in manually in the browser window.
+2025-12-30 06:59:58,184 - INFO - Waiting 60 seconds for manual login...
+2025-12-30 07:00:58,194 - ERROR - \u274c Failed to log in.
+2025-12-30 07:00:58,194 - ERROR - Skipping post due to login failure.
+2025-12-30 07:01:10,132 - INFO - Starting TikTok Scheduler...
+2025-12-30 07:01:10,134 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-12-30 07:01:10,134 - INFO - \U0001f4c5 Scheduler is running. Waiting for jobs...
+2025-12-30 07:01:10,137 - INFO - Added job "TikTokScheduler.check_and_post" to job store "default"
+2025-12-30 07:01:10,137 - INFO - Scheduler started
+2025-12-30 08:04:17,714 - INFO - Starting TikTok Scheduler...
+2025-12-30 08:04:17,714 - INFO - Checking content inventory...
+2025-12-30 08:04:17,715 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-12-30 08:04:17,716 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-12-30 08:04:17,716 - INFO - \U0001f4c5 Scheduler is running. Waiting for jobs...
+2025-12-30 08:04:17,719 - INFO - Added job "TikTokScheduler.check_and_post" to job store "default"
+2025-12-30 08:04:17,719 - INFO - Added job "TikTokScheduler.check_and_replenish" to job store "default"
+2025-12-30 08:04:17,720 - INFO - Scheduler started
+2025-12-30 08:06:30,879 - INFO - Starting TikTok Scheduler...
+2025-12-30 08:06:30,879 - INFO - Checking content inventory...
+2025-12-30 08:06:30,879 - INFO - Today (2025-12-30) has 1/10 posts. Generating 9 more...
+2025-12-30 08:13:29,544 - INFO - \u2705 Replenished content for today.
+2025-12-30 08:13:29,544 - INFO - Tomorrow (2025-12-31) has 2/10 posts. Generating 8 more...
+2025-12-30 08:20:38,969 - INFO - \u2705 Replenished content for tomorrow.
+2025-12-30 08:20:38,970 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-12-30 08:20:38,971 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-12-30 08:20:38,971 - INFO - \U0001f4c5 Scheduler is running. Waiting for jobs...
+2025-12-30 08:20:38,974 - INFO - Added job "TikTokScheduler.check_and_post" to job store "default"
+2025-12-30 08:20:38,975 - INFO - Added job "TikTokScheduler.check_and_replenish" to job store "default"
+2025-12-30 08:20:38,975 - INFO - Scheduler started
+2025-12-30 08:30:00,014 - INFO - Running job "TikTokScheduler.check_and_post (trigger: cron[minute='0,30'], next run at: 2025-12-30 08:30:00 +03)" (scheduled at 2025-12-30 08:30:00+03:00)
+2025-12-30 08:30:00,015 - INFO - Checking schedule for 2025-12-30 at 08:30...
+2025-12-30 08:30:00,017 - INFO - Job "TikTokScheduler.check_and_post (trigger: cron[minute='0,30'], next run at: 2025-12-30 09:00:00 +03)" executed successfully
+2025-12-30 08:33:37,564 - INFO - Starting TikTok Scheduler...
+2025-12-30 08:33:37,565 - INFO - Checking content inventory...
+2025-12-30 08:33:37,567 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-12-30 08:33:37,568 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-12-30 08:33:37,569 - INFO - \U0001f4c5 Scheduler is running. Waiting for jobs...
+2025-12-30 08:33:37,573 - INFO - Added job "TikTokScheduler.check_and_post" to job store "default"
+2025-12-30 08:33:37,574 - INFO - Added job "TikTokScheduler.check_and_replenish" to job store "default"
+2025-12-30 08:33:37,574 - INFO - Scheduler started
+2025-12-30 08:35:57,292 - INFO - Starting TikTok Scheduler...
+2025-12-30 08:35:57,293 - INFO - Checking content inventory...
+2025-12-30 08:35:57,294 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-12-30 08:35:57,295 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-12-30 08:35:57,295 - INFO - \U0001f4c5 Scheduler is running. Waiting for jobs...
+2025-12-30 08:35:57,298 - INFO - Added job "TikTokScheduler.check_and_post" to job store "default"
+2025-12-30 08:35:57,298 - INFO - Added job "TikTokScheduler.check_and_replenish" to job store "default"
+2025-12-30 08:35:57,298 - INFO - Scheduler started
+2025-12-30 09:00:00,005 - INFO - Running job "TikTokScheduler.check_and_post (trigger: cron[minute='0,30'], next run at: 2025-12-30 09:00:00 +03)" (scheduled at 2025-12-30 09:00:00+03:00)
+2025-12-30 09:00:00,007 - INFO - Checking schedule for 2025-12-30 at 09:00...
+2025-12-30 09:00:00,009 - INFO - Found pending post for 09:00: „‰‘Ê—  Ìﬂ  Êﬂ «·ÌÊ„ #1 #fyp #tiktok
+2025-12-30 09:00:00,009 - INFO - Setting up Undetected Chrome Driver...
+2025-12-30 09:00:01,846 - INFO - patching driver executable C:\Users\WinDows\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-12-30 09:00:09,438 - INFO - Checking login status...
+2025-12-30 09:00:16,464 - WARNING - \u26a0\ufe0f Not logged in! Please log in manually in the browser window.
+2025-12-30 09:00:16,465 - INFO - Waiting 60 seconds for manual login...
+2025-12-30 09:01:16,474 - ERROR - \u274c Failed to log in.
+2025-12-30 09:01:16,475 - ERROR - Skipping post due to login failure.
+2025-12-30 09:01:16,475 - INFO - Found pending post for 09:00: «⁄·«‰«  
+2025-12-30 09:01:16,475 - INFO - Checking login status...
+2025-12-30 09:01:23,268 - WARNING - \u26a0\ufe0f Not logged in! Please log in manually in the browser window.
+2025-12-30 09:01:23,268 - INFO - Waiting 60 seconds for manual login...
+2025-12-30 09:02:23,279 - ERROR - \u274c Failed to log in.
+2025-12-30 09:02:23,279 - ERROR - Skipping post due to login failure.
+2025-12-30 09:02:23,280 - INFO - Job "TikTokScheduler.check_and_post (trigger: cron[minute='0,30'], next run at: 2025-12-30 09:30:00 +03)" executed successfully
+2025-12-30 09:30:00,005 - INFO - Running job "TikTokScheduler.check_and_post (trigger: cron[minute='0,30'], next run at: 2025-12-30 10:00:00 +03)" (scheduled at 2025-12-30 09:30:00+03:00)
+2025-12-30 09:30:00,005 - INFO - Checking schedule for 2025-12-30 at 09:30...
+2025-12-30 09:30:00,006 - INFO - Found pending post for 09:00: „‰‘Ê—  Ìﬂ  Êﬂ «·ÌÊ„ #1 #fyp #tiktok
+2025-12-30 09:30:00,007 - INFO - Checking login status...
+2025-12-30 09:30:07,167 - WARNING - \u26a0\ufe0f Not logged in! Please log in manually in the browser window.
+2025-12-30 09:30:07,168 - INFO - Waiting 60 seconds for manual login...
+2025-12-30 09:31:07,177 - ERROR - \u274c Failed to log in.
+2025-12-30 09:31:07,178 - ERROR - Skipping post due to login failure.
+2025-12-30 09:31:07,178 - INFO - Found pending post for 09:00: «⁄·«‰«  
+2025-12-30 09:31:07,179 - INFO - Checking login status...
+2025-12-30 09:31:13,937 - WARNING - \u26a0\ufe0f Not logged in! Please log in manually in the browser window.
+2025-12-30 09:31:13,938 - INFO - Waiting 60 seconds for manual login...
+2025-12-30 09:32:13,953 - ERROR - \u274c Failed to log in.
+2025-12-30 09:32:13,953 - ERROR - Skipping post due to login failure.
+2025-12-30 09:32:13,954 - INFO - Job "TikTokScheduler.check_and_post (trigger: cron[minute='0,30'], next run at: 2025-12-30 10:00:00 +03)" executed successfully
+2025-12-30 10:00:00,033 - INFO - Running job "TikTokScheduler.check_and_post (trigger: cron[minute='0,30'], next run at: 2025-12-30 10:30:00 +03)" (scheduled at 2025-12-30 10:00:00+03:00)
+2025-12-30 10:00:00,038 - INFO - Checking schedule for 2025-12-30 at 10:00...
+2025-12-30 10:00:00,043 - INFO - Found pending post for 09:00: „‰‘Ê—  Ìﬂ  Êﬂ «·ÌÊ„ #1 #fyp #tiktok
+2025-12-30 10:00:00,043 - INFO - Checking login status...
+2025-12-30 10:00:08,252 - WARNING - \u26a0\ufe0f Not logged in! Please log in manually in the browser window.
+2025-12-30 10:00:08,253 - INFO - Waiting 60 seconds for manual login...
+2025-12-30 10:01:08,264 - ERROR - \u274c Failed to log in.
+2025-12-30 10:01:08,264 - ERROR - Skipping post due to login failure.
+2025-12-30 10:01:08,264 - INFO - Found pending post for 09:00: «⁄·«‰«  
+2025-12-30 10:01:08,265 - INFO - Checking login status...
+2025-12-30 10:01:15,381 - WARNING - \u26a0\ufe0f Not logged in! Please log in manually in the browser window.
+2025-12-30 10:01:15,382 - INFO - Waiting 60 seconds for manual login...
+2025-12-30 10:02:15,391 - ERROR - \u274c Failed to log in.
+2025-12-30 10:02:15,391 - ERROR - Skipping post due to login failure.
+2025-12-30 10:02:15,395 - INFO - Job "TikTokScheduler.check_and_post (trigger: cron[minute='0,30'], next run at: 2025-12-30 10:30:00 +03)" executed successfully
+2025-12-30 10:30:00,065 - INFO - Running job "TikTokScheduler.check_and_post (trigger: cron[minute='0,30'], next run at: 2025-12-30 11:00:00 +03)" (scheduled at 2025-12-30 10:30:00+03:00)
+2025-12-30 10:30:00,077 - INFO - Checking schedule for 2025-12-30 at 10:30...
+2025-12-30 10:30:00,084 - INFO - Found pending post for 09:00: „‰‘Ê—  Ìﬂ  Êﬂ «·ÌÊ„ #1 #fyp #tiktok
+2025-12-30 10:30:00,084 - INFO - Checking login status...
+2025-12-30 10:30:11,615 - INFO - \u2705 Logged in successfully.
+2025-12-30 10:30:11,621 - ERROR - Video file not found: ./videos/video_1.mp4
+2025-12-30 10:30:11,622 - ERROR - Failed to post.
+2025-12-30 10:30:11,623 - INFO - Found pending post for 09:00: «⁄·«‰«  
+2025-12-30 10:30:11,623 - INFO - Checking login status...
+2025-12-30 10:30:22,868 - INFO - \u2705 Logged in successfully.
+2025-12-30 10:30:22,869 - ERROR - Video file not found: ./videos/video_1.mp4
+2025-12-30 10:30:22,870 - ERROR - Failed to post.
+2025-12-30 10:30:22,870 - INFO - Job "TikTokScheduler.check_and_post (trigger: cron[minute='0,30'], next run at: 2025-12-30 11:00:00 +03)" executed successfully
+2025-12-30 11:00:00,057 - INFO - Running job "TikTokScheduler.check_and_post (trigger: cron[minute='0,30'], next run at: 2025-12-30 11:30:00 +03)" (scheduled at 2025-12-30 11:00:00+03:00)
+2025-12-30 11:00:00,066 - INFO - Checking schedule for 2025-12-30 at 11:00...
+2025-12-30 11:00:00,072 - INFO - Found pending post for 09:00: „‰‘Ê—  Ìﬂ  Êﬂ «·ÌÊ„ #1 #fyp #tiktok
+2025-12-30 11:00:00,072 - INFO - Checking login status...
+2025-12-30 11:00:11,885 - INFO - \u2705 Logged in successfully.
+2025-12-30 11:00:11,887 - ERROR - Video file not found: ./videos/video_1.mp4
+2025-12-30 11:00:11,887 - ERROR - Failed to post.
+2025-12-30 11:00:11,888 - INFO - Found pending post for 11:00: Daily Motivation #2 #motivation #quotes #fyp
+2025-12-30 11:00:11,888 - INFO - Checking login status...
+2025-12-30 11:00:20,965 - INFO - \u2705 Logged in successfully.
+2025-12-30 11:00:20,967 - INFO - \U0001f680 Starting upload for: C:\Users\WinDows\Documents\trae_projects\khaled1593\TikTok-Scheduler\generated_videos\video_2025-12-30_2.mp4
+2025-12-30 11:00:33,839 - INFO - Video uploading...
+2025-12-30 11:01:03,877 - WARNING - Could not set caption (might need manual adjustment): Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@contenteditable='true']"}
+  (Session info: chrome=143.0.7499.170); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x9212d3
+	0x921314
+	0x70e6dd
+	0x7593a5
+	0x75977b
+	0x7a0382
+	0x77b534
+	0x79db13
+	0x77b2e6
+	0x74d321
+	0x74e1d4
+	0xb75314
+	0xb708cb
+	0xb8d1aa
+	0x93b1d8
+	0x9431dd
+	0x9295d8
+	0x929799
+	0x913b28
+	0x75d15d49
+	0x7751d5db
+	0x7751d561
+
+2025-12-30 11:01:06,542 - INFO - Visible buttons on page: ['', ' Õ„Ì·', '«·’›Õ… «·—∆Ì”Ì…', '„‰‘Ê—« ', '«· Õ·Ì·« ', ' ⁄·Ìﬁ« ', '«·≈·Â«„', '√ﬂ«œÌ„Ì… «·„»œ⁄Ì‰', '«·—»Õ', '√’Ê«  €Ì— „ÕœÊœ…', '«· ﬁ”Ì„ «·–ﬂÌ', '«·¬—«¡ Ê«·„·«ÕŸ« ', '', 'Ã—» «·¬‰', 'Õœœ «·›ÌœÌÊÂ« ', 'Ã—» «·¬‰']
+2025-12-30 11:01:06,693 - ERROR - Could not find Post button.
+2025-12-30 11:01:06,693 - ERROR - Failed to post.
+2025-12-30 11:01:06,694 - INFO - Found pending post for 09:00: «⁄·«‰«  
+2025-12-30 11:01:06,694 - INFO - Checking login status...
+2025-12-30 11:01:20,588 - INFO - \u2705 Logged in successfully.
+2025-12-30 11:01:20,588 - ERROR - Video file not found: ./videos/video_1.mp4
+2025-12-30 11:01:20,588 - ERROR - Failed to post.
+2025-12-30 11:01:20,589 - INFO - Job "TikTokScheduler.check_and_post (trigger: cron[minute='0,30'], next run at: 2025-12-30 11:30:00 +03)" executed successfully
+2025-12-30 11:30:00,042 - INFO - Running job "TikTokScheduler.check_and_post (trigger: cron[minute='0,30'], next run at: 2025-12-30 12:00:00 +03)" (scheduled at 2025-12-30 11:30:00+03:00)
+2025-12-30 11:30:00,051 - INFO - Checking schedule for 2025-12-30 at 11:30...
+2025-12-30 11:30:00,072 - INFO - Found pending post for 09:00: „‰‘Ê—  Ìﬂ  Êﬂ «·ÌÊ„ #1 #fyp #tiktok
+2025-12-30 11:30:00,073 - INFO - Checking login status...
+2025-12-30 11:30:12,790 - INFO - \u2705 Logged in successfully.
+2025-12-30 11:30:12,791 - ERROR - Video file not found: ./videos/video_1.mp4
+2025-12-30 11:30:12,791 - ERROR - Failed to post.
+2025-12-30 11:30:12,791 - INFO - Found pending post for 11:00: Daily Motivation #2 #motivation #quotes #fyp
+2025-12-30 11:30:12,791 - INFO - Checking login status...
+2025-12-30 11:30:25,014 - INFO - \u2705 Logged in successfully.
+2025-12-30 11:30:25,015 - INFO - \U0001f680 Starting upload for: C:\Users\WinDows\Documents\trae_projects\khaled1593\TikTok-Scheduler\generated_videos\video_2025-12-30_2.mp4
+2025-12-30 11:30:35,205 - INFO - Video uploading...
+2025-12-30 11:31:05,236 - WARNING - Could not set caption (might need manual adjustment): Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@contenteditable='true']"}
+  (Session info: chrome=143.0.7499.170); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x9212d3
+	0x921314
+	0x70e6dd
+	0x7593a5
+	0x75977b
+	0x7a0382
+	0x77b534
+	0x79db13
+	0x77b2e6
+	0x74d321
+	0x74e1d4
+	0xb75314
+	0xb708cb
+	0xb8d1aa
+	0x93b1d8
+	0x9431dd
+	0x9295d8
+	0x929799
+	0x913b28
+	0x75d15d49
+	0x7751d5db
+	0x7751d561
+
+2025-12-30 11:31:07,682 - INFO - Visible buttons on page: ['', ' Õ„Ì·', '«·’›Õ… «·—∆Ì”Ì…', '„‰‘Ê—« ', '«· Õ·Ì·« ', ' ⁄·Ìﬁ« ', '«·≈·Â«„', '√ﬂ«œÌ„Ì… «·„»œ⁄Ì‰', '«·—»Õ', '√’Ê«  €Ì— „ÕœÊœ…', '«· ﬁ”Ì„ «·–ﬂÌ', '«·¬—«¡ Ê«·„·«ÕŸ« ', '', 'Ã—» «·¬‰', 'Õœœ «·›ÌœÌÊÂ« ', 'Ã—» «·¬‰']
+2025-12-30 11:31:07,810 - ERROR - Could not find Post button.
+2025-12-30 11:31:07,810 - ERROR - Failed to post.
+2025-12-30 11:31:07,811 - INFO - Found pending post for 09:00: «⁄·«‰«  
+2025-12-30 11:31:07,811 - INFO - Checking login status...
+2025-12-30 11:31:19,572 - INFO - \u2705 Logged in successfully.
+2025-12-30 11:31:19,572 - ERROR - Video file not found: ./videos/video_1.mp4
+2025-12-30 11:31:19,573 - ERROR - Failed to post.
+2025-12-30 11:31:19,573 - INFO - Job "TikTokScheduler.check_and_post (trigger: cron[minute='0,30'], next run at: 2025-12-30 12:00:00 +03)" executed successfully
+2025-12-30 12:00:00,156 - INFO - Running job "TikTokScheduler.check_and_replenish (trigger: cron[hour='*/6'], next run at: 2025-12-30 18:00:00 +03)" (scheduled at 2025-12-30 12:00:00+03:00)
+2025-12-30 12:00:00,158 - INFO - Checking content inventory...
+2025-12-30 12:00:00,160 - INFO - Job "TikTokScheduler.check_and_replenish (trigger: cron[hour='*/6'], next run at: 2025-12-30 18:00:00 +03)" executed successfully
+2025-12-30 12:00:00,170 - INFO - Running job "TikTokScheduler.check_and_post (trigger: cron[minute='0,30'], next run at: 2025-12-30 12:00:00 +03)" (scheduled at 2025-12-30 12:00:00+03:00)
+2025-12-30 12:00:00,172 - INFO - Checking schedule for 2025-12-30 at 12:00...
+2025-12-30 12:00:00,173 - INFO - Found pending post for 09:00: „‰‘Ê—  Ìﬂ  Êﬂ «·ÌÊ„ #1 #fyp #tiktok
+2025-12-30 12:00:00,173 - INFO - Checking login status...
+2025-12-30 12:00:10,424 - INFO - \u2705 Logged in successfully.
+2025-12-30 12:00:10,424 - ERROR - Video file not found: ./videos/video_1.mp4
+2025-12-30 12:00:10,424 - ERROR - Failed to post.
+2025-12-30 12:00:10,425 - INFO - Found pending post for 11:00: Daily Motivation #2 #motivation #quotes #fyp
+2025-12-30 12:00:10,425 - INFO - Checking login status...
+2025-12-30 12:00:20,274 - INFO - \u2705 Logged in successfully.
+2025-12-30 12:00:20,274 - INFO - \U0001f680 Starting upload for: C:\Users\WinDows\Documents\trae_projects\khaled1593\TikTok-Scheduler\generated_videos\video_2025-12-30_2.mp4
+2025-12-30 12:00:32,669 - INFO - Video uploading...
+2025-12-30 12:01:02,695 - WARNING - Could not set caption (might need manual adjustment): Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@contenteditable='true']"}
+  (Session info: chrome=143.0.7499.170); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x9212d3
+	0x921314
+	0x70e6dd
+	0x7593a5
+	0x75977b
+	0x7a0382
+	0x77b534
+	0x79db13
+	0x77b2e6
+	0x74d321
+	0x74e1d4
+	0xb75314
+	0xb708cb
+	0xb8d1aa
+	0x93b1d8
+	0x9431dd
+	0x9295d8
+	0x929799
+	0x913b28
+	0x75d15d49
+	0x7751d5db
+	0x7751d561
+
+2025-12-30 12:01:05,147 - INFO - Visible buttons on page: ['', ' Õ„Ì·', '«·’›Õ… «·—∆Ì”Ì…', '„‰‘Ê—« ', '«· Õ·Ì·« ', ' ⁄·Ìﬁ« ', '«·≈·Â«„', '√ﬂ«œÌ„Ì… «·„»œ⁄Ì‰', '«·—»Õ', '√’Ê«  €Ì— „ÕœÊœ…', '«· ﬁ”Ì„ «·–ﬂÌ', '«·¬—«¡ Ê«·„·«ÕŸ« ', '', 'Ã—» «·¬‰', 'Õœœ «·›ÌœÌÊÂ« ', 'Ã—» «·¬‰']
+2025-12-30 12:01:05,287 - ERROR - Could not find Post button.
+2025-12-30 12:01:05,288 - ERROR - Failed to post.
+2025-12-30 12:01:05,288 - INFO - Found pending post for 12:00: Daily Motivation #3 #motivation #quotes #fyp
+2025-12-30 12:01:05,288 - INFO - Checking login status...
+2025-12-30 12:01:15,691 - INFO - \u2705 Logged in successfully.
+2025-12-30 12:01:15,692 - INFO - \U0001f680 Starting upload for: C:\Users\WinDows\Documents\trae_projects\khaled1593\TikTok-Scheduler\generated_videos\video_2025-12-30_3.mp4
+2025-12-30 12:01:27,246 - INFO - Video uploading...
+2025-12-30 12:01:57,277 - WARNING - Could not set caption (might need manual adjustment): Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@contenteditable='true']"}
+  (Session info: chrome=143.0.7499.170); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x9212d3
+	0x921314
+	0x70e6dd
+	0x7593a5
+	0x75977b
+	0x7a0382
+	0x77b534
+	0x79db13
+	0x77b2e6
+	0x74d321
+	0x74e1d4
+	0xb75314
+	0xb708cb
+	0xb8d1aa
+	0x93b1d8
+	0x9431dd
+	0x9295d8
+	0x929799
+	0x913b28
+	0x75d15d49
+	0x7751d5db
+	0x7751d561
+
+2025-12-30 12:01:59,703 - INFO - Visible buttons on page: ['', ' Õ„Ì·', '«·’›Õ… «·—∆Ì”Ì…', '„‰‘Ê—« ', '«· Õ·Ì·« ', ' ⁄·Ìﬁ« ', '«·≈·Â«„', '√ﬂ«œÌ„Ì… «·„»œ⁄Ì‰', '«·—»Õ', '√’Ê«  €Ì— „ÕœÊœ…', '«· ﬁ”Ì„ «·–ﬂÌ', '«·¬—«¡ Ê«·„·«ÕŸ« ', '', 'Ã—» «·¬‰', 'Õœœ «·›ÌœÌÊÂ« ', 'Ã—» «·¬‰']
+2025-12-30 12:01:59,827 - ERROR - Could not find Post button.
+2025-12-30 12:01:59,827 - ERROR - Failed to post.
+2025-12-30 12:01:59,827 - INFO - Found pending post for 09:00: «⁄·«‰«  
+2025-12-30 12:01:59,828 - INFO - Checking login status...
+2025-12-30 12:02:10,569 - INFO - \u2705 Logged in successfully.
+2025-12-30 12:02:10,570 - ERROR - Video file not found: ./videos/video_1.mp4
+2025-12-30 12:02:10,570 - ERROR - Failed to post.
+2025-12-30 12:02:10,571 - INFO - Job "TikTokScheduler.check_and_post (trigger: cron[minute='0,30'], next run at: 2025-12-30 12:30:00 +03)" executed successfully
+2025-12-30 12:30:00,028 - INFO - Running job "TikTokScheduler.check_and_post (trigger: cron[minute='0,30'], next run at: 2025-12-30 13:00:00 +03)" (scheduled at 2025-12-30 12:30:00+03:00)
+2025-12-30 12:30:00,033 - INFO - Checking schedule for 2025-12-30 at 12:30...
+2025-12-30 12:30:00,036 - INFO - Found pending post for 09:00: „‰‘Ê—  Ìﬂ  Êﬂ «·ÌÊ„ #1 #fyp #tiktok
+2025-12-30 12:30:00,037 - INFO - Checking login status...
+2025-12-30 12:30:10,105 - INFO - \u2705 Logged in successfully.
+2025-12-30 12:30:10,106 - ERROR - Video file not found: ./videos/video_1.mp4
+2025-12-30 12:30:10,107 - ERROR - Failed to post.
+2025-12-30 12:30:10,107 - INFO - Found pending post for 11:00: Daily Motivation #2 #motivation #quotes #fyp
+2025-12-30 12:30:10,107 - INFO - Checking login status...
+2025-12-30 12:30:21,956 - INFO - \u2705 Logged in successfully.
+2025-12-30 12:30:21,957 - INFO - \U0001f680 Starting upload for: C:\Users\WinDows\Documents\trae_projects\khaled1593\TikTok-Scheduler\generated_videos\video_2025-12-30_2.mp4
+2025-12-30 12:30:32,899 - INFO - Video uploading...
+2025-12-30 12:31:02,933 - WARNING - Could not set caption (might need manual adjustment): Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@contenteditable='true']"}
+  (Session info: chrome=143.0.7499.170); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x9212d3
+	0x921314
+	0x70e6dd
+	0x7593a5
+	0x75977b
+	0x7a0382
+	0x77b534
+	0x79db13
+	0x77b2e6
+	0x74d321
+	0x74e1d4
+	0xb75314
+	0xb708cb
+	0xb8d1aa
+	0x93b1d8
+	0x9431dd
+	0x9295d8
+	0x929799
+	0x913b28
+	0x75d15d49
+	0x7751d5db
+	0x7751d561
+
+2025-12-30 12:31:05,404 - INFO - Visible buttons on page: ['', ' Õ„Ì·', '«·’›Õ… «·—∆Ì”Ì…', '„‰‘Ê—« ', '«· Õ·Ì·« ', ' ⁄·Ìﬁ« ', '«·≈·Â«„', '√ﬂ«œÌ„Ì… «·„»œ⁄Ì‰', '«·—»Õ', '√’Ê«  €Ì— „ÕœÊœ…', '«· ﬁ”Ì„ «·–ﬂÌ', '«·¬—«¡ Ê«·„·«ÕŸ« ', '', 'Ã—» «·¬‰', 'Õœœ «·›ÌœÌÊÂ« ', 'Ã—» «·¬‰']
+2025-12-30 12:31:05,556 - ERROR - Could not find Post button.
+2025-12-30 12:31:05,557 - ERROR - Failed to post.
+2025-12-30 12:31:05,557 - INFO - Found pending post for 12:00: Daily Motivation #3 #motivation #quotes #fyp
+2025-12-30 12:31:05,557 - INFO - Checking login status...
+2025-12-30 12:31:16,974 - INFO - \u2705 Logged in successfully.
+2025-12-30 12:31:16,975 - INFO - \U0001f680 Starting upload for: C:\Users\WinDows\Documents\trae_projects\khaled1593\TikTok-Scheduler\generated_videos\video_2025-12-30_3.mp4
+2025-12-30 12:31:27,713 - INFO - Video uploading...
+2025-12-30 12:31:57,746 - WARNING - Could not set caption (might need manual adjustment): Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@contenteditable='true']"}
+  (Session info: chrome=143.0.7499.170); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x9212d3
+	0x921314
+	0x70e6dd
+	0x7593a5
+	0x75977b
+	0x7a0382
+	0x77b534
+	0x79db13
+	0x77b2e6
+	0x74d321
+	0x74e1d4
+	0xb75314
+	0xb708cb
+	0xb8d1aa
+	0x93b1d8
+	0x9431dd
+	0x9295d8
+	0x929799
+	0x913b28
+	0x75d15d49
+	0x7751d5db
+	0x7751d561
+
+2025-12-30 12:32:00,179 - INFO - Visible buttons on page: ['', ' Õ„Ì·', '«·’›Õ… «·—∆Ì”Ì…', '„‰‘Ê—« ', '«· Õ·Ì·« ', ' ⁄·Ìﬁ« ', '«·≈·Â«„', '√ﬂ«œÌ„Ì… «·„»œ⁄Ì‰', '«·—»Õ', '√’Ê«  €Ì— „ÕœÊœ…', '«· ﬁ”Ì„ «·–ﬂÌ', '«·¬—«¡ Ê«·„·«ÕŸ« ', '', 'Ã—» «·¬‰', 'Õœœ «·›ÌœÌÊÂ« ', 'Ã—» «·¬‰']
+2025-12-30 12:32:00,322 - ERROR - Could not find Post button.
+2025-12-30 12:32:00,322 - ERROR - Failed to post.
+2025-12-30 12:32:00,323 - INFO - Found pending post for 09:00: «⁄·«‰«  
+2025-12-30 12:32:00,323 - INFO - Checking login status...
+2025-12-30 12:32:11,824 - INFO - \u2705 Logged in successfully.
+2025-12-30 12:32:11,825 - ERROR - Video file not found: ./videos/video_1.mp4
+2025-12-30 12:32:11,825 - ERROR - Failed to post.
+2025-12-30 12:32:11,825 - INFO - Job "TikTokScheduler.check_and_post (trigger: cron[minute='0,30'], next run at: 2025-12-30 13:00:00 +03)" executed successfully
+2025-12-30 13:00:00,067 - INFO - Running job "TikTokScheduler.check_and_post (trigger: cron[minute='0,30'], next run at: 2025-12-30 13:30:00 +03)" (scheduled at 2025-12-30 13:00:00+03:00)
+2025-12-30 13:00:00,080 - INFO - Checking schedule for 2025-12-30 at 13:00...
+2025-12-30 13:00:00,089 - INFO - Found pending post for 09:00: „‰‘Ê—  Ìﬂ  Êﬂ «·ÌÊ„ #1 #fyp #tiktok
+2025-12-30 13:00:00,089 - INFO - Checking login status...
+2025-12-30 13:00:11,724 - INFO - \u2705 Logged in successfully.
+2025-12-30 13:00:11,726 - ERROR - Video file not found: ./videos/video_1.mp4
+2025-12-30 13:00:11,728 - ERROR - Failed to post.
+2025-12-30 13:00:11,728 - INFO - Found pending post for 11:00: Daily Motivation #2 #motivation #quotes #fyp
+2025-12-30 13:00:11,728 - INFO - Checking login status...
+2025-12-30 13:00:20,892 - INFO - \u2705 Logged in successfully.
+2025-12-30 13:00:20,893 - INFO - \U0001f680 Starting upload for: C:\Users\WinDows\Documents\trae_projects\khaled1593\TikTok-Scheduler\generated_videos\video_2025-12-30_2.mp4
+2025-12-30 13:00:31,539 - INFO - Video uploading...
+2025-12-30 13:01:01,574 - WARNING - Could not set caption (might need manual adjustment): Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@contenteditable='true']"}
+  (Session info: chrome=143.0.7499.170); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x9212d3
+	0x921314
+	0x70e6dd
+	0x7593a5
+	0x75977b
+	0x7a0382
+	0x77b534
+	0x79db13
+	0x77b2e6
+	0x74d321
+	0x74e1d4
+	0xb75314
+	0xb708cb
+	0xb8d1aa
+	0x93b1d8
+	0x9431dd
+	0x9295d8
+	0x929799
+	0x913b28
+	0x75d15d49
+	0x7751d5db
+	0x7751d561
+
+2025-12-30 13:01:04,051 - INFO - Visible buttons on page: ['', ' Õ„Ì·', '«·’›Õ… «·—∆Ì”Ì…', '„‰‘Ê—« ', '«· Õ·Ì·« ', ' ⁄·Ìﬁ« ', '«·≈·Â«„', '√ﬂ«œÌ„Ì… «·„»œ⁄Ì‰', '«·—»Õ', '√’Ê«  €Ì— „ÕœÊœ…', '«· ﬁ”Ì„ «·–ﬂÌ', '«·¬—«¡ Ê«·„·«ÕŸ« ', '', 'Ã—» «·¬‰', 'Õœœ «·›ÌœÌÊÂ« ', 'Ã—» «·¬‰']
+2025-12-30 13:01:04,190 - ERROR - Could not find Post button.
+2025-12-30 13:01:04,190 - ERROR - Failed to post.
+2025-12-30 13:01:04,191 - INFO - Found pending post for 12:00: Daily Motivation #3 #motivation #quotes #fyp
+2025-12-30 13:01:04,191 - INFO - Checking login status...
+2025-12-30 13:01:15,955 - INFO - \u2705 Logged in successfully.
+2025-12-30 13:01:15,956 - INFO - \U0001f680 Starting upload for: C:\Users\WinDows\Documents\trae_projects\khaled1593\TikTok-Scheduler\generated_videos\video_2025-12-30_3.mp4
+2025-12-30 13:01:27,921 - INFO - Video uploading...
+2025-12-30 13:01:57,951 - WARNING - Could not set caption (might need manual adjustment): Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@contenteditable='true']"}
+  (Session info: chrome=143.0.7499.170); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x9212d3
+	0x921314
+	0x70e6dd
+	0x7593a5
+	0x75977b
+	0x7a0382
+	0x77b534
+	0x79db13
+	0x77b2e6
+	0x74d321
+	0x74e1d4
+	0xb75314
+	0xb708cb
+	0xb8d1aa
+	0x93b1d8
+	0x9431dd
+	0x9295d8
+	0x929799
+	0x913b28
+	0x75d15d49
+	0x7751d5db
+	0x7751d561
+
+2025-12-30 13:02:00,388 - INFO - Visible buttons on page: ['', ' Õ„Ì·', '«·’›Õ… «·—∆Ì”Ì…', '„‰‘Ê—« ', '«· Õ·Ì·« ', ' ⁄·Ìﬁ« ', '«·≈·Â«„', '√ﬂ«œÌ„Ì… «·„»œ⁄Ì‰', '«·—»Õ', '√’Ê«  €Ì— „ÕœÊœ…', '«· ﬁ”Ì„ «·–ﬂÌ', '«·¬—«¡ Ê«·„·«ÕŸ« ', '', 'Ã—» «·¬‰', 'Õœœ «·›ÌœÌÊÂ« ', 'Ã—» «·¬‰']
+2025-12-30 13:02:00,513 - ERROR - Could not find Post button.
+2025-12-30 13:02:00,514 - ERROR - Failed to post.
+2025-12-30 13:02:00,514 - INFO - Found pending post for 13:00: Daily Motivation #4 #motivation #quotes #fyp
+2025-12-30 13:02:00,514 - INFO - Checking login status...
+2025-12-30 13:02:10,430 - INFO - \u2705 Logged in successfully.
+2025-12-30 13:02:10,431 - INFO - \U0001f680 Starting upload for: C:\Users\WinDows\Documents\trae_projects\khaled1593\TikTok-Scheduler\generated_videos\video_2025-12-30_4.mp4
+2025-12-30 13:02:23,030 - INFO - Video uploading...
+2025-12-30 13:02:53,064 - WARNING - Could not set caption (might need manual adjustment): Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@contenteditable='true']"}
+  (Session info: chrome=143.0.7499.170); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x9212d3
+	0x921314
+	0x70e6dd
+	0x7593a5
+	0x75977b
+	0x7a0382
+	0x77b534
+	0x79db13
+	0x77b2e6
+	0x74d321
+	0x74e1d4
+	0xb75314
+	0xb708cb
+	0xb8d1aa
+	0x93b1d8
+	0x9431dd
+	0x9295d8
+	0x929799
+	0x913b28
+	0x75d15d49
+	0x7751d5db
+	0x7751d561
+
+2025-12-30 13:02:55,579 - INFO - Visible buttons on page: ['', ' Õ„Ì·', '«·’›Õ… «·—∆Ì”Ì…', '„‰‘Ê—« ', '«· Õ·Ì·« ', ' ⁄·Ìﬁ« ', '«·≈·Â«„', '√ﬂ«œÌ„Ì… «·„»œ⁄Ì‰', '«·—»Õ', '√’Ê«  €Ì— „ÕœÊœ…', '«· ﬁ”Ì„ «·–ﬂÌ', '«·¬—«¡ Ê«·„·«ÕŸ« ', '', 'Ã—» «·¬‰', 'Õœœ «·›ÌœÌÊÂ« ', 'Ã—» «·¬‰']
+2025-12-30 13:02:55,727 - ERROR - Could not find Post button.
+2025-12-30 13:02:55,727 - ERROR - Failed to post.
+2025-12-30 13:02:55,728 - INFO - Found pending post for 09:00: «⁄·«‰«  
+2025-12-30 13:02:55,728 - INFO - Checking login status...
+2025-12-30 13:03:06,009 - INFO - \u2705 Logged in successfully.
+2025-12-30 13:03:06,010 - ERROR - Video file not found: ./videos/video_1.mp4
+2025-12-30 13:03:06,010 - ERROR - Failed to post.
+2025-12-30 13:03:06,011 - INFO - Job "TikTokScheduler.check_and_post (trigger: cron[minute='0,30'], next run at: 2025-12-30 13:30:00 +03)" executed successfully
+2025-12-30 13:30:00,035 - INFO - Running job "TikTokScheduler.check_and_post (trigger: cron[minute='0,30'], next run at: 2025-12-30 14:00:00 +03)" (scheduled at 2025-12-30 13:30:00+03:00)
+2025-12-30 13:30:00,040 - INFO - Checking schedule for 2025-12-30 at 13:30...
+2025-12-30 13:30:00,044 - INFO - Found pending post for 09:00: „‰‘Ê—  Ìﬂ  Êﬂ «·ÌÊ„ #1 #fyp #tiktok
+2025-12-30 13:30:00,044 - INFO - Checking login status...
+2025-12-30 13:30:09,369 - INFO - \u2705 Logged in successfully.
+2025-12-30 13:30:09,373 - ERROR - Video file not found: ./videos/video_1.mp4
+2025-12-30 13:30:09,373 - ERROR - Failed to post.
+2025-12-30 13:30:09,373 - INFO - Found pending post for 11:00: Daily Motivation #2 #motivation #quotes #fyp
+2025-12-30 13:30:09,374 - INFO - Checking login status...
+2025-12-30 13:30:17,207 - INFO - \u2705 Logged in successfully.
+2025-12-30 13:30:17,208 - INFO - \U0001f680 Starting upload for: C:\Users\WinDows\Documents\trae_projects\khaled1593\TikTok-Scheduler\generated_videos\video_2025-12-30_2.mp4
+2025-12-30 13:30:24,951 - INFO - Video uploading...
+2025-12-30 13:30:54,975 - WARNING - Could not set caption (might need manual adjustment): Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@contenteditable='true']"}
+  (Session info: chrome=143.0.7499.170); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x9212d3
+	0x921314
+	0x70e6dd
+	0x7593a5
+	0x75977b
+	0x7a0382
+	0x77b534
+	0x79db13
+	0x77b2e6
+	0x74d321
+	0x74e1d4
+	0xb75314
+	0xb708cb
+	0xb8d1aa
+	0x93b1d8
+	0x9431dd
+	0x9295d8
+	0x929799
+	0x913b28
+	0x75d15d49
+	0x7751d5db
+	0x7751d561
+
+2025-12-30 13:30:57,228 - INFO - Visible buttons on page: ['', ' Õ„Ì·', '«·’›Õ… «·—∆Ì”Ì…', '„‰‘Ê—« ', '«· Õ·Ì·« ', ' ⁄·Ìﬁ« ', '«·≈·Â«„', '√ﬂ«œÌ„Ì… «·„»œ⁄Ì‰', '«·—»Õ', '√’Ê«  €Ì— „ÕœÊœ…', '«· ﬁ”Ì„ «·–ﬂÌ', '«·¬—«¡ Ê«·„·«ÕŸ« ', '', 'Ã—» «·¬‰', 'Õœœ «·›ÌœÌÊÂ« ', 'Ã—» «·¬‰']
+2025-12-30 13:30:57,306 - ERROR - Could not find Post button.
+2025-12-30 13:30:57,307 - ERROR - Failed to post.
+2025-12-30 13:30:57,307 - INFO - Found pending post for 12:00: Daily Motivation #3 #motivation #quotes #fyp
+2025-12-30 13:30:57,307 - INFO - Checking login status...
+2025-12-30 13:31:06,468 - INFO - \u2705 Logged in successfully.
+2025-12-30 13:31:06,469 - INFO - \U0001f680 Starting upload for: C:\Users\WinDows\Documents\trae_projects\khaled1593\TikTok-Scheduler\generated_videos\video_2025-12-30_3.mp4
+2025-12-30 13:31:14,407 - INFO - Video uploading...
+2025-12-30 13:31:44,436 - WARNING - Could not set caption (might need manual adjustment): Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@contenteditable='true']"}
+  (Session info: chrome=143.0.7499.170); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x9212d3
+	0x921314
+	0x70e6dd
+	0x7593a5
+	0x75977b
+	0x7a0382
+	0x77b534
+	0x79db13
+	0x77b2e6
+	0x74d321
+	0x74e1d4
+	0xb75314
+	0xb708cb
+	0xb8d1aa
+	0x93b1d8
+	0x9431dd
+	0x9295d8
+	0x929799
+	0x913b28
+	0x75d15d49
+	0x7751d5db
+	0x7751d561
+
+2025-12-30 13:31:46,669 - INFO - Visible buttons on page: ['', ' Õ„Ì·', '«·’›Õ… «·—∆Ì”Ì…', '„‰‘Ê—« ', '«· Õ·Ì·« ', ' ⁄·Ìﬁ« ', '«·≈·Â«„', '√ﬂ«œÌ„Ì… «·„»œ⁄Ì‰', '«·—»Õ', '√’Ê«  €Ì— „ÕœÊœ…', '«· ﬁ”Ì„ «·–ﬂÌ', '«·¬—«¡ Ê«·„·«ÕŸ« ', '', 'Ã—» «·¬‰', 'Õœœ «·›ÌœÌÊÂ« ', 'Ã—» «·¬‰']
+2025-12-30 13:31:46,741 - ERROR - Could not find Post button.
+2025-12-30 13:31:46,741 - ERROR - Failed to post.
+2025-12-30 13:31:46,741 - INFO - Found pending post for 13:00: Daily Motivation #4 #motivation #quotes #fyp
+2025-12-30 13:31:46,741 - INFO - Checking login status...
+2025-12-30 13:31:54,705 - INFO - \u2705 Logged in successfully.
+2025-12-30 13:31:54,705 - INFO - \U0001f680 Starting upload for: C:\Users\WinDows\Documents\trae_projects\khaled1593\TikTok-Scheduler\generated_videos\video_2025-12-30_4.mp4
+2025-12-30 13:32:05,617 - INFO - Video uploading...
+2025-12-30 13:32:35,635 - WARNING - Could not set caption (might need manual adjustment): Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@contenteditable='true']"}
+  (Session info: chrome=143.0.7499.170); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x9212d3
+	0x921314
+	0x70e6dd
+	0x7593a5
+	0x75977b
+	0x7a0382
+	0x77b534
+	0x79db13
+	0x77b2e6
+	0x74d321
+	0x74e1d4
+	0xb75314
+	0xb708cb
+	0xb8d1aa
+	0x93b1d8
+	0x9431dd
+	0x9295d8
+	0x929799
+	0x913b28
+	0x75d15d49
+	0x7751d5db
+	0x7751d561
+
+2025-12-30 13:32:37,882 - INFO - Visible buttons on page: ['', ' Õ„Ì·', '«·’›Õ… «·—∆Ì”Ì…', '„‰‘Ê—« ', '«· Õ·Ì·« ', ' ⁄·Ìﬁ« ', '«·≈·Â«„', '√ﬂ«œÌ„Ì… «·„»œ⁄Ì‰', '«·—»Õ', '√’Ê«  €Ì— „ÕœÊœ…', '«· ﬁ”Ì„ «·–ﬂÌ', '«·¬—«¡ Ê«·„·«ÕŸ« ', '', 'Ã—» «·¬‰', 'Õœœ «·›ÌœÌÊÂ« ', 'Ã—» «·¬‰']
+2025-12-30 13:32:37,956 - ERROR - Could not find Post button.
+2025-12-30 13:32:37,957 - ERROR - Failed to post.
+2025-12-30 13:32:37,957 - INFO - Found pending post for 09:00: «⁄·«‰«  
+2025-12-30 13:32:37,957 - INFO - Checking login status...
+2025-12-30 13:32:45,708 - INFO - \u2705 Logged in successfully.
+2025-12-30 13:32:45,708 - ERROR - Video file not found: ./videos/video_1.mp4
+2025-12-30 13:32:45,708 - ERROR - Failed to post.
+2025-12-30 13:32:45,709 - INFO - Job "TikTokScheduler.check_and_post (trigger: cron[minute='0,30'], next run at: 2025-12-30 14:00:00 +03)" executed successfully
+2025-12-30 14:00:00,053 - INFO - Running job "TikTokScheduler.check_and_post (trigger: cron[minute='0,30'], next run at: 2025-12-30 14:30:00 +03)" (scheduled at 2025-12-30 14:00:00+03:00)
+2025-12-30 14:00:00,059 - INFO - Checking schedule for 2025-12-30 at 14:00...
+2025-12-30 14:00:00,063 - INFO - Found pending post for 09:00: „‰‘Ê—  Ìﬂ  Êﬂ «·ÌÊ„ #1 #fyp #tiktok
+2025-12-30 14:00:00,063 - INFO - Checking login status...
+2025-12-30 14:00:08,785 - INFO - \u2705 Logged in successfully.
+2025-12-30 14:00:08,787 - ERROR - Video file not found: ./videos/video_1.mp4
+2025-12-30 14:00:08,788 - ERROR - Failed to post.
+2025-12-30 14:00:08,788 - INFO - Found pending post for 11:00: Daily Motivation #2 #motivation #quotes #fyp
+2025-12-30 14:00:08,788 - INFO - Checking login status...
+2025-12-30 14:00:16,853 - INFO - \u2705 Logged in successfully.
+2025-12-30 14:00:16,854 - INFO - \U0001f680 Starting upload for: C:\Users\WinDows\Documents\trae_projects\khaled1593\TikTok-Scheduler\generated_videos\video_2025-12-30_2.mp4
+2025-12-30 14:00:26,963 - INFO - Video uploading...
+2025-12-30 14:00:56,983 - WARNING - Could not set caption (might need manual adjustment): Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@contenteditable='true']"}
+  (Session info: chrome=143.0.7499.170); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x9212d3
+	0x921314
+	0x70e6dd
+	0x7593a5
+	0x75977b
+	0x7a0382
+	0x77b534
+	0x79db13
+	0x77b2e6
+	0x74d321
+	0x74e1d4
+	0xb75314
+	0xb708cb
+	0xb8d1aa
+	0x93b1d8
+	0x9431dd
+	0x9295d8
+	0x929799
+	0x913b28
+	0x75d15d49
+	0x7751d5db
+	0x7751d561
+
+2025-12-30 14:00:59,220 - INFO - Visible buttons on page: ['', ' Õ„Ì·', '«·’›Õ… «·—∆Ì”Ì…', '„‰‘Ê—« ', '«· Õ·Ì·« ', ' ⁄·Ìﬁ« ', '«·≈·Â«„', '√ﬂ«œÌ„Ì… «·„»œ⁄Ì‰', '«·—»Õ', '√’Ê«  €Ì— „ÕœÊœ…', '«· ﬁ”Ì„ «·–ﬂÌ', '«·¬—«¡ Ê«·„·«ÕŸ« ', '', 'Ã—» «·¬‰', 'Õœœ «·›ÌœÌÊÂ« ', 'Ã—» «·¬‰']
+2025-12-30 14:00:59,294 - ERROR - Could not find Post button.
+2025-12-30 14:00:59,295 - ERROR - Failed to post.
+2025-12-30 14:00:59,295 - INFO - Found pending post for 12:00: Daily Motivation #3 #motivation #quotes #fyp
+2025-12-30 14:00:59,295 - INFO - Checking login status...
+2025-12-30 14:01:08,260 - INFO - \u2705 Logged in successfully.
+2025-12-30 14:01:08,261 - INFO - \U0001f680 Starting upload for: C:\Users\WinDows\Documents\trae_projects\khaled1593\TikTok-Scheduler\generated_videos\video_2025-12-30_3.mp4
+2025-12-30 14:01:16,418 - INFO - Video uploading...
+2025-12-30 14:01:46,455 - WARNING - Could not set caption (might need manual adjustment): Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@contenteditable='true']"}
+  (Session info: chrome=143.0.7499.170); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x9212d3
+	0x921314
+	0x70e6dd
+	0x7593a5
+	0x75977b
+	0x7a0382
+	0x77b534
+	0x79db13
+	0x77b2e6
+	0x74d321
+	0x74e1d4
+	0xb75314
+	0xb708cb
+	0xb8d1aa
+	0x93b1d8
+	0x9431dd
+	0x9295d8
+	0x929799
+	0x913b28
+	0x75d15d49
+	0x7751d5db
+	0x7751d561
+
+2025-12-30 14:01:48,714 - INFO - Visible buttons on page: ['', ' Õ„Ì·', '«·’›Õ… «·—∆Ì”Ì…', '„‰‘Ê—« ', '«· Õ·Ì·« ', ' ⁄·Ìﬁ« ', '«·≈·Â«„', '√ﬂ«œÌ„Ì… «·„»œ⁄Ì‰', '«·—»Õ', '√’Ê«  €Ì— „ÕœÊœ…', '«· ﬁ”Ì„ «·–ﬂÌ', '«·¬—«¡ Ê«·„·«ÕŸ« ', '', 'Ã—» «·¬‰', 'Õœœ «·›ÌœÌÊÂ« ', 'Ã—» «·¬‰']
+2025-12-30 14:01:48,791 - ERROR - Could not find Post button.
+2025-12-30 14:01:48,791 - ERROR - Failed to post.
+2025-12-30 14:01:48,792 - INFO - Found pending post for 13:00: Daily Motivation #4 #motivation #quotes #fyp
+2025-12-30 14:01:48,792 - INFO - Checking login status...
+2025-12-30 14:01:56,826 - INFO - \u2705 Logged in successfully.
+2025-12-30 14:01:56,827 - INFO - \U0001f680 Starting upload for: C:\Users\WinDows\Documents\trae_projects\khaled1593\TikTok-Scheduler\generated_videos\video_2025-12-30_4.mp4
+2025-12-30 14:02:06,215 - INFO - Video uploading...
+2025-12-30 14:02:36,231 - WARNING - Could not set caption (might need manual adjustment): Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@contenteditable='true']"}
+  (Session info: chrome=143.0.7499.170); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x9212d3
+	0x921314
+	0x70e6dd
+	0x7593a5
+	0x75977b
+	0x7a0382
+	0x77b534
+	0x79db13
+	0x77b2e6
+	0x74d321
+	0x74e1d4
+	0xb75314
+	0xb708cb
+	0xb8d1aa
+	0x93b1d8
+	0x9431dd
+	0x9295d8
+	0x929799
+	0x913b28
+	0x75d15d49
+	0x7751d5db
+	0x7751d561
+
+2025-12-30 14:02:38,449 - INFO - Visible buttons on page: ['', ' Õ„Ì·', '«·’›Õ… «·—∆Ì”Ì…', '„‰‘Ê—« ', '«· Õ·Ì·« ', ' ⁄·Ìﬁ« ', '«·≈·Â«„', '√ﬂ«œÌ„Ì… «·„»œ⁄Ì‰', '«·—»Õ', '√’Ê«  €Ì— „ÕœÊœ…', '«· ﬁ”Ì„ «·–ﬂÌ', '«·¬—«¡ Ê«·„·«ÕŸ« ', '', 'Ã—» «·¬‰', 'Õœœ «·›ÌœÌÊÂ« ', 'Ã—» «·¬‰']
+2025-12-30 14:02:38,523 - ERROR - Could not find Post button.
+2025-12-30 14:02:38,523 - ERROR - Failed to post.
+2025-12-30 14:02:38,524 - INFO - Found pending post for 14:00: Daily Motivation #5 #motivation #quotes #fyp
+2025-12-30 14:02:38,524 - INFO - Checking login status...
+2025-12-30 14:02:47,383 - INFO - \u2705 Logged in successfully.
+2025-12-30 14:02:47,384 - INFO - \U0001f680 Starting upload for: C:\Users\WinDows\Documents\trae_projects\khaled1593\TikTok-Scheduler\generated_videos\video_2025-12-30_5.mp4
+2025-12-30 14:02:56,216 - INFO - Video uploading...
+2025-12-30 14:03:26,231 - WARNING - Could not set caption (might need manual adjustment): Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@contenteditable='true']"}
+  (Session info: chrome=143.0.7499.170); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x9212d3
+	0x921314
+	0x70e6dd
+	0x7593a5
+	0x75977b
+	0x7a0382
+	0x77b534
+	0x79db13
+	0x77b2e6
+	0x74d321
+	0x74e1d4
+	0xb75314
+	0xb708cb
+	0xb8d1aa
+	0x93b1d8
+	0x9431dd
+	0x9295d8
+	0x929799
+	0x913b28
+	0x75d15d49
+	0x7751d5db
+	0x7751d561
+
+2025-12-30 14:03:28,469 - INFO - Visible buttons on page: ['', ' Õ„Ì·', '«·’›Õ… «·—∆Ì”Ì…', '„‰‘Ê—« ', '«· Õ·Ì·« ', ' ⁄·Ìﬁ« ', '«·≈·Â«„', '√ﬂ«œÌ„Ì… «·„»œ⁄Ì‰', '«·—»Õ', '√’Ê«  €Ì— „ÕœÊœ…', '«· ﬁ”Ì„ «·–ﬂÌ', '«·¬—«¡ Ê«·„·«ÕŸ« ', '', 'Ã—» «·¬‰', 'Õœœ «·›ÌœÌÊÂ« ', 'Ã—» «·¬‰']
+2025-12-30 14:03:28,540 - ERROR - Could not find Post button.
+2025-12-30 14:03:28,541 - ERROR - Failed to post.
+2025-12-30 14:03:28,541 - INFO - Found pending post for 09:00: «⁄·«‰«  
+2025-12-30 14:03:28,541 - INFO - Checking login status...
+2025-12-30 14:03:36,464 - INFO - \u2705 Logged in successfully.
+2025-12-30 14:03:36,465 - ERROR - Video file not found: ./videos/video_1.mp4
+2025-12-30 14:03:36,465 - ERROR - Failed to post.
+2025-12-30 14:03:36,465 - INFO - Job "TikTokScheduler.check_and_post (trigger: cron[minute='0,30'], next run at: 2025-12-30 14:30:00 +03)" executed successfully
+2025-12-30 15:31:53,308 - WARNING - Run time of job "TikTokScheduler.check_and_post (trigger: cron[minute='0,30'], next run at: 2025-12-30 16:00:00 +03)" was missed by 0:01:53.306029
+2025-12-30 16:00:00,016 - INFO - Running job "TikTokScheduler.check_and_post (trigger: cron[minute='0,30'], next run at: 2025-12-30 16:30:00 +03)" (scheduled at 2025-12-30 16:00:00+03:00)
+2025-12-30 16:00:00,023 - INFO - Checking schedule for 2025-12-30 at 16:00...
+2025-12-30 16:00:00,058 - INFO - Found pending post for 09:00: „‰‘Ê—  Ìﬂ  Êﬂ «·ÌÊ„ #1 #fyp #tiktok
+2025-12-30 16:00:00,059 - INFO - Checking login status...
+2025-12-30 16:00:00,114 - ERROR - Error checking login: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=143.0.7499.170); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x9212d3
+	0x921314
+	0x70e6dd
+	0x6fd99e
+	0x71c4e6
+	0x7821d8
+	0x79d44c
+	0x77b2e6
+	0x74d321
+	0x74e1d4
+	0xb75314
+	0xb708cb
+	0xb8d1aa
+	0x93b1d8
+	0x9431dd
+	0x9295d8
+	0x929799
+	0x913b28
+	0x75d15d49
+	0x7751d5db
+	0x7751d561
+
+2025-12-30 16:00:00,115 - ERROR - Skipping post due to login failure.
+2025-12-30 16:00:00,115 - INFO - Found pending post for 11:00: Daily Motivation #2 #motivation #quotes #fyp
+2025-12-30 16:00:00,115 - INFO - Checking login status...
+2025-12-30 16:00:00,120 - ERROR - Error checking login: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x9212d3
+	0x921314
+	0x70e52b
+	0x74c635
+	0x77b3a6
+	0x776ed1
+	0x776846
+	0x6debfd
+	0x6df18e
+	0x6df65d
+	0xb75314
+	0xb708cb
+	0xb8d1aa
+	0x93b1d8
+	0x9431dd
+	0x6de7ab
+	0x6dddf7
+	0xcc17af
+	0x75d15d49
+	0x7751d5db
+	0x7751d561
+
+2025-12-30 16:00:00,120 - ERROR - Skipping post due to login failure.
+2025-12-30 16:00:00,121 - INFO - Found pending post for 12:00: Daily Motivation #3 #motivation #quotes #fyp
+2025-12-30 16:00:00,121 - INFO - Checking login status...
+2025-12-30 16:00:00,122 - ERROR - Error checking login: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x9212d3
+	0x921314
+	0x70e52b
+	0x74c635
+	0x77b3a6
+	0x776ed1
+	0x776846
+	0x6debfd
+	0x6df18e
+	0x6df65d
+	0xb75314
+	0xb708cb
+	0xb8d1aa
+	0x93b1d8
+	0x9431dd
+	0x6de7ab
+	0x6dddf7
+	0xcc17af
+	0x75d15d49
+	0x7751d5db
+	0x7751d561
+
+2025-12-30 16:00:00,123 - ERROR - Skipping post due to login failure.
+2025-12-30 16:00:00,123 - INFO - Found pending post for 13:00: Daily Motivation #4 #motivation #quotes #fyp
+2025-12-30 16:00:00,123 - INFO - Checking login status...
+2025-12-30 16:00:00,125 - ERROR - Error checking login: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x9212d3
+	0x921314
+	0x70e52b
+	0x74c635
+	0x77b3a6
+	0x776ed1
+	0x776846
+	0x6debfd
+	0x6df18e
+	0x6df65d
+	0xb75314
+	0xb708cb
+	0xb8d1aa
+	0x93b1d8
+	0x9431dd
+	0x6de7ab
+	0x6dddf7
+	0xcc17af
+	0x75d15d49
+	0x7751d5db
+	0x7751d561
+
+2025-12-30 16:00:00,125 - ERROR - Skipping post due to login failure.
+2025-12-30 16:00:00,126 - INFO - Found pending post for 14:00: Daily Motivation #5 #motivation #quotes #fyp
+2025-12-30 16:00:00,126 - INFO - Checking login status...
+2025-12-30 16:00:00,127 - ERROR - Error checking login: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x9212d3
+	0x921314
+	0x70e52b
+	0x74c635
+	0x77b3a6
+	0x776ed1
+	0x776846
+	0x6debfd
+	0x6df18e
+	0x6df65d
+	0xb75314
+	0xb708cb
+	0xb8d1aa
+	0x93b1d8
+	0x9431dd
+	0x6de7ab
+	0x6dddf7
+	0xcc17af
+	0x75d15d49
+	0x7751d5db
+	0x7751d561
+
+2025-12-30 16:00:00,127 - ERROR - Skipping post due to login failure.
+2025-12-30 16:00:00,128 - INFO - Found pending post for 15:00: Daily Motivation #6 #motivation #quotes #fyp
+2025-12-30 16:00:00,128 - INFO - Checking login status...
+2025-12-30 16:00:00,129 - ERROR - Error checking login: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x9212d3
+	0x921314
+	0x70e52b
+	0x74c635
+	0x77b3a6
+	0x776ed1
+	0x776846
+	0x6debfd
+	0x6df18e
+	0x6df65d
+	0xb75314
+	0xb708cb
+	0xb8d1aa
+	0x93b1d8
+	0x9431dd
+	0x6de7ab
+	0x6dddf7
+	0xcc17af
+	0x75d15d49
+	0x7751d5db
+	0x7751d561
+
+2025-12-30 16:00:00,129 - ERROR - Skipping post due to login failure.
+2025-12-30 16:00:00,130 - INFO - Found pending post for 16:00: Daily Motivation #7 #motivation #quotes #fyp
+2025-12-30 16:00:00,130 - INFO - Checking login status...
+2025-12-30 16:00:00,132 - ERROR - Error checking login: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x9212d3
+	0x921314
+	0x70e52b
+	0x74c635
+	0x77b3a6
+	0x776ed1
+	0x776846
+	0x6debfd
+	0x6df18e
+	0x6df65d
+	0xb75314
+	0xb708cb
+	0xb8d1aa
+	0x93b1d8
+	0x9431dd
+	0x6de7ab
+	0x6dddf7
+	0xcc17af
+	0x75d15d49
+	0x7751d5db
+	0x7751d561
+
+2025-12-30 16:00:00,132 - ERROR - Skipping post due to login failure.
+2025-12-30 16:00:00,132 - INFO - Found pending post for 09:00: «⁄·«‰«  
+2025-12-30 16:00:00,132 - INFO - Checking login status...
+2025-12-30 16:00:00,134 - ERROR - Error checking login: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x9212d3
+	0x921314
+	0x70e52b
+	0x74c635
+	0x77b3a6
+	0x776ed1
+	0x776846
+	0x6debfd
+	0x6df18e
+	0x6df65d
+	0xb75314
+	0xb708cb
+	0xb8d1aa
+	0x93b1d8
+	0x9431dd
+	0x6de7ab
+	0x6dddf7
+	0xcc17af
+	0x75d15d49
+	0x7751d5db
+	0x7751d561
+
+2025-12-30 16:00:00,134 - ERROR - Skipping post due to login failure.
+2025-12-30 16:00:00,135 - INFO - Job "TikTokScheduler.check_and_post (trigger: cron[minute='0,30'], next run at: 2025-12-30 16:30:00 +03)" executed successfully
+2025-12-30 16:32:21,316 - WARNING - Run time of job "TikTokScheduler.check_and_post (trigger: cron[minute='0,30'], next run at: 2025-12-30 17:00:00 +03)" was missed by 0:02:21.313482
+2025-12-30 17:00:00,017 - INFO - Running job "TikTokScheduler.check_and_post (trigger: cron[minute='0,30'], next run at: 2025-12-30 17:30:00 +03)" (scheduled at 2025-12-30 17:00:00+03:00)
+2025-12-30 17:00:00,023 - INFO - Checking schedule for 2025-12-30 at 17:00...
+2025-12-30 17:00:00,038 - INFO - Found pending post for 09:00: „‰‘Ê—  Ìﬂ  Êﬂ «·ÌÊ„ #1 #fyp #tiktok
+2025-12-30 17:00:00,039 - INFO - Checking login status...
+2025-12-30 17:00:00,083 - ERROR - Error checking login: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x9212d3
+	0x921314
+	0x70e52b
+	0x74c635
+	0x77b3a6
+	0x776ed1
+	0x776846
+	0x6debfd
+	0x6df18e
+	0x6df65d
+	0xb75314
+	0xb708cb
+	0xb8d1aa
+	0x93b1d8
+	0x9431dd
+	0x6de7ab
+	0x6dddf7
+	0xcc17af
+	0x75d15d49
+	0x7751d5db
+	0x7751d561
+
+2025-12-30 17:00:00,085 - ERROR - Skipping post due to login failure.
+2025-12-30 17:00:00,085 - INFO - Found pending post for 11:00: Daily Motivation #2 #motivation #quotes #fyp
+2025-12-30 17:00:00,085 - INFO - Checking login status...
+2025-12-30 17:00:00,088 - ERROR - Error checking login: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x9212d3
+	0x921314
+	0x70e52b
+	0x74c635
+	0x77b3a6
+	0x776ed1
+	0x776846
+	0x6debfd
+	0x6df18e
+	0x6df65d
+	0xb75314
+	0xb708cb
+	0xb8d1aa
+	0x93b1d8
+	0x9431dd
+	0x6de7ab
+	0x6dddf7
+	0xcc17af
+	0x75d15d49
+	0x7751d5db
+	0x7751d561
+
+2025-12-30 17:00:00,089 - ERROR - Skipping post due to login failure.
+2025-12-30 17:00:00,089 - INFO - Found pending post for 12:00: Daily Motivation #3 #motivation #quotes #fyp
+2025-12-30 17:00:00,089 - INFO - Checking login status...
+2025-12-30 17:00:00,091 - ERROR - Error checking login: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x9212d3
+	0x921314
+	0x70e52b
+	0x74c635
+	0x77b3a6
+	0x776ed1
+	0x776846
+	0x6debfd
+	0x6df18e
+	0x6df65d
+	0xb75314
+	0xb708cb
+	0xb8d1aa
+	0x93b1d8
+	0x9431dd
+	0x6de7ab
+	0x6dddf7
+	0xcc17af
+	0x75d15d49
+	0x7751d5db
+	0x7751d561
+
+2025-12-30 17:00:00,092 - ERROR - Skipping post due to login failure.
+2025-12-30 17:00:00,092 - INFO - Found pending post for 13:00: Daily Motivation #4 #motivation #quotes #fyp
+2025-12-30 17:00:00,093 - INFO - Checking login status...
+2025-12-30 17:00:00,095 - ERROR - Error checking login: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x9212d3
+	0x921314
+	0x70e52b
+	0x74c635
+	0x77b3a6
+	0x776ed1
+	0x776846
+	0x6debfd
+	0x6df18e
+	0x6df65d
+	0xb75314
+	0xb708cb
+	0xb8d1aa
+	0x93b1d8
+	0x9431dd
+	0x6de7ab
+	0x6dddf7
+	0xcc17af
+	0x75d15d49
+	0x7751d5db
+	0x7751d561
+
+2025-12-30 17:00:00,095 - ERROR - Skipping post due to login failure.
+2025-12-30 17:00:00,096 - INFO - Found pending post for 14:00: Daily Motivation #5 #motivation #quotes #fyp
+2025-12-30 17:00:00,096 - INFO - Checking login status...
+2025-12-30 17:00:00,098 - ERROR - Error checking login: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x9212d3
+	0x921314
+	0x70e52b
+	0x74c635
+	0x77b3a6
+	0x776ed1
+	0x776846
+	0x6debfd
+	0x6df18e
+	0x6df65d
+	0xb75314
+	0xb708cb
+	0xb8d1aa
+	0x93b1d8
+	0x9431dd
+	0x6de7ab
+	0x6dddf7
+	0xcc17af
+	0x75d15d49
+	0x7751d5db
+	0x7751d561
+
+2025-12-30 17:00:00,099 - ERROR - Skipping post due to login failure.
+2025-12-30 17:00:00,099 - INFO - Found pending post for 15:00: Daily Motivation #6 #motivation #quotes #fyp
+2025-12-30 17:00:00,099 - INFO - Checking login status...
+2025-12-30 17:00:00,101 - ERROR - Error checking login: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x9212d3
+	0x921314
+	0x70e52b
+	0x74c635
+	0x77b3a6
+	0x776ed1
+	0x776846
+	0x6debfd
+	0x6df18e
+	0x6df65d
+	0xb75314
+	0xb708cb
+	0xb8d1aa
+	0x93b1d8
+	0x9431dd
+	0x6de7ab
+	0x6dddf7
+	0xcc17af
+	0x75d15d49
+	0x7751d5db
+	0x7751d561
+
+2025-12-30 17:00:00,102 - ERROR - Skipping post due to login failure.
+2025-12-30 17:00:00,102 - INFO - Found pending post for 16:00: Daily Motivation #7 #motivation #quotes #fyp
+2025-12-30 17:00:00,102 - INFO - Checking login status...
+2025-12-30 17:00:00,104 - ERROR - Error checking login: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x9212d3
+	0x921314
+	0x70e52b
+	0x74c635
+	0x77b3a6
+	0x776ed1
+	0x776846
+	0x6debfd
+	0x6df18e
+	0x6df65d
+	0xb75314
+	0xb708cb
+	0xb8d1aa
+	0x93b1d8
+	0x9431dd
+	0x6de7ab
+	0x6dddf7
+	0xcc17af
+	0x75d15d49
+	0x7751d5db
+	0x7751d561
+
+2025-12-30 17:00:00,105 - ERROR - Skipping post due to login failure.
+2025-12-30 17:00:00,105 - INFO - Found pending post for 17:00: Daily Motivation #8 #motivation #quotes #fyp
+2025-12-30 17:00:00,105 - INFO - Checking login status...
+2025-12-30 17:00:00,108 - ERROR - Error checking login: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x9212d3
+	0x921314
+	0x70e52b
+	0x74c635
+	0x77b3a6
+	0x776ed1
+	0x776846
+	0x6debfd
+	0x6df18e
+	0x6df65d
+	0xb75314
+	0xb708cb
+	0xb8d1aa
+	0x93b1d8
+	0x9431dd
+	0x6de7ab
+	0x6dddf7
+	0xcc17af
+	0x75d15d49
+	0x7751d5db
+	0x7751d561
+
+2025-12-30 17:00:00,109 - ERROR - Skipping post due to login failure.
+2025-12-30 17:00:00,109 - INFO - Found pending post for 09:00: «⁄·«‰«  
+2025-12-30 17:00:00,109 - INFO - Checking login status...
+2025-12-30 17:00:00,111 - ERROR - Error checking login: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x9212d3
+	0x921314
+	0x70e52b
+	0x74c635
+	0x77b3a6
+	0x776ed1
+	0x776846
+	0x6debfd
+	0x6df18e
+	0x6df65d
+	0xb75314
+	0xb708cb
+	0xb8d1aa
+	0x93b1d8
+	0x9431dd
+	0x6de7ab
+	0x6dddf7
+	0xcc17af
+	0x75d15d49
+	0x7751d5db
+	0x7751d561
+
+2025-12-30 17:00:00,112 - ERROR - Skipping post due to login failure.
+2025-12-30 17:00:00,112 - INFO - Job "TikTokScheduler.check_and_post (trigger: cron[minute='0,30'], next run at: 2025-12-30 17:30:00 +03)" executed successfully
+2025-12-30 17:30:00,051 - INFO - Running job "TikTokScheduler.check_and_post (trigger: cron[minute='0,30'], next run at: 2025-12-30 18:00:00 +03)" (scheduled at 2025-12-30 17:30:00+03:00)
+2025-12-30 17:30:00,061 - INFO - Checking schedule for 2025-12-30 at 17:30...
+2025-12-30 17:30:00,066 - INFO - Found pending post for 09:00: „‰‘Ê—  Ìﬂ  Êﬂ «·ÌÊ„ #1 #fyp #tiktok
+2025-12-30 17:30:00,067 - INFO - Checking login status...
+2025-12-30 17:30:00,100 - ERROR - Error checking login: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x9212d3
+	0x921314
+	0x70e52b
+	0x74c635
+	0x77b3a6
+	0x776ed1
+	0x776846
+	0x6debfd
+	0x6df18e
+	0x6df65d
+	0xb75314
+	0xb708cb
+	0xb8d1aa
+	0x93b1d8
+	0x9431dd
+	0x6de7ab
+	0x6dddf7
+	0xcc17af
+	0x75d15d49
+	0x7751d5db
+	0x7751d561
+
+2025-12-30 17:30:00,102 - ERROR - Skipping post due to login failure.
+2025-12-30 17:30:00,102 - INFO - Found pending post for 11:00: Daily Motivation #2 #motivation #quotes #fyp
+2025-12-30 17:30:00,102 - INFO - Checking login status...
+2025-12-30 17:30:00,104 - ERROR - Error checking login: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x9212d3
+	0x921314
+	0x70e52b
+	0x74c635
+	0x77b3a6
+	0x776ed1
+	0x776846
+	0x6debfd
+	0x6df18e
+	0x6df65d
+	0xb75314
+	0xb708cb
+	0xb8d1aa
+	0x93b1d8
+	0x9431dd
+	0x6de7ab
+	0x6dddf7
+	0xcc17af
+	0x75d15d49
+	0x7751d5db
+	0x7751d561
+
+2025-12-30 17:30:00,105 - ERROR - Skipping post due to login failure.
+2025-12-30 17:30:00,105 - INFO - Found pending post for 12:00: Daily Motivation #3 #motivation #quotes #fyp
+2025-12-30 17:30:00,105 - INFO - Checking login status...
+2025-12-30 17:30:00,107 - ERROR - Error checking login: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x9212d3
+	0x921314
+	0x70e52b
+	0x74c635
+	0x77b3a6
+	0x776ed1
+	0x776846
+	0x6debfd
+	0x6df18e
+	0x6df65d
+	0xb75314
+	0xb708cb
+	0xb8d1aa
+	0x93b1d8
+	0x9431dd
+	0x6de7ab
+	0x6dddf7
+	0xcc17af
+	0x75d15d49
+	0x7751d5db
+	0x7751d561
+
+2025-12-30 17:30:00,108 - ERROR - Skipping post due to login failure.
+2025-12-30 17:30:00,108 - INFO - Found pending post for 13:00: Daily Motivation #4 #motivation #quotes #fyp
+2025-12-30 17:30:00,108 - INFO - Checking login status...
+2025-12-30 17:30:00,110 - ERROR - Error checking login: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x9212d3
+	0x921314
+	0x70e52b
+	0x74c635
+	0x77b3a6
+	0x776ed1
+	0x776846
+	0x6debfd
+	0x6df18e
+	0x6df65d
+	0xb75314
+	0xb708cb
+	0xb8d1aa
+	0x93b1d8
+	0x9431dd
+	0x6de7ab
+	0x6dddf7
+	0xcc17af
+	0x75d15d49
+	0x7751d5db
+	0x7751d561
+
+2025-12-30 17:30:00,111 - ERROR - Skipping post due to login failure.
+2025-12-30 17:30:00,111 - INFO - Found pending post for 14:00: Daily Motivation #5 #motivation #quotes #fyp
+2025-12-30 17:30:00,111 - INFO - Checking login status...
+2025-12-30 17:30:00,112 - ERROR - Error checking login: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x9212d3
+	0x921314
+	0x70e52b
+	0x74c635
+	0x77b3a6
+	0x776ed1
+	0x776846
+	0x6debfd
+	0x6df18e
+	0x6df65d
+	0xb75314
+	0xb708cb
+	0xb8d1aa
+	0x93b1d8
+	0x9431dd
+	0x6de7ab
+	0x6dddf7
+	0xcc17af
+	0x75d15d49
+	0x7751d5db
+	0x7751d561
+
+2025-12-30 17:30:00,113 - ERROR - Skipping post due to login failure.
+2025-12-30 17:30:00,113 - INFO - Found pending post for 15:00: Daily Motivation #6 #motivation #quotes #fyp
+2025-12-30 17:30:00,113 - INFO - Checking login status...
+2025-12-30 17:30:00,115 - ERROR - Error checking login: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x9212d3
+	0x921314
+	0x70e52b
+	0x74c635
+	0x77b3a6
+	0x776ed1
+	0x776846
+	0x6debfd
+	0x6df18e
+	0x6df65d
+	0xb75314
+	0xb708cb
+	0xb8d1aa
+	0x93b1d8
+	0x9431dd
+	0x6de7ab
+	0x6dddf7
+	0xcc17af
+	0x75d15d49
+	0x7751d5db
+	0x7751d561
+
+2025-12-30 17:30:00,115 - ERROR - Skipping post due to login failure.
+2025-12-30 17:30:00,116 - INFO - Found pending post for 16:00: Daily Motivation #7 #motivation #quotes #fyp
+2025-12-30 17:30:00,116 - INFO - Checking login status...
+2025-12-30 17:30:00,117 - ERROR - Error checking login: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x9212d3
+	0x921314
+	0x70e52b
+	0x74c635
+	0x77b3a6
+	0x776ed1
+	0x776846
+	0x6debfd
+	0x6df18e
+	0x6df65d
+	0xb75314
+	0xb708cb
+	0xb8d1aa
+	0x93b1d8
+	0x9431dd
+	0x6de7ab
+	0x6dddf7
+	0xcc17af
+	0x75d15d49
+	0x7751d5db
+	0x7751d561
+
+2025-12-30 17:30:00,118 - ERROR - Skipping post due to login failure.
+2025-12-30 17:30:00,118 - INFO - Found pending post for 17:00: Daily Motivation #8 #motivation #quotes #fyp
+2025-12-30 17:30:00,118 - INFO - Checking login status...
+2025-12-30 17:30:00,120 - ERROR - Error checking login: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x9212d3
+	0x921314
+	0x70e52b
+	0x74c635
+	0x77b3a6
+	0x776ed1
+	0x776846
+	0x6debfd
+	0x6df18e
+	0x6df65d
+	0xb75314
+	0xb708cb
+	0xb8d1aa
+	0x93b1d8
+	0x9431dd
+	0x6de7ab
+	0x6dddf7
+	0xcc17af
+	0x75d15d49
+	0x7751d5db
+	0x7751d561
+
+2025-12-30 17:30:00,120 - ERROR - Skipping post due to login failure.
+2025-12-30 17:30:00,121 - INFO - Found pending post for 09:00: «⁄·«‰«  
+2025-12-30 17:30:00,121 - INFO - Checking login status...
+2025-12-30 17:30:00,123 - ERROR - Error checking login: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x9212d3
+	0x921314
+	0x70e52b
+	0x74c635
+	0x77b3a6
+	0x776ed1
+	0x776846
+	0x6debfd
+	0x6df18e
+	0x6df65d
+	0xb75314
+	0xb708cb
+	0xb8d1aa
+	0x93b1d8
+	0x9431dd
+	0x6de7ab
+	0x6dddf7
+	0xcc17af
+	0x75d15d49
+	0x7751d5db
+	0x7751d561
+
+2025-12-30 17:30:00,123 - ERROR - Skipping post due to login failure.
+2025-12-30 17:30:00,124 - INFO - Job "TikTokScheduler.check_and_post (trigger: cron[minute='0,30'], next run at: 2025-12-30 18:00:00 +03)" executed successfully
+2025-12-30 18:16:02,293 - WARNING - Run time of job "TikTokScheduler.check_and_replenish (trigger: cron[hour='*/6'], next run at: 2025-12-31 00:00:00 +03)" was missed by 0:16:02.290185
+2025-12-30 18:16:02,300 - WARNING - Run time of job "TikTokScheduler.check_and_post (trigger: cron[minute='0,30'], next run at: 2025-12-30 18:30:00 +03)" was missed by 0:16:02.300319
+2025-12-30 18:30:00,046 - INFO - Running job "TikTokScheduler.check_and_post (trigger: cron[minute='0,30'], next run at: 2025-12-30 19:00:00 +03)" (scheduled at 2025-12-30 18:30:00+03:00)
+2025-12-30 18:30:00,059 - INFO - Checking schedule for 2025-12-30 at 18:30...
+2025-12-30 18:30:00,089 - INFO - Found pending post for 09:00: „‰‘Ê—  Ìﬂ  Êﬂ «·ÌÊ„ #1 #fyp #tiktok
+2025-12-30 18:30:00,089 - INFO - Checking login status...
+2025-12-30 18:30:00,153 - ERROR - Error checking login: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x9212d3
+	0x921314
+	0x70e52b
+	0x74c635
+	0x77b3a6
+	0x776ed1
+	0x776846
+	0x6debfd
+	0x6df18e
+	0x6df65d
+	0xb75314
+	0xb708cb
+	0xb8d1aa
+	0x93b1d8
+	0x9431dd
+	0x6de7ab
+	0x6dddf7
+	0xcc17af
+	0x75d15d49
+	0x7751d5db
+	0x7751d561
+
+2025-12-30 18:30:00,155 - ERROR - Skipping post due to login failure.
+2025-12-30 18:30:00,155 - INFO - Found pending post for 11:00: Daily Motivation #2 #motivation #quotes #fyp
+2025-12-30 18:30:00,155 - INFO - Checking login status...
+2025-12-30 18:30:00,157 - ERROR - Error checking login: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x9212d3
+	0x921314
+	0x70e52b
+	0x74c635
+	0x77b3a6
+	0x776ed1
+	0x776846
+	0x6debfd
+	0x6df18e
+	0x6df65d
+	0xb75314
+	0xb708cb
+	0xb8d1aa
+	0x93b1d8
+	0x9431dd
+	0x6de7ab
+	0x6dddf7
+	0xcc17af
+	0x75d15d49
+	0x7751d5db
+	0x7751d561
+
+2025-12-30 18:30:00,158 - ERROR - Skipping post due to login failure.
+2025-12-30 18:30:00,158 - INFO - Found pending post for 12:00: Daily Motivation #3 #motivation #quotes #fyp
+2025-12-30 18:30:00,159 - INFO - Checking login status...
+2025-12-30 18:30:00,160 - ERROR - Error checking login: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x9212d3
+	0x921314
+	0x70e52b
+	0x74c635
+	0x77b3a6
+	0x776ed1
+	0x776846
+	0x6debfd
+	0x6df18e
+	0x6df65d
+	0xb75314
+	0xb708cb
+	0xb8d1aa
+	0x93b1d8
+	0x9431dd
+	0x6de7ab
+	0x6dddf7
+	0xcc17af
+	0x75d15d49
+	0x7751d5db
+	0x7751d561
+
+2025-12-30 18:30:00,161 - ERROR - Skipping post due to login failure.
+2025-12-30 18:30:00,161 - INFO - Found pending post for 13:00: Daily Motivation #4 #motivation #quotes #fyp
+2025-12-30 18:30:00,162 - INFO - Checking login status...
+2025-12-30 18:30:00,164 - ERROR - Error checking login: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x9212d3
+	0x921314
+	0x70e52b
+	0x74c635
+	0x77b3a6
+	0x776ed1
+	0x776846
+	0x6debfd
+	0x6df18e
+	0x6df65d
+	0xb75314
+	0xb708cb
+	0xb8d1aa
+	0x93b1d8
+	0x9431dd
+	0x6de7ab
+	0x6dddf7
+	0xcc17af
+	0x75d15d49
+	0x7751d5db
+	0x7751d561
+
+2025-12-30 18:30:00,165 - ERROR - Skipping post due to login failure.
+2025-12-30 18:30:00,165 - INFO - Found pending post for 14:00: Daily Motivation #5 #motivation #quotes #fyp
+2025-12-30 18:30:00,165 - INFO - Checking login status...
+2025-12-30 18:30:00,167 - ERROR - Error checking login: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x9212d3
+	0x921314
+	0x70e52b
+	0x74c635
+	0x77b3a6
+	0x776ed1
+	0x776846
+	0x6debfd
+	0x6df18e
+	0x6df65d
+	0xb75314
+	0xb708cb
+	0xb8d1aa
+	0x93b1d8
+	0x9431dd
+	0x6de7ab
+	0x6dddf7
+	0xcc17af
+	0x75d15d49
+	0x7751d5db
+	0x7751d561
+
+2025-12-30 18:30:00,168 - ERROR - Skipping post due to login failure.
+2025-12-30 18:30:00,168 - INFO - Found pending post for 15:00: Daily Motivation #6 #motivation #quotes #fyp
+2025-12-30 18:30:00,168 - INFO - Checking login status...
+2025-12-30 18:30:00,171 - ERROR - Error checking login: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x9212d3
+	0x921314
+	0x70e52b
+	0x74c635
+	0x77b3a6
+	0x776ed1
+	0x776846
+	0x6debfd
+	0x6df18e
+	0x6df65d
+	0xb75314
+	0xb708cb
+	0xb8d1aa
+	0x93b1d8
+	0x9431dd
+	0x6de7ab
+	0x6dddf7
+	0xcc17af
+	0x75d15d49
+	0x7751d5db
+	0x7751d561
+
+2025-12-30 18:30:00,172 - ERROR - Skipping post due to login failure.
+2025-12-30 18:30:00,172 - INFO - Found pending post for 16:00: Daily Motivation #7 #motivation #quotes #fyp
+2025-12-30 18:30:00,172 - INFO - Checking login status...
+2025-12-30 18:30:00,174 - ERROR - Error checking login: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x9212d3
+	0x921314
+	0x70e52b
+	0x74c635
+	0x77b3a6
+	0x776ed1
+	0x776846
+	0x6debfd
+	0x6df18e
+	0x6df65d
+	0xb75314
+	0xb708cb
+	0xb8d1aa
+	0x93b1d8
+	0x9431dd
+	0x6de7ab
+	0x6dddf7
+	0xcc17af
+	0x75d15d49
+	0x7751d5db
+	0x7751d561
+
+2025-12-30 18:30:00,175 - ERROR - Skipping post due to login failure.
+2025-12-30 18:30:00,175 - INFO - Found pending post for 17:00: Daily Motivation #8 #motivation #quotes #fyp
+2025-12-30 18:30:00,176 - INFO - Checking login status...
+2025-12-30 18:30:00,177 - ERROR - Error checking login: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x9212d3
+	0x921314
+	0x70e52b
+	0x74c635
+	0x77b3a6
+	0x776ed1
+	0x776846
+	0x6debfd
+	0x6df18e
+	0x6df65d
+	0xb75314
+	0xb708cb
+	0xb8d1aa
+	0x93b1d8
+	0x9431dd
+	0x6de7ab
+	0x6dddf7
+	0xcc17af
+	0x75d15d49
+	0x7751d5db
+	0x7751d561
+
+2025-12-30 18:30:00,178 - ERROR - Skipping post due to login failure.
+2025-12-30 18:30:00,178 - INFO - Found pending post for 18:00: Daily Motivation #9 #motivation #quotes #fyp
+2025-12-30 18:30:00,179 - INFO - Checking login status...
+2025-12-30 18:30:00,180 - ERROR - Error checking login: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x9212d3
+	0x921314
+	0x70e52b
+	0x74c635
+	0x77b3a6
+	0x776ed1
+	0x776846
+	0x6debfd
+	0x6df18e
+	0x6df65d
+	0xb75314
+	0xb708cb
+	0xb8d1aa
+	0x93b1d8
+	0x9431dd
+	0x6de7ab
+	0x6dddf7
+	0xcc17af
+	0x75d15d49
+	0x7751d5db
+	0x7751d561
+
+2025-12-30 18:30:00,181 - ERROR - Skipping post due to login failure.
+2025-12-30 18:30:00,181 - INFO - Found pending post for 09:00: «⁄·«‰«  
+2025-12-30 18:30:00,181 - INFO - Checking login status...
+2025-12-30 18:30:00,183 - ERROR - Error checking login: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x9212d3
+	0x921314
+	0x70e52b
+	0x74c635
+	0x77b3a6
+	0x776ed1
+	0x776846
+	0x6debfd
+	0x6df18e
+	0x6df65d
+	0xb75314
+	0xb708cb
+	0xb8d1aa
+	0x93b1d8
+	0x9431dd
+	0x6de7ab
+	0x6dddf7
+	0xcc17af
+	0x75d15d49
+	0x7751d5db
+	0x7751d561
+
+2025-12-30 18:30:00,184 - ERROR - Skipping post due to login failure.
+2025-12-30 18:30:00,184 - INFO - Job "TikTokScheduler.check_and_post (trigger: cron[minute='0,30'], next run at: 2025-12-30 19:00:00 +03)" executed successfully
+2025-12-30 20:20:54,448 - WARNING - Run time of job "TikTokScheduler.check_and_post (trigger: cron[minute='0,30'], next run at: 2025-12-30 20:30:00 +03)" was missed by 0:20:54.446338
+2025-12-30 20:30:00,004 - INFO - Running job "TikTokScheduler.check_and_post (trigger: cron[minute='0,30'], next run at: 2025-12-30 21:00:00 +03)" (scheduled at 2025-12-30 20:30:00+03:00)
+2025-12-30 20:30:00,010 - INFO - Checking schedule for 2025-12-30 at 20:30...
+2025-12-30 20:30:00,020 - INFO - Found pending post for 09:00: „‰‘Ê—  Ìﬂ  Êﬂ «·ÌÊ„ #1 #fyp #tiktok
+2025-12-30 20:30:00,021 - INFO - Checking login status...
+2025-12-30 20:30:00,067 - ERROR - Error checking login: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x9212d3
+	0x921314
+	0x70e52b
+	0x74c635
+	0x77b3a6
+	0x776ed1
+	0x776846
+	0x6debfd
+	0x6df18e
+	0x6df65d
+	0xb75314
+	0xb708cb
+	0xb8d1aa
+	0x93b1d8
+	0x9431dd
+	0x6de7ab
+	0x6dddf7
+	0xcc17af
+	0x75d15d49
+	0x7751d5db
+	0x7751d561
+
+2025-12-30 20:30:00,068 - ERROR - Skipping post due to login failure.
+2025-12-30 20:30:00,069 - INFO - Found pending post for 11:00: Daily Motivation #2 #motivation #quotes #fyp
+2025-12-30 20:30:00,069 - INFO - Checking login status...
+2025-12-30 20:30:00,071 - ERROR - Error checking login: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x9212d3
+	0x921314
+	0x70e52b
+	0x74c635
+	0x77b3a6
+	0x776ed1
+	0x776846
+	0x6debfd
+	0x6df18e
+	0x6df65d
+	0xb75314
+	0xb708cb
+	0xb8d1aa
+	0x93b1d8
+	0x9431dd
+	0x6de7ab
+	0x6dddf7
+	0xcc17af
+	0x75d15d49
+	0x7751d5db
+	0x7751d561
+
+2025-12-30 20:30:00,072 - ERROR - Skipping post due to login failure.
+2025-12-30 20:30:00,072 - INFO - Found pending post for 12:00: Daily Motivation #3 #motivation #quotes #fyp
+2025-12-30 20:30:00,072 - INFO - Checking login status...
+2025-12-30 20:30:00,074 - ERROR - Error checking login: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x9212d3
+	0x921314
+	0x70e52b
+	0x74c635
+	0x77b3a6
+	0x776ed1
+	0x776846
+	0x6debfd
+	0x6df18e
+	0x6df65d
+	0xb75314
+	0xb708cb
+	0xb8d1aa
+	0x93b1d8
+	0x9431dd
+	0x6de7ab
+	0x6dddf7
+	0xcc17af
+	0x75d15d49
+	0x7751d5db
+	0x7751d561
+
+2025-12-30 20:30:00,075 - ERROR - Skipping post due to login failure.
+2025-12-30 20:30:00,075 - INFO - Found pending post for 13:00: Daily Motivation #4 #motivation #quotes #fyp
+2025-12-30 20:30:00,075 - INFO - Checking login status...
+2025-12-30 20:30:00,077 - ERROR - Error checking login: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x9212d3
+	0x921314
+	0x70e52b
+	0x74c635
+	0x77b3a6
+	0x776ed1
+	0x776846
+	0x6debfd
+	0x6df18e
+	0x6df65d
+	0xb75314
+	0xb708cb
+	0xb8d1aa
+	0x93b1d8
+	0x9431dd
+	0x6de7ab
+	0x6dddf7
+	0xcc17af
+	0x75d15d49
+	0x7751d5db
+	0x7751d561
+
+2025-12-30 20:30:00,078 - ERROR - Skipping post due to login failure.
+2025-12-30 20:30:00,078 - INFO - Found pending post for 14:00: Daily Motivation #5 #motivation #quotes #fyp
+2025-12-30 20:30:00,079 - INFO - Checking login status...
+2025-12-30 20:30:00,080 - ERROR - Error checking login: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x9212d3
+	0x921314
+	0x70e52b
+	0x74c635
+	0x77b3a6
+	0x776ed1
+	0x776846
+	0x6debfd
+	0x6df18e
+	0x6df65d
+	0xb75314
+	0xb708cb
+	0xb8d1aa
+	0x93b1d8
+	0x9431dd
+	0x6de7ab
+	0x6dddf7
+	0xcc17af
+	0x75d15d49
+	0x7751d5db
+	0x7751d561
+
+2025-12-30 20:30:00,081 - ERROR - Skipping post due to login failure.
+2025-12-30 20:30:00,082 - INFO - Found pending post for 15:00: Daily Motivation #6 #motivation #quotes #fyp
+2025-12-30 20:30:00,082 - INFO - Checking login status...
+2025-12-30 20:30:00,084 - ERROR - Error checking login: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x9212d3
+	0x921314
+	0x70e52b
+	0x74c635
+	0x77b3a6
+	0x776ed1
+	0x776846
+	0x6debfd
+	0x6df18e
+	0x6df65d
+	0xb75314
+	0xb708cb
+	0xb8d1aa
+	0x93b1d8
+	0x9431dd
+	0x6de7ab
+	0x6dddf7
+	0xcc17af
+	0x75d15d49
+	0x7751d5db
+	0x7751d561
+
+2025-12-30 20:30:00,085 - ERROR - Skipping post due to login failure.
+2025-12-30 20:30:00,085 - INFO - Found pending post for 16:00: Daily Motivation #7 #motivation #quotes #fyp
+2025-12-30 20:30:00,086 - INFO - Checking login status...
+2025-12-30 20:30:00,088 - ERROR - Error checking login: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x9212d3
+	0x921314
+	0x70e52b
+	0x74c635
+	0x77b3a6
+	0x776ed1
+	0x776846
+	0x6debfd
+	0x6df18e
+	0x6df65d
+	0xb75314
+	0xb708cb
+	0xb8d1aa
+	0x93b1d8
+	0x9431dd
+	0x6de7ab
+	0x6dddf7
+	0xcc17af
+	0x75d15d49
+	0x7751d5db
+	0x7751d561
+
+2025-12-30 20:30:00,089 - ERROR - Skipping post due to login failure.
+2025-12-30 20:30:00,089 - INFO - Found pending post for 17:00: Daily Motivation #8 #motivation #quotes #fyp
+2025-12-30 20:30:00,089 - INFO - Checking login status...
+2025-12-30 20:30:00,091 - ERROR - Error checking login: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x9212d3
+	0x921314
+	0x70e52b
+	0x74c635
+	0x77b3a6
+	0x776ed1
+	0x776846
+	0x6debfd
+	0x6df18e
+	0x6df65d
+	0xb75314
+	0xb708cb
+	0xb8d1aa
+	0x93b1d8
+	0x9431dd
+	0x6de7ab
+	0x6dddf7
+	0xcc17af
+	0x75d15d49
+	0x7751d5db
+	0x7751d561
+
+2025-12-30 20:30:00,092 - ERROR - Skipping post due to login failure.
+2025-12-30 20:30:00,092 - INFO - Found pending post for 18:00: Daily Motivation #9 #motivation #quotes #fyp
+2025-12-30 20:30:00,093 - INFO - Checking login status...
+2025-12-30 20:30:00,094 - ERROR - Error checking login: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x9212d3
+	0x921314
+	0x70e52b
+	0x74c635
+	0x77b3a6
+	0x776ed1
+	0x776846
+	0x6debfd
+	0x6df18e
+	0x6df65d
+	0xb75314
+	0xb708cb
+	0xb8d1aa
+	0x93b1d8
+	0x9431dd
+	0x6de7ab
+	0x6dddf7
+	0xcc17af
+	0x75d15d49
+	0x7751d5db
+	0x7751d561
+
+2025-12-30 20:30:00,095 - ERROR - Skipping post due to login failure.
+2025-12-30 20:30:00,095 - INFO - Found pending post for 19:00: Daily Motivation #10 #motivation #quotes #fyp
+2025-12-30 20:30:00,095 - INFO - Checking login status...
+2025-12-30 20:30:00,098 - ERROR - Error checking login: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x9212d3
+	0x921314
+	0x70e52b
+	0x74c635
+	0x77b3a6
+	0x776ed1
+	0x776846
+	0x6debfd
+	0x6df18e
+	0x6df65d
+	0xb75314
+	0xb708cb
+	0xb8d1aa
+	0x93b1d8
+	0x9431dd
+	0x6de7ab
+	0x6dddf7
+	0xcc17af
+	0x75d15d49
+	0x7751d5db
+	0x7751d561
+
+2025-12-30 20:30:00,098 - ERROR - Skipping post due to login failure.
+2025-12-30 20:30:00,099 - INFO - Found pending post for 09:00: «⁄·«‰«  
+2025-12-30 20:30:00,099 - INFO - Checking login status...
+2025-12-30 20:30:00,102 - ERROR - Error checking login: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x9212d3
+	0x921314
+	0x70e52b
+	0x74c635
+	0x77b3a6
+	0x776ed1
+	0x776846
+	0x6debfd
+	0x6df18e
+	0x6df65d
+	0xb75314
+	0xb708cb
+	0xb8d1aa
+	0x93b1d8
+	0x9431dd
+	0x6de7ab
+	0x6dddf7
+	0xcc17af
+	0x75d15d49
+	0x7751d5db
+	0x7751d561
+
+2025-12-30 20:30:00,103 - ERROR - Skipping post due to login failure.
+2025-12-30 20:30:00,103 - INFO - Job "TikTokScheduler.check_and_post (trigger: cron[minute='0,30'], next run at: 2025-12-30 21:00:00 +03)" executed successfully
+2025-12-30 21:00:00,072 - INFO - Running job "TikTokScheduler.check_and_post (trigger: cron[minute='0,30'], next run at: 2025-12-30 21:30:00 +03)" (scheduled at 2025-12-30 21:00:00+03:00)
+2025-12-30 21:00:00,082 - INFO - Checking schedule for 2025-12-30 at 21:00...
+2025-12-30 21:00:00,090 - INFO - Found pending post for 09:00: „‰‘Ê—  Ìﬂ  Êﬂ «·ÌÊ„ #1 #fyp #tiktok
+2025-12-30 21:00:00,090 - INFO - Checking login status...
+2025-12-30 21:00:00,135 - ERROR - Error checking login: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x9212d3
+	0x921314
+	0x70e52b
+	0x74c635
+	0x77b3a6
+	0x776ed1
+	0x776846
+	0x6debfd
+	0x6df18e
+	0x6df65d
+	0xb75314
+	0xb708cb
+	0xb8d1aa
+	0x93b1d8
+	0x9431dd
+	0x6de7ab
+	0x6dddf7
+	0xcc17af
+	0x75d15d49
+	0x7751d5db
+	0x7751d561
+
+2025-12-30 21:00:00,136 - ERROR - Skipping post due to login failure.
+2025-12-30 21:00:00,136 - INFO - Found pending post for 11:00: Daily Motivation #2 #motivation #quotes #fyp
+2025-12-30 21:00:00,136 - INFO - Checking login status...
+2025-12-30 21:00:00,138 - ERROR - Error checking login: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x9212d3
+	0x921314
+	0x70e52b
+	0x74c635
+	0x77b3a6
+	0x776ed1
+	0x776846
+	0x6debfd
+	0x6df18e
+	0x6df65d
+	0xb75314
+	0xb708cb
+	0xb8d1aa
+	0x93b1d8
+	0x9431dd
+	0x6de7ab
+	0x6dddf7
+	0xcc17af
+	0x75d15d49
+	0x7751d5db
+	0x7751d561
+
+2025-12-30 21:00:00,139 - ERROR - Skipping post due to login failure.
+2025-12-30 21:00:00,139 - INFO - Found pending post for 12:00: Daily Motivation #3 #motivation #quotes #fyp
+2025-12-30 21:00:00,140 - INFO - Checking login status...
+2025-12-30 21:00:00,141 - ERROR - Error checking login: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x9212d3
+	0x921314
+	0x70e52b
+	0x74c635
+	0x77b3a6
+	0x776ed1
+	0x776846
+	0x6debfd
+	0x6df18e
+	0x6df65d
+	0xb75314
+	0xb708cb
+	0xb8d1aa
+	0x93b1d8
+	0x9431dd
+	0x6de7ab
+	0x6dddf7
+	0xcc17af
+	0x75d15d49
+	0x7751d5db
+	0x7751d561
+
+2025-12-30 21:00:00,142 - ERROR - Skipping post due to login failure.
+2025-12-30 21:00:00,142 - INFO - Found pending post for 13:00: Daily Motivation #4 #motivation #quotes #fyp
+2025-12-30 21:00:00,143 - INFO - Checking login status...
+2025-12-30 21:00:00,144 - ERROR - Error checking login: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x9212d3
+	0x921314
+	0x70e52b
+	0x74c635
+	0x77b3a6
+	0x776ed1
+	0x776846
+	0x6debfd
+	0x6df18e
+	0x6df65d
+	0xb75314
+	0xb708cb
+	0xb8d1aa
+	0x93b1d8
+	0x9431dd
+	0x6de7ab
+	0x6dddf7
+	0xcc17af
+	0x75d15d49
+	0x7751d5db
+	0x7751d561
+
+2025-12-30 21:00:00,145 - ERROR - Skipping post due to login failure.
+2025-12-30 21:00:00,145 - INFO - Found pending post for 14:00: Daily Motivation #5 #motivation #quotes #fyp
+2025-12-30 21:00:00,146 - INFO - Checking login status...
+2025-12-30 21:00:00,148 - ERROR - Error checking login: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x9212d3
+	0x921314
+	0x70e52b
+	0x74c635
+	0x77b3a6
+	0x776ed1
+	0x776846
+	0x6debfd
+	0x6df18e
+	0x6df65d
+	0xb75314
+	0xb708cb
+	0xb8d1aa
+	0x93b1d8
+	0x9431dd
+	0x6de7ab
+	0x6dddf7
+	0xcc17af
+	0x75d15d49
+	0x7751d5db
+	0x7751d561
+
+2025-12-30 21:00:00,149 - ERROR - Skipping post due to login failure.
+2025-12-30 21:00:00,149 - INFO - Found pending post for 15:00: Daily Motivation #6 #motivation #quotes #fyp
+2025-12-30 21:00:00,149 - INFO - Checking login status...
+2025-12-30 21:00:00,152 - ERROR - Error checking login: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x9212d3
+	0x921314
+	0x70e52b
+	0x74c635
+	0x77b3a6
+	0x776ed1
+	0x776846
+	0x6debfd
+	0x6df18e
+	0x6df65d
+	0xb75314
+	0xb708cb
+	0xb8d1aa
+	0x93b1d8
+	0x9431dd
+	0x6de7ab
+	0x6dddf7
+	0xcc17af
+	0x75d15d49
+	0x7751d5db
+	0x7751d561
+
+2025-12-30 21:00:00,153 - ERROR - Skipping post due to login failure.
+2025-12-30 21:00:00,153 - INFO - Found pending post for 16:00: Daily Motivation #7 #motivation #quotes #fyp
+2025-12-30 21:00:00,153 - INFO - Checking login status...
+2025-12-30 21:00:00,155 - ERROR - Error checking login: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x9212d3
+	0x921314
+	0x70e52b
+	0x74c635
+	0x77b3a6
+	0x776ed1
+	0x776846
+	0x6debfd
+	0x6df18e
+	0x6df65d
+	0xb75314
+	0xb708cb
+	0xb8d1aa
+	0x93b1d8
+	0x9431dd
+	0x6de7ab
+	0x6dddf7
+	0xcc17af
+	0x75d15d49
+	0x7751d5db
+	0x7751d561
+
+2025-12-30 21:00:00,156 - ERROR - Skipping post due to login failure.
+2025-12-30 21:00:00,156 - INFO - Found pending post for 17:00: Daily Motivation #8 #motivation #quotes #fyp
+2025-12-30 21:00:00,156 - INFO - Checking login status...
+2025-12-30 21:00:00,158 - ERROR - Error checking login: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x9212d3
+	0x921314
+	0x70e52b
+	0x74c635
+	0x77b3a6
+	0x776ed1
+	0x776846
+	0x6debfd
+	0x6df18e
+	0x6df65d
+	0xb75314
+	0xb708cb
+	0xb8d1aa
+	0x93b1d8
+	0x9431dd
+	0x6de7ab
+	0x6dddf7
+	0xcc17af
+	0x75d15d49
+	0x7751d5db
+	0x7751d561
+
+2025-12-30 21:00:00,159 - ERROR - Skipping post due to login failure.
+2025-12-30 21:00:00,159 - INFO - Found pending post for 18:00: Daily Motivation #9 #motivation #quotes #fyp
+2025-12-30 21:00:00,159 - INFO - Checking login status...
+2025-12-30 21:00:00,161 - ERROR - Error checking login: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x9212d3
+	0x921314
+	0x70e52b
+	0x74c635
+	0x77b3a6
+	0x776ed1
+	0x776846
+	0x6debfd
+	0x6df18e
+	0x6df65d
+	0xb75314
+	0xb708cb
+	0xb8d1aa
+	0x93b1d8
+	0x9431dd
+	0x6de7ab
+	0x6dddf7
+	0xcc17af
+	0x75d15d49
+	0x7751d5db
+	0x7751d561
+
+2025-12-30 21:00:00,162 - ERROR - Skipping post due to login failure.
+2025-12-30 21:00:00,162 - INFO - Found pending post for 19:00: Daily Motivation #10 #motivation #quotes #fyp
+2025-12-30 21:00:00,163 - INFO - Checking login status...
+2025-12-30 21:00:00,164 - ERROR - Error checking login: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x9212d3
+	0x921314
+	0x70e52b
+	0x74c635
+	0x77b3a6
+	0x776ed1
+	0x776846
+	0x6debfd
+	0x6df18e
+	0x6df65d
+	0xb75314
+	0xb708cb
+	0xb8d1aa
+	0x93b1d8
+	0x9431dd
+	0x6de7ab
+	0x6dddf7
+	0xcc17af
+	0x75d15d49
+	0x7751d5db
+	0x7751d561
+
+2025-12-30 21:00:00,165 - ERROR - Skipping post due to login failure.
+2025-12-30 21:00:00,165 - INFO - Found pending post for 09:00: «⁄·«‰«  
+2025-12-30 21:00:00,166 - INFO - Checking login status...
+2025-12-30 21:00:00,168 - ERROR - Error checking login: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x9212d3
+	0x921314
+	0x70e52b
+	0x74c635
+	0x77b3a6
+	0x776ed1
+	0x776846
+	0x6debfd
+	0x6df18e
+	0x6df65d
+	0xb75314
+	0xb708cb
+	0xb8d1aa
+	0x93b1d8
+	0x9431dd
+	0x6de7ab
+	0x6dddf7
+	0xcc17af
+	0x75d15d49
+	0x7751d5db
+	0x7751d561
+
+2025-12-30 21:00:00,168 - ERROR - Skipping post due to login failure.
+2025-12-30 21:00:00,169 - INFO - Job "TikTokScheduler.check_and_post (trigger: cron[minute='0,30'], next run at: 2025-12-30 21:30:00 +03)" executed successfully
+2025-12-30 21:30:00,034 - INFO - Running job "TikTokScheduler.check_and_post (trigger: cron[minute='0,30'], next run at: 2025-12-30 22:00:00 +03)" (scheduled at 2025-12-30 21:30:00+03:00)
+2025-12-30 21:30:00,038 - INFO - Checking schedule for 2025-12-30 at 21:30...
+2025-12-30 21:30:00,041 - INFO - Found pending post for 09:00: „‰‘Ê—  Ìﬂ  Êﬂ «·ÌÊ„ #1 #fyp #tiktok
+2025-12-30 21:30:00,041 - INFO - Checking login status...
+2025-12-30 21:30:00,053 - ERROR - Error checking login: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x9212d3
+	0x921314
+	0x70e52b
+	0x74c635
+	0x77b3a6
+	0x776ed1
+	0x776846
+	0x6debfd
+	0x6df18e
+	0x6df65d
+	0xb75314
+	0xb708cb
+	0xb8d1aa
+	0x93b1d8
+	0x9431dd
+	0x6de7ab
+	0x6dddf7
+	0xcc17af
+	0x75d15d49
+	0x7751d5db
+	0x7751d561
+
+2025-12-30 21:30:00,054 - ERROR - Skipping post due to login failure.
+2025-12-30 21:30:00,054 - INFO - Found pending post for 11:00: Daily Motivation #2 #motivation #quotes #fyp
+2025-12-30 21:30:00,054 - INFO - Checking login status...
+2025-12-30 21:30:00,056 - ERROR - Error checking login: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x9212d3
+	0x921314
+	0x70e52b
+	0x74c635
+	0x77b3a6
+	0x776ed1
+	0x776846
+	0x6debfd
+	0x6df18e
+	0x6df65d
+	0xb75314
+	0xb708cb
+	0xb8d1aa
+	0x93b1d8
+	0x9431dd
+	0x6de7ab
+	0x6dddf7
+	0xcc17af
+	0x75d15d49
+	0x7751d5db
+	0x7751d561
+
+2025-12-30 21:30:00,056 - ERROR - Skipping post due to login failure.
+2025-12-30 21:30:00,057 - INFO - Found pending post for 12:00: Daily Motivation #3 #motivation #quotes #fyp
+2025-12-30 21:30:00,057 - INFO - Checking login status...
+2025-12-30 21:30:00,058 - ERROR - Error checking login: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x9212d3
+	0x921314
+	0x70e52b
+	0x74c635
+	0x77b3a6
+	0x776ed1
+	0x776846
+	0x6debfd
+	0x6df18e
+	0x6df65d
+	0xb75314
+	0xb708cb
+	0xb8d1aa
+	0x93b1d8
+	0x9431dd
+	0x6de7ab
+	0x6dddf7
+	0xcc17af
+	0x75d15d49
+	0x7751d5db
+	0x7751d561
+
+2025-12-30 21:30:00,059 - ERROR - Skipping post due to login failure.
+2025-12-30 21:30:00,059 - INFO - Found pending post for 13:00: Daily Motivation #4 #motivation #quotes #fyp
+2025-12-30 21:30:00,059 - INFO - Checking login status...
+2025-12-30 21:30:00,061 - ERROR - Error checking login: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x9212d3
+	0x921314
+	0x70e52b
+	0x74c635
+	0x77b3a6
+	0x776ed1
+	0x776846
+	0x6debfd
+	0x6df18e
+	0x6df65d
+	0xb75314
+	0xb708cb
+	0xb8d1aa
+	0x93b1d8
+	0x9431dd
+	0x6de7ab
+	0x6dddf7
+	0xcc17af
+	0x75d15d49
+	0x7751d5db
+	0x7751d561
+
+2025-12-30 21:30:00,062 - ERROR - Skipping post due to login failure.
+2025-12-30 21:30:00,062 - INFO - Found pending post for 14:00: Daily Motivation #5 #motivation #quotes #fyp
+2025-12-30 21:30:00,062 - INFO - Checking login status...
+2025-12-30 21:30:00,064 - ERROR - Error checking login: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x9212d3
+	0x921314
+	0x70e52b
+	0x74c635
+	0x77b3a6
+	0x776ed1
+	0x776846
+	0x6debfd
+	0x6df18e
+	0x6df65d
+	0xb75314
+	0xb708cb
+	0xb8d1aa
+	0x93b1d8
+	0x9431dd
+	0x6de7ab
+	0x6dddf7
+	0xcc17af
+	0x75d15d49
+	0x7751d5db
+	0x7751d561
+
+2025-12-30 21:30:00,064 - ERROR - Skipping post due to login failure.
+2025-12-30 21:30:00,064 - INFO - Found pending post for 15:00: Daily Motivation #6 #motivation #quotes #fyp
+2025-12-30 21:30:00,065 - INFO - Checking login status...
+2025-12-30 21:30:00,066 - ERROR - Error checking login: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x9212d3
+	0x921314
+	0x70e52b
+	0x74c635
+	0x77b3a6
+	0x776ed1
+	0x776846
+	0x6debfd
+	0x6df18e
+	0x6df65d
+	0xb75314
+	0xb708cb
+	0xb8d1aa
+	0x93b1d8
+	0x9431dd
+	0x6de7ab
+	0x6dddf7
+	0xcc17af
+	0x75d15d49
+	0x7751d5db
+	0x7751d561
+
+2025-12-30 21:30:00,066 - ERROR - Skipping post due to login failure.
+2025-12-30 21:30:00,067 - INFO - Found pending post for 16:00: Daily Motivation #7 #motivation #quotes #fyp
+2025-12-30 21:30:00,067 - INFO - Checking login status...
+2025-12-30 21:30:00,069 - ERROR - Error checking login: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x9212d3
+	0x921314
+	0x70e52b
+	0x74c635
+	0x77b3a6
+	0x776ed1
+	0x776846
+	0x6debfd
+	0x6df18e
+	0x6df65d
+	0xb75314
+	0xb708cb
+	0xb8d1aa
+	0x93b1d8
+	0x9431dd
+	0x6de7ab
+	0x6dddf7
+	0xcc17af
+	0x75d15d49
+	0x7751d5db
+	0x7751d561
+
+2025-12-30 21:30:00,069 - ERROR - Skipping post due to login failure.
+2025-12-30 21:30:00,070 - INFO - Found pending post for 17:00: Daily Motivation #8 #motivation #quotes #fyp
+2025-12-30 21:30:00,070 - INFO - Checking login status...
+2025-12-30 21:30:00,071 - ERROR - Error checking login: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x9212d3
+	0x921314
+	0x70e52b
+	0x74c635
+	0x77b3a6
+	0x776ed1
+	0x776846
+	0x6debfd
+	0x6df18e
+	0x6df65d
+	0xb75314
+	0xb708cb
+	0xb8d1aa
+	0x93b1d8
+	0x9431dd
+	0x6de7ab
+	0x6dddf7
+	0xcc17af
+	0x75d15d49
+	0x7751d5db
+	0x7751d561
+
+2025-12-30 21:30:00,072 - ERROR - Skipping post due to login failure.
+2025-12-30 21:30:00,072 - INFO - Found pending post for 18:00: Daily Motivation #9 #motivation #quotes #fyp
+2025-12-30 21:30:00,072 - INFO - Checking login status...
+2025-12-30 21:30:00,074 - ERROR - Error checking login: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x9212d3
+	0x921314
+	0x70e52b
+	0x74c635
+	0x77b3a6
+	0x776ed1
+	0x776846
+	0x6debfd
+	0x6df18e
+	0x6df65d
+	0xb75314
+	0xb708cb
+	0xb8d1aa
+	0x93b1d8
+	0x9431dd
+	0x6de7ab
+	0x6dddf7
+	0xcc17af
+	0x75d15d49
+	0x7751d5db
+	0x7751d561
+
+2025-12-30 21:30:00,075 - ERROR - Skipping post due to login failure.
+2025-12-30 21:30:00,075 - INFO - Found pending post for 19:00: Daily Motivation #10 #motivation #quotes #fyp
+2025-12-30 21:30:00,076 - INFO - Checking login status...
+2025-12-30 21:30:00,077 - ERROR - Error checking login: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x9212d3
+	0x921314
+	0x70e52b
+	0x74c635
+	0x77b3a6
+	0x776ed1
+	0x776846
+	0x6debfd
+	0x6df18e
+	0x6df65d
+	0xb75314
+	0xb708cb
+	0xb8d1aa
+	0x93b1d8
+	0x9431dd
+	0x6de7ab
+	0x6dddf7
+	0xcc17af
+	0x75d15d49
+	0x7751d5db
+	0x7751d561
+
+2025-12-30 21:30:00,077 - ERROR - Skipping post due to login failure.
+2025-12-30 21:30:00,078 - INFO - Found pending post for 09:00: «⁄·«‰«  
+2025-12-30 21:30:00,078 - INFO - Checking login status...
+2025-12-30 21:30:00,080 - ERROR - Error checking login: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x9212d3
+	0x921314
+	0x70e52b
+	0x74c635
+	0x77b3a6
+	0x776ed1
+	0x776846
+	0x6debfd
+	0x6df18e
+	0x6df65d
+	0xb75314
+	0xb708cb
+	0xb8d1aa
+	0x93b1d8
+	0x9431dd
+	0x6de7ab
+	0x6dddf7
+	0xcc17af
+	0x75d15d49
+	0x7751d5db
+	0x7751d561
+
+2025-12-30 21:30:00,080 - ERROR - Skipping post due to login failure.
+2025-12-30 21:30:00,081 - INFO - Job "TikTokScheduler.check_and_post (trigger: cron[minute='0,30'], next run at: 2025-12-30 22:00:00 +03)" executed successfully
+2025-12-30 22:00:00,013 - INFO - Running job "TikTokScheduler.check_and_post (trigger: cron[minute='0,30'], next run at: 2025-12-30 22:30:00 +03)" (scheduled at 2025-12-30 22:00:00+03:00)
+2025-12-30 22:00:00,014 - INFO - Checking schedule for 2025-12-30 at 22:00...
+2025-12-30 22:00:00,016 - INFO - Found pending post for 09:00: „‰‘Ê—  Ìﬂ  Êﬂ «·ÌÊ„ #1 #fyp #tiktok
+2025-12-30 22:00:00,016 - INFO - Checking login status...
+2025-12-30 22:00:00,019 - ERROR - Error checking login: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x9212d3
+	0x921314
+	0x70e52b
+	0x74c635
+	0x77b3a6
+	0x776ed1
+	0x776846
+	0x6debfd
+	0x6df18e
+	0x6df65d
+	0xb75314
+	0xb708cb
+	0xb8d1aa
+	0x93b1d8
+	0x9431dd
+	0x6de7ab
+	0x6dddf7
+	0xcc17af
+	0x75d15d49
+	0x7751d5db
+	0x7751d561
+
+2025-12-30 22:00:00,020 - ERROR - Skipping post due to login failure.
+2025-12-30 22:00:00,020 - INFO - Found pending post for 11:00: Daily Motivation #2 #motivation #quotes #fyp
+2025-12-30 22:00:00,020 - INFO - Checking login status...
+2025-12-30 22:00:00,023 - ERROR - Error checking login: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x9212d3
+	0x921314
+	0x70e52b
+	0x74c635
+	0x77b3a6
+	0x776ed1
+	0x776846
+	0x6debfd
+	0x6df18e
+	0x6df65d
+	0xb75314
+	0xb708cb
+	0xb8d1aa
+	0x93b1d8
+	0x9431dd
+	0x6de7ab
+	0x6dddf7
+	0xcc17af
+	0x75d15d49
+	0x7751d5db
+	0x7751d561
+
+2025-12-30 22:00:00,023 - ERROR - Skipping post due to login failure.
+2025-12-30 22:00:00,024 - INFO - Found pending post for 12:00: Daily Motivation #3 #motivation #quotes #fyp
+2025-12-30 22:00:00,024 - INFO - Checking login status...
+2025-12-30 22:00:00,026 - ERROR - Error checking login: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x9212d3
+	0x921314
+	0x70e52b
+	0x74c635
+	0x77b3a6
+	0x776ed1
+	0x776846
+	0x6debfd
+	0x6df18e
+	0x6df65d
+	0xb75314
+	0xb708cb
+	0xb8d1aa
+	0x93b1d8
+	0x9431dd
+	0x6de7ab
+	0x6dddf7
+	0xcc17af
+	0x75d15d49
+	0x7751d5db
+	0x7751d561
+
+2025-12-30 22:00:00,028 - ERROR - Skipping post due to login failure.
+2025-12-30 22:00:00,028 - INFO - Found pending post for 13:00: Daily Motivation #4 #motivation #quotes #fyp
+2025-12-30 22:00:00,028 - INFO - Checking login status...
+2025-12-30 22:00:00,031 - ERROR - Error checking login: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x9212d3
+	0x921314
+	0x70e52b
+	0x74c635
+	0x77b3a6
+	0x776ed1
+	0x776846
+	0x6debfd
+	0x6df18e
+	0x6df65d
+	0xb75314
+	0xb708cb
+	0xb8d1aa
+	0x93b1d8
+	0x9431dd
+	0x6de7ab
+	0x6dddf7
+	0xcc17af
+	0x75d15d49
+	0x7751d5db
+	0x7751d561
+
+2025-12-30 22:00:00,032 - ERROR - Skipping post due to login failure.
+2025-12-30 22:00:00,032 - INFO - Found pending post for 14:00: Daily Motivation #5 #motivation #quotes #fyp
+2025-12-30 22:00:00,033 - INFO - Checking login status...
+2025-12-30 22:00:00,035 - ERROR - Error checking login: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x9212d3
+	0x921314
+	0x70e52b
+	0x74c635
+	0x77b3a6
+	0x776ed1
+	0x776846
+	0x6debfd
+	0x6df18e
+	0x6df65d
+	0xb75314
+	0xb708cb
+	0xb8d1aa
+	0x93b1d8
+	0x9431dd
+	0x6de7ab
+	0x6dddf7
+	0xcc17af
+	0x75d15d49
+	0x7751d5db
+	0x7751d561
+
+2025-12-30 22:00:00,036 - ERROR - Skipping post due to login failure.
+2025-12-30 22:00:00,036 - INFO - Found pending post for 15:00: Daily Motivation #6 #motivation #quotes #fyp
+2025-12-30 22:00:00,037 - INFO - Checking login status...
+2025-12-30 22:00:00,039 - ERROR - Error checking login: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x9212d3
+	0x921314
+	0x70e52b
+	0x74c635
+	0x77b3a6
+	0x776ed1
+	0x776846
+	0x6debfd
+	0x6df18e
+	0x6df65d
+	0xb75314
+	0xb708cb
+	0xb8d1aa
+	0x93b1d8
+	0x9431dd
+	0x6de7ab
+	0x6dddf7
+	0xcc17af
+	0x75d15d49
+	0x7751d5db
+	0x7751d561
+
+2025-12-30 22:00:00,040 - ERROR - Skipping post due to login failure.
+2025-12-30 22:00:00,040 - INFO - Found pending post for 16:00: Daily Motivation #7 #motivation #quotes #fyp
+2025-12-30 22:00:00,041 - INFO - Checking login status...
+2025-12-30 22:00:00,043 - ERROR - Error checking login: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x9212d3
+	0x921314
+	0x70e52b
+	0x74c635
+	0x77b3a6
+	0x776ed1
+	0x776846
+	0x6debfd
+	0x6df18e
+	0x6df65d
+	0xb75314
+	0xb708cb
+	0xb8d1aa
+	0x93b1d8
+	0x9431dd
+	0x6de7ab
+	0x6dddf7
+	0xcc17af
+	0x75d15d49
+	0x7751d5db
+	0x7751d561
+
+2025-12-30 22:00:00,044 - ERROR - Skipping post due to login failure.
+2025-12-30 22:00:00,044 - INFO - Found pending post for 17:00: Daily Motivation #8 #motivation #quotes #fyp
+2025-12-30 22:00:00,044 - INFO - Checking login status...
+2025-12-30 22:00:00,047 - ERROR - Error checking login: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x9212d3
+	0x921314
+	0x70e52b
+	0x74c635
+	0x77b3a6
+	0x776ed1
+	0x776846
+	0x6debfd
+	0x6df18e
+	0x6df65d
+	0xb75314
+	0xb708cb
+	0xb8d1aa
+	0x93b1d8
+	0x9431dd
+	0x6de7ab
+	0x6dddf7
+	0xcc17af
+	0x75d15d49
+	0x7751d5db
+	0x7751d561
+
+2025-12-30 22:00:00,047 - ERROR - Skipping post due to login failure.
+2025-12-30 22:00:00,048 - INFO - Found pending post for 18:00: Daily Motivation #9 #motivation #quotes #fyp
+2025-12-30 22:00:00,048 - INFO - Checking login status...
+2025-12-30 22:00:00,050 - ERROR - Error checking login: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x9212d3
+	0x921314
+	0x70e52b
+	0x74c635
+	0x77b3a6
+	0x776ed1
+	0x776846
+	0x6debfd
+	0x6df18e
+	0x6df65d
+	0xb75314
+	0xb708cb
+	0xb8d1aa
+	0x93b1d8
+	0x9431dd
+	0x6de7ab
+	0x6dddf7
+	0xcc17af
+	0x75d15d49
+	0x7751d5db
+	0x7751d561
+
+2025-12-30 22:00:00,051 - ERROR - Skipping post due to login failure.
+2025-12-30 22:00:00,051 - INFO - Found pending post for 19:00: Daily Motivation #10 #motivation #quotes #fyp
+2025-12-30 22:00:00,052 - INFO - Checking login status...
+2025-12-30 22:00:00,054 - ERROR - Error checking login: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x9212d3
+	0x921314
+	0x70e52b
+	0x74c635
+	0x77b3a6
+	0x776ed1
+	0x776846
+	0x6debfd
+	0x6df18e
+	0x6df65d
+	0xb75314
+	0xb708cb
+	0xb8d1aa
+	0x93b1d8
+	0x9431dd
+	0x6de7ab
+	0x6dddf7
+	0xcc17af
+	0x75d15d49
+	0x7751d5db
+	0x7751d561
+
+2025-12-30 22:00:00,055 - ERROR - Skipping post due to login failure.
+2025-12-30 22:00:00,056 - INFO - Found pending post for 09:00: «⁄·«‰«  
+2025-12-30 22:00:00,056 - INFO - Checking login status...
+2025-12-30 22:00:00,058 - ERROR - Error checking login: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x9212d3
+	0x921314
+	0x70e52b
+	0x74c635
+	0x77b3a6
+	0x776ed1
+	0x776846
+	0x6debfd
+	0x6df18e
+	0x6df65d
+	0xb75314
+	0xb708cb
+	0xb8d1aa
+	0x93b1d8
+	0x9431dd
+	0x6de7ab
+	0x6dddf7
+	0xcc17af
+	0x75d15d49
+	0x7751d5db
+	0x7751d561
+
+2025-12-30 22:00:00,059 - ERROR - Skipping post due to login failure.
+2025-12-30 22:00:00,059 - INFO - Job "TikTokScheduler.check_and_post (trigger: cron[minute='0,30'], next run at: 2025-12-30 22:30:00 +03)" executed successfully
+2025-12-31 16:49:45,940 - INFO - Starting TikTok Scheduler...
+2025-12-31 16:49:45,941 - INFO - Checking content inventory...
+2025-12-31 16:49:45,942 - INFO - Tomorrow (2026-01-01) has 1/10 posts. Generating 9 more...
+2025-12-31 16:56:38,718 - INFO - \u2705 Replenished content for tomorrow.
+2025-12-31 16:56:38,728 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-12-31 16:56:38,729 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-12-31 16:56:38,729 - INFO - \U0001f4c5 Scheduler is running. Waiting for jobs...
+2025-12-31 16:56:38,739 - INFO - Added job "TikTokScheduler.check_and_post" to job store "default"
+2025-12-31 16:56:38,740 - INFO - Added job "TikTokScheduler.check_and_replenish" to job store "default"
+2025-12-31 16:56:38,741 - INFO - Scheduler started
+2025-12-31 17:00:00,022 - INFO - Running job "TikTokScheduler.check_and_post (trigger: cron[minute='0,30'], next run at: 2025-12-31 17:00:00 +03)" (scheduled at 2025-12-31 17:00:00+03:00)
+2025-12-31 17:00:00,026 - INFO - Checking schedule for 2025-12-31 at 17:00...
+2025-12-31 17:00:00,029 - INFO - Found pending post for 10:00: Daily Motivation #1 #motivation #quotes #fyp
+2025-12-31 17:00:00,030 - INFO - Setting up Undetected Chrome Driver...
+2025-12-31 17:00:13,567 - INFO - patching driver executable C:\Users\WinDows\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-12-31 17:00:17,565 - INFO - Checking login status...
+2025-12-31 17:00:37,608 - INFO - \u2705 Logged in successfully.
+2025-12-31 17:00:37,608 - INFO - \U0001f680 Starting upload for: C:\Users\WinDows\Documents\trae_projects\khaled1593\TikTok-Scheduler\generated_videos\video_2025-12-31_1.mp4
+2025-12-31 17:00:45,008 - INFO - Video uploading...
+2025-12-31 17:01:16,084 - WARNING - Could not set caption (might need manual adjustment): Message: element click intercepted: Element <div aria-autocomplete="list" aria-expanded="false" class="notranslate public-DraftEditor-content" contenteditable="true" role="combobox" spellcheck="false" style="outline: none; user-select: text; white-space: pre-wrap; overflow-wrap: break-word;">...</div> is not clickable at point (984, 78). Other element would receive the click: <div class="react-joyride__overlay" data-test-id="overlay" role="presentation" style="cursor: pointer; height: 985px; pointer-events: auto; inset: 0px; overflow: hidden; position: absolute; z-index: 1001; background-color: rgba(0, 0, 0, 0.5); mix-blend-mode: hard-light;">...</div>
+  (Session info: chrome=143.0.7499.170); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x11b12d3
+	0x11b1314
+	0xf9e6dd
+	0xfef8ef
+	0xfedbdc
+	0xfeb6c2
+	0xfea945
+	0xfdf1c8
+	0x100b4ec
+	0xfdec34
+	0x100b6a4
+	0x102db13
+	0x100b2e6
+	0xfdd321
+	0xfde1d4
+	0x1405314
+	0x14008cb
+	0x141d1aa
+	0x11cb1d8
+	0x11d31dd
+	0x11b95d8
+	0x11b9799
+	0x11a3b28
+	0x76165d49
+	0x77dcd5db
+	0x77dcd561
+
+2025-12-31 17:01:18,685 - INFO - Visible buttons on page: ['', ' Õ„Ì·', '«·’›Õ… «·—∆Ì”Ì…', '„‰‘Ê—« ', '«· Õ·Ì·« ', ' ⁄·Ìﬁ« ', '«·≈·Â«„', '√ﬂ«œÌ„Ì… «·„»œ⁄Ì‰', '«·—»Õ', '√’Ê«  €Ì— „ÕœÊœ…', '«· ﬁ”Ì„ «·–ﬂÌ', '«·¬—«¡ Ê«·„·«ÕŸ« ', '', '«” »œ«·', '⁄·«„«  Â«‘ «Ã', '–ˆﬂ—', '', '«·Ã„Ì⁄', ' ⁄œÌ·', '«·√’Ê« ', '‘—Õ', '‰‘—', 'Õ›Ÿ «·„‘—Ê⁄', ' Ã«Â·', '›Â„ ']
+2025-12-31 17:01:18,758 - INFO - Found Post button with selector: //button[div[text()='‰‘—']]
+2025-12-31 17:01:20,898 - ERROR - \u274c Error during upload: Message: element click intercepted: Element <button role="button" type="button" class="Button__root Button__root--shape-default Button__root--size-large Button__root--type-primary Button__root--loading-false" aria-disabled="false" data-icon-only="false" data-size="large" data-loading="false" data-disabled="false" data-e2e="post_video_button" style="width: 200px;">...</button> is not clickable at point (1500, 884). Other element would receive the click: <div class="react-joyride__overlay" data-test-id="overlay" role="presentation" style="cursor: pointer; height: 985px; pointer-events: auto; inset: 0px; overflow: hidden; position: absolute; z-index: 1001; background-color: rgba(0, 0, 0, 0.5); mix-blend-mode: hard-light;">...</div>
+  (Session info: chrome=143.0.7499.170); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x11b12d3
+	0x11b1314
+	0xf9e6dd
+	0xfef8ef
+	0xfedbdc
+	0xfeb6c2
+	0xfea945
+	0xfdf1c8
+	0x100b4ec
+	0xfdec34
+	0x100b6a4
+	0x102db13
+	0x100b2e6
+	0xfdd321
+	0xfde1d4
+	0x1405314
+	0x14008cb
+	0x141d1aa
+	0x11cb1d8
+	0x11d31dd
+	0x11b95d8
+	0x11b9799
+	0x11a3b28
+	0x76165d49
+	0x77dcd5db
+	0x77dcd561
+
+2025-12-31 17:01:21,053 - ERROR - Failed to post.
+2025-12-31 17:01:21,053 - INFO - Found pending post for 11:00: Daily Motivation #2 #motivation #quotes #fyp
+2025-12-31 17:01:21,053 - INFO - Checking login status...
+2025-12-31 17:01:28,999 - INFO - \u2705 Logged in successfully.
+2025-12-31 17:01:29,000 - INFO - \U0001f680 Starting upload for: C:\Users\WinDows\Documents\trae_projects\khaled1593\TikTok-Scheduler\generated_videos\video_2025-12-31_2.mp4
+2025-12-31 17:01:37,026 - INFO - Video uploading...
+2025-12-31 17:02:07,042 - WARNING - Could not set caption (might need manual adjustment): Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@contenteditable='true']"}
+  (Session info: chrome=143.0.7499.170); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x11b12d3
+	0x11b1314
+	0xf9e6dd
+	0xfe93a5
+	0xfe977b
+	0x1030382
+	0x100b534
+	0x102db13
+	0x100b2e6
+	0xfdd321
+	0xfde1d4
+	0x1405314
+	0x14008cb
+	0x141d1aa
+	0x11cb1d8
+	0x11d31dd
+	0x11b95d8
+	0x11b9799
+	0x11a3b28
+	0x76165d49
+	0x77dcd5db
+	0x77dcd561
+
+2025-12-31 17:02:09,297 - INFO - Visible buttons on page: ['', ' Õ„Ì·', '«·’›Õ… «·—∆Ì”Ì…', '„‰‘Ê—« ', '«· Õ·Ì·« ', ' ⁄·Ìﬁ« ', '«·≈·Â«„', '√ﬂ«œÌ„Ì… «·„»œ⁄Ì‰', '«·—»Õ', '√’Ê«  €Ì— „ÕœÊœ…', '«· ﬁ”Ì„ «·–ﬂÌ', '«·¬—«¡ Ê«·„·«ÕŸ« ', '', 'Ã—» «·¬‰', ' Ã«Â·', '„ «»⁄…', 'Õœœ «·›ÌœÌÊÂ« ', 'Ã—» «·¬‰']
+2025-12-31 17:02:09,366 - ERROR - Could not find Post button.
+2025-12-31 17:02:09,366 - ERROR - Failed to post.
+2025-12-31 17:02:09,366 - INFO - Found pending post for 12:00: Daily Motivation #3 #motivation #quotes #fyp
+2025-12-31 17:02:09,366 - INFO - Checking login status...
+2025-12-31 17:02:24,091 - INFO - \u2705 Logged in successfully.
+2025-12-31 17:02:24,092 - INFO - \U0001f680 Starting upload for: C:\Users\WinDows\Documents\trae_projects\khaled1593\TikTok-Scheduler\generated_videos\video_2025-12-31_3.mp4
+2025-12-31 17:02:34,032 - INFO - Video uploading...
+2025-12-31 17:03:04,050 - WARNING - Could not set caption (might need manual adjustment): Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@contenteditable='true']"}
+  (Session info: chrome=143.0.7499.170); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x11b12d3
+	0x11b1314
+	0xf9e6dd
+	0xfe93a5
+	0xfe977b
+	0x1030382
+	0x100b534
+	0x102db13
+	0x100b2e6
+	0xfdd321
+	0xfde1d4
+	0x1405314
+	0x14008cb
+	0x141d1aa
+	0x11cb1d8
+	0x11d31dd
+	0x11b95d8
+	0x11b9799
+	0x11a3b28
+	0x76165d49
+	0x77dcd5db
+	0x77dcd561
+
+2025-12-31 17:03:06,337 - INFO - Visible buttons on page: ['', ' Õ„Ì·', '«·’›Õ… «·—∆Ì”Ì…', '„‰‘Ê—« ', '«· Õ·Ì·« ', ' ⁄·Ìﬁ« ', '«·≈·Â«„', '√ﬂ«œÌ„Ì… «·„»œ⁄Ì‰', '«·—»Õ', '√’Ê«  €Ì— „ÕœÊœ…', '«· ﬁ”Ì„ «·–ﬂÌ', '«·¬—«¡ Ê«·„·«ÕŸ« ', '', 'Ã—» «·¬‰', ' Ã«Â·', '„ «»⁄…', 'Õœœ «·›ÌœÌÊÂ« ', 'Ã—» «·¬‰']
+2025-12-31 17:03:06,404 - ERROR - Could not find Post button.
+2025-12-31 17:03:06,404 - ERROR - Failed to post.
+2025-12-31 17:03:06,404 - INFO - Found pending post for 13:00: Daily Motivation #4 #motivation #quotes #fyp
+2025-12-31 17:03:06,404 - INFO - Checking login status...
+2025-12-31 17:03:18,465 - INFO - \u2705 Logged in successfully.
+2025-12-31 17:03:18,465 - INFO - \U0001f680 Starting upload for: C:\Users\WinDows\Documents\trae_projects\khaled1593\TikTok-Scheduler\generated_videos\video_2025-12-31_4.mp4
+2025-12-31 17:03:26,136 - INFO - Video uploading...
+2025-12-31 17:03:56,155 - WARNING - Could not set caption (might need manual adjustment): Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@contenteditable='true']"}
+  (Session info: chrome=143.0.7499.170); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x11b12d3
+	0x11b1314
+	0xf9e6dd
+	0xfe93a5
+	0xfe977b
+	0x1030382
+	0x100b534
+	0x102db13
+	0x100b2e6
+	0xfdd321
+	0xfde1d4
+	0x1405314
+	0x14008cb
+	0x141d1aa
+	0x11cb1d8
+	0x11d31dd
+	0x11b95d8
+	0x11b9799
+	0x11a3b28
+	0x76165d49
+	0x77dcd5db
+	0x77dcd561
+
+2025-12-31 17:03:58,550 - INFO - Visible buttons on page: ['', ' Õ„Ì·', '«·’›Õ… «·—∆Ì”Ì…', '„‰‘Ê—« ', '«· Õ·Ì·« ', ' ⁄·Ìﬁ« ', '«·≈·Â«„', '√ﬂ«œÌ„Ì… «·„»œ⁄Ì‰', '«·—»Õ', '√’Ê«  €Ì— „ÕœÊœ…', '«· ﬁ”Ì„ «·–ﬂÌ', '«·¬—«¡ Ê«·„·«ÕŸ« ', '', 'Ã—» «·¬‰', ' Ã«Â·', '„ «»⁄…', 'Õœœ «·›ÌœÌÊÂ« ', 'Ã—» «·¬‰']
+2025-12-31 17:03:58,633 - ERROR - Could not find Post button.
+2025-12-31 17:03:58,633 - ERROR - Failed to post.
+2025-12-31 17:03:58,633 - INFO - Found pending post for 14:00: Daily Motivation #5 #motivation #quotes #fyp
+2025-12-31 17:03:58,633 - INFO - Checking login status...
+2025-12-31 17:04:07,773 - INFO - \u2705 Logged in successfully.
+2025-12-31 17:04:07,774 - INFO - \U0001f680 Starting upload for: C:\Users\WinDows\Documents\trae_projects\khaled1593\TikTok-Scheduler\generated_videos\video_2025-12-31_5.mp4
+2025-12-31 17:04:16,154 - INFO - Video uploading...
+2025-12-31 17:04:46,171 - WARNING - Could not set caption (might need manual adjustment): Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@contenteditable='true']"}
+  (Session info: chrome=143.0.7499.170); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x11b12d3
+	0x11b1314
+	0xf9e6dd
+	0xfe93a5
+	0xfe977b
+	0x1030382
+	0x100b534
+	0x102db13
+	0x100b2e6
+	0xfdd321
+	0xfde1d4
+	0x1405314
+	0x14008cb
+	0x141d1aa
+	0x11cb1d8
+	0x11d31dd
+	0x11b95d8
+	0x11b9799
+	0x11a3b28
+	0x76165d49
+	0x77dcd5db
+	0x77dcd561
+
+2025-12-31 17:04:48,445 - INFO - Visible buttons on page: ['', ' Õ„Ì·', '«·’›Õ… «·—∆Ì”Ì…', '„‰‘Ê—« ', '«· Õ·Ì·« ', ' ⁄·Ìﬁ« ', '«·≈·Â«„', '√ﬂ«œÌ„Ì… «·„»œ⁄Ì‰', '«·—»Õ', '√’Ê«  €Ì— „ÕœÊœ…', '«· ﬁ”Ì„ «·–ﬂÌ', '«·¬—«¡ Ê«·„·«ÕŸ« ', '', 'Ã—» «·¬‰', ' Ã«Â·', '„ «»⁄…', 'Õœœ «·›ÌœÌÊÂ« ', 'Ã—» «·¬‰']
+2025-12-31 17:04:48,523 - ERROR - Could not find Post button.
+2025-12-31 17:04:48,523 - ERROR - Failed to post.
+2025-12-31 17:04:48,523 - INFO - Found pending post for 15:00: Daily Motivation #6 #motivation #quotes #fyp
+2025-12-31 17:04:48,523 - INFO - Checking login status...
+2025-12-31 17:04:57,593 - INFO - \u2705 Logged in successfully.
+2025-12-31 17:04:57,594 - INFO - \U0001f680 Starting upload for: C:\Users\WinDows\Documents\trae_projects\khaled1593\TikTok-Scheduler\generated_videos\video_2025-12-31_6.mp4
+2025-12-31 17:05:05,547 - INFO - Video uploading...
+2025-12-31 17:05:35,562 - WARNING - Could not set caption (might need manual adjustment): Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@contenteditable='true']"}
+  (Session info: chrome=143.0.7499.170); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x11b12d3
+	0x11b1314
+	0xf9e6dd
+	0xfe93a5
+	0xfe977b
+	0x1030382
+	0x100b534
+	0x102db13
+	0x100b2e6
+	0xfdd321
+	0xfde1d4
+	0x1405314
+	0x14008cb
+	0x141d1aa
+	0x11cb1d8
+	0x11d31dd
+	0x11b95d8
+	0x11b9799
+	0x11a3b28
+	0x76165d49
+	0x77dcd5db
+	0x77dcd561
+
+2025-12-31 17:05:37,806 - INFO - Visible buttons on page: ['', ' Õ„Ì·', '«·’›Õ… «·—∆Ì”Ì…', '„‰‘Ê—« ', '«· Õ·Ì·« ', ' ⁄·Ìﬁ« ', '«·≈·Â«„', '√ﬂ«œÌ„Ì… «·„»œ⁄Ì‰', '«·—»Õ', '√’Ê«  €Ì— „ÕœÊœ…', '«· ﬁ”Ì„ «·–ﬂÌ', '«·¬—«¡ Ê«·„·«ÕŸ« ', '', 'Ã—» «·¬‰', ' Ã«Â·', '„ «»⁄…', 'Õœœ «·›ÌœÌÊÂ« ', 'Ã—» «·¬‰']
+2025-12-31 17:05:37,873 - ERROR - Could not find Post button.
+2025-12-31 17:05:37,874 - ERROR - Failed to post.
+2025-12-31 17:05:37,874 - INFO - Found pending post for 16:00: Daily Motivation #7 #motivation #quotes #fyp
+2025-12-31 17:05:37,874 - INFO - Checking login status...
+2025-12-31 17:05:45,339 - INFO - \u2705 Logged in successfully.
+2025-12-31 17:05:45,340 - INFO - \U0001f680 Starting upload for: C:\Users\WinDows\Documents\trae_projects\khaled1593\TikTok-Scheduler\generated_videos\video_2025-12-31_7.mp4
+2025-12-31 17:05:52,772 - INFO - Video uploading...
+2025-12-31 17:06:22,791 - WARNING - Could not set caption (might need manual adjustment): Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@contenteditable='true']"}
+  (Session info: chrome=143.0.7499.170); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x11b12d3
+	0x11b1314
+	0xf9e6dd
+	0xfe93a5
+	0xfe977b
+	0x1030382
+	0x100b534
+	0x102db13
+	0x100b2e6
+	0xfdd321
+	0xfde1d4
+	0x1405314
+	0x14008cb
+	0x141d1aa
+	0x11cb1d8
+	0x11d31dd
+	0x11b95d8
+	0x11b9799
+	0x11a3b28
+	0x76165d49
+	0x77dcd5db
+	0x77dcd561
+
+2025-12-31 17:06:25,032 - INFO - Visible buttons on page: ['', ' Õ„Ì·', '«·’›Õ… «·—∆Ì”Ì…', '„‰‘Ê—« ', '«· Õ·Ì·« ', ' ⁄·Ìﬁ« ', '«·≈·Â«„', '√ﬂ«œÌ„Ì… «·„»œ⁄Ì‰', '«·—»Õ', '√’Ê«  €Ì— „ÕœÊœ…', '«· ﬁ”Ì„ «·–ﬂÌ', '«·¬—«¡ Ê«·„·«ÕŸ« ', '', 'Ã—» «·¬‰', ' Ã«Â·', '„ «»⁄…', 'Õœœ «·›ÌœÌÊÂ« ', 'Ã—» «·¬‰']
+2025-12-31 17:06:25,107 - ERROR - Could not find Post button.
+2025-12-31 17:06:25,107 - ERROR - Failed to post.
+2025-12-31 17:06:25,107 - INFO - Found pending post for 17:00: Daily Motivation #8 #motivation #quotes #fyp
+2025-12-31 17:06:25,107 - INFO - Checking login status...
+2025-12-31 17:06:32,587 - INFO - \u2705 Logged in successfully.
+2025-12-31 17:06:32,588 - INFO - \U0001f680 Starting upload for: C:\Users\WinDows\Documents\trae_projects\khaled1593\TikTok-Scheduler\generated_videos\video_2025-12-31_8.mp4
+2025-12-31 17:06:40,321 - INFO - Video uploading...
+2025-12-31 17:07:10,336 - WARNING - Could not set caption (might need manual adjustment): Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@contenteditable='true']"}
+  (Session info: chrome=143.0.7499.170); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x11b12d3
+	0x11b1314
+	0xf9e6dd
+	0xfe93a5
+	0xfe977b
+	0x1030382
+	0x100b534
+	0x102db13
+	0x100b2e6
+	0xfdd321
+	0xfde1d4
+	0x1405314
+	0x14008cb
+	0x141d1aa
+	0x11cb1d8
+	0x11d31dd
+	0x11b95d8
+	0x11b9799
+	0x11a3b28
+	0x76165d49
+	0x77dcd5db
+	0x77dcd561
+
+2025-12-31 17:07:12,575 - INFO - Visible buttons on page: ['', ' Õ„Ì·', '«·’›Õ… «·—∆Ì”Ì…', '„‰‘Ê—« ', '«· Õ·Ì·« ', ' ⁄·Ìﬁ« ', '«·≈·Â«„', '√ﬂ«œÌ„Ì… «·„»œ⁄Ì‰', '«·—»Õ', '√’Ê«  €Ì— „ÕœÊœ…', '«· ﬁ”Ì„ «·–ﬂÌ', '«·¬—«¡ Ê«·„·«ÕŸ« ', '', 'Ã—» «·¬‰', ' Ã«Â·', '„ «»⁄…', 'Õœœ «·›ÌœÌÊÂ« ', 'Ã—» «·¬‰']
+2025-12-31 17:07:12,641 - ERROR - Could not find Post button.
+2025-12-31 17:07:12,641 - ERROR - Failed to post.
+2025-12-31 17:07:12,642 - INFO - Found pending post for 00:00: Daily Motivation #15 #motivation #quotes #fyp
+2025-12-31 17:07:12,642 - INFO - Checking login status...
+2025-12-31 17:07:20,022 - INFO - \u2705 Logged in successfully.
+2025-12-31 17:07:20,023 - INFO - \U0001f680 Starting upload for: C:\Users\WinDows\Documents\trae_projects\khaled1593\TikTok-Scheduler\generated_videos\video_2025-12-31_15.mp4
+2025-12-31 17:07:27,656 - INFO - Video uploading...
+2025-12-31 17:07:57,671 - WARNING - Could not set caption (might need manual adjustment): Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@contenteditable='true']"}
+  (Session info: chrome=143.0.7499.170); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x11b12d3
+	0x11b1314
+	0xf9e6dd
+	0xfe93a5
+	0xfe977b
+	0x1030382
+	0x100b534
+	0x102db13
+	0x100b2e6
+	0xfdd321
+	0xfde1d4
+	0x1405314
+	0x14008cb
+	0x141d1aa
+	0x11cb1d8
+	0x11d31dd
+	0x11b95d8
+	0x11b9799
+	0x11a3b28
+	0x76165d49
+	0x77dcd5db
+	0x77dcd561
+
+2025-12-31 17:07:59,905 - INFO - Visible buttons on page: ['', ' Õ„Ì·', '«·’›Õ… «·—∆Ì”Ì…', '„‰‘Ê—« ', '«· Õ·Ì·« ', ' ⁄·Ìﬁ« ', '«·≈·Â«„', '√ﬂ«œÌ„Ì… «·„»œ⁄Ì‰', '«·—»Õ', '√’Ê«  €Ì— „ÕœÊœ…', '«· ﬁ”Ì„ «·–ﬂÌ', '«·¬—«¡ Ê«·„·«ÕŸ« ', '', 'Ã—» «·¬‰', ' Ã«Â·', '„ «»⁄…', 'Õœœ «·›ÌœÌÊÂ« ', 'Ã—» «·¬‰']
+2025-12-31 17:07:59,971 - ERROR - Could not find Post button.
+2025-12-31 17:07:59,971 - ERROR - Failed to post.
+2025-12-31 17:07:59,971 - INFO - Found pending post for 01:00: Daily Motivation #16 #motivation #quotes #fyp
+2025-12-31 17:07:59,971 - INFO - Checking login status...
+2025-12-31 17:08:07,257 - INFO - \u2705 Logged in successfully.
+2025-12-31 17:08:07,258 - INFO - \U0001f680 Starting upload for: C:\Users\WinDows\Documents\trae_projects\khaled1593\TikTok-Scheduler\generated_videos\video_2025-12-31_16.mp4
+2025-12-31 17:08:15,153 - INFO - Video uploading...
+2025-12-31 17:08:45,169 - WARNING - Could not set caption (might need manual adjustment): Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@contenteditable='true']"}
+  (Session info: chrome=143.0.7499.170); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x11b12d3
+	0x11b1314
+	0xf9e6dd
+	0xfe93a5
+	0xfe977b
+	0x1030382
+	0x100b534
+	0x102db13
+	0x100b2e6
+	0xfdd321
+	0xfde1d4
+	0x1405314
+	0x14008cb
+	0x141d1aa
+	0x11cb1d8
+	0x11d31dd
+	0x11b95d8
+	0x11b9799
+	0x11a3b28
+	0x76165d49
+	0x77dcd5db
+	0x77dcd561
+
+2025-12-31 17:08:47,406 - INFO - Visible buttons on page: ['', ' Õ„Ì·', '«·’›Õ… «·—∆Ì”Ì…', '„‰‘Ê—« ', '«· Õ·Ì·« ', ' ⁄·Ìﬁ« ', '«·≈·Â«„', '√ﬂ«œÌ„Ì… «·„»œ⁄Ì‰', '«·—»Õ', '√’Ê«  €Ì— „ÕœÊœ…', '«· ﬁ”Ì„ «·–ﬂÌ', '«·¬—«¡ Ê«·„·«ÕŸ« ', '', 'Ã—» «·¬‰', ' Ã«Â·', '„ «»⁄…', 'Õœœ «·›ÌœÌÊÂ« ', 'Ã—» «·¬‰']
+2025-12-31 17:08:47,470 - ERROR - Could not find Post button.
+2025-12-31 17:08:47,470 - ERROR - Failed to post.
+2025-12-31 17:08:47,470 - INFO - Found pending post for 02:00: Daily Motivation #17 #motivation #quotes #fyp
+2025-12-31 17:08:47,471 - INFO - Checking login status...
+2025-12-31 17:08:54,948 - INFO - \u2705 Logged in successfully.
+2025-12-31 17:08:54,949 - INFO - \U0001f680 Starting upload for: C:\Users\WinDows\Documents\trae_projects\khaled1593\TikTok-Scheduler\generated_videos\video_2025-12-31_17.mp4
+2025-12-31 17:09:02,703 - INFO - Video uploading...
+2025-12-31 17:09:32,718 - WARNING - Could not set caption (might need manual adjustment): Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@contenteditable='true']"}
+  (Session info: chrome=143.0.7499.170); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x11b12d3
+	0x11b1314
+	0xf9e6dd
+	0xfe93a5
+	0xfe977b
+	0x1030382
+	0x100b534
+	0x102db13
+	0x100b2e6
+	0xfdd321
+	0xfde1d4
+	0x1405314
+	0x14008cb
+	0x141d1aa
+	0x11cb1d8
+	0x11d31dd
+	0x11b95d8
+	0x11b9799
+	0x11a3b28
+	0x76165d49
+	0x77dcd5db
+	0x77dcd561
+
+2025-12-31 17:09:34,953 - INFO - Visible buttons on page: ['', ' Õ„Ì·', '«·’›Õ… «·—∆Ì”Ì…', '„‰‘Ê—« ', '«· Õ·Ì·« ', ' ⁄·Ìﬁ« ', '«·≈·Â«„', '√ﬂ«œÌ„Ì… «·„»œ⁄Ì‰', '«·—»Õ', '√’Ê«  €Ì— „ÕœÊœ…', '«· ﬁ”Ì„ «·–ﬂÌ', '«·¬—«¡ Ê«·„·«ÕŸ« ', '', 'Ã—» «·¬‰', ' Ã«Â·', '„ «»⁄…', 'Õœœ «·›ÌœÌÊÂ« ', 'Ã—» «·¬‰']
+2025-12-31 17:09:35,019 - ERROR - Could not find Post button.
+2025-12-31 17:09:35,019 - ERROR - Failed to post.
+2025-12-31 17:09:35,019 - INFO - Found pending post for 03:00: Daily Motivation #18 #motivation #quotes #fyp
+2025-12-31 17:09:35,019 - INFO - Checking login status...
+2025-12-31 17:09:42,461 - INFO - \u2705 Logged in successfully.
+2025-12-31 17:09:42,462 - INFO - \U0001f680 Starting upload for: C:\Users\WinDows\Documents\trae_projects\khaled1593\TikTok-Scheduler\generated_videos\video_2025-12-31_18.mp4
+2025-12-31 17:09:50,362 - INFO - Video uploading...
+2025-12-31 17:10:20,379 - WARNING - Could not set caption (might need manual adjustment): Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@contenteditable='true']"}
+  (Session info: chrome=143.0.7499.170); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x11b12d3
+	0x11b1314
+	0xf9e6dd
+	0xfe93a5
+	0xfe977b
+	0x1030382
+	0x100b534
+	0x102db13
+	0x100b2e6
+	0xfdd321
+	0xfde1d4
+	0x1405314
+	0x14008cb
+	0x141d1aa
+	0x11cb1d8
+	0x11d31dd
+	0x11b95d8
+	0x11b9799
+	0x11a3b28
+	0x76165d49
+	0x77dcd5db
+	0x77dcd561
+
+2025-12-31 17:10:22,619 - INFO - Visible buttons on page: ['', ' Õ„Ì·', '«·’›Õ… «·—∆Ì”Ì…', '„‰‘Ê—« ', '«· Õ·Ì·« ', ' ⁄·Ìﬁ« ', '«·≈·Â«„', '√ﬂ«œÌ„Ì… «·„»œ⁄Ì‰', '«·—»Õ', '√’Ê«  €Ì— „ÕœÊœ…', '«· ﬁ”Ì„ «·–ﬂÌ', '«·¬—«¡ Ê«·„·«ÕŸ« ', '', 'Ã—» «·¬‰', ' Ã«Â·', '„ «»⁄…', 'Õœœ «·›ÌœÌÊÂ« ', 'Ã—» «·¬‰']
+2025-12-31 17:10:22,691 - ERROR - Could not find Post button.
+2025-12-31 17:10:22,692 - ERROR - Failed to post.
+2025-12-31 17:10:22,692 - INFO - Found pending post for 04:00: Daily Motivation #19 #motivation #quotes #fyp
+2025-12-31 17:10:22,692 - INFO - Checking login status...
+2025-12-31 17:10:30,203 - INFO - \u2705 Logged in successfully.
+2025-12-31 17:10:30,203 - INFO - \U0001f680 Starting upload for: C:\Users\WinDows\Documents\trae_projects\khaled1593\TikTok-Scheduler\generated_videos\video_2025-12-31_19.mp4
+2025-12-31 17:10:37,762 - INFO - Video uploading...
+2025-12-31 17:11:07,777 - WARNING - Could not set caption (might need manual adjustment): Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@contenteditable='true']"}
+  (Session info: chrome=143.0.7499.170); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x11b12d3
+	0x11b1314
+	0xf9e6dd
+	0xfe93a5
+	0xfe977b
+	0x1030382
+	0x100b534
+	0x102db13
+	0x100b2e6
+	0xfdd321
+	0xfde1d4
+	0x1405314
+	0x14008cb
+	0x141d1aa
+	0x11cb1d8
+	0x11d31dd
+	0x11b95d8
+	0x11b9799
+	0x11a3b28
+	0x76165d49
+	0x77dcd5db
+	0x77dcd561
+
+2025-12-31 17:11:10,020 - INFO - Visible buttons on page: ['', ' Õ„Ì·', '«·’›Õ… «·—∆Ì”Ì…', '„‰‘Ê—« ', '«· Õ·Ì·« ', ' ⁄·Ìﬁ« ', '«·≈·Â«„', '√ﬂ«œÌ„Ì… «·„»œ⁄Ì‰', '«·—»Õ', '√’Ê«  €Ì— „ÕœÊœ…', '«· ﬁ”Ì„ «·–ﬂÌ', '«·¬—«¡ Ê«·„·«ÕŸ« ', '', 'Ã—» «·¬‰', ' Ã«Â·', '„ «»⁄…', 'Õœœ «·›ÌœÌÊÂ« ', 'Ã—» «·¬‰']
+2025-12-31 17:11:10,095 - ERROR - Could not find Post button.
+2025-12-31 17:11:10,096 - ERROR - Failed to post.
+2025-12-31 17:11:10,096 - INFO - Found pending post for 05:00: Daily Motivation #20 #motivation #quotes #fyp
+2025-12-31 17:11:10,096 - INFO - Checking login status...
+2025-12-31 17:11:17,499 - INFO - \u2705 Logged in successfully.
+2025-12-31 17:11:17,499 - INFO - \U0001f680 Starting upload for: C:\Users\WinDows\Documents\trae_projects\khaled1593\TikTok-Scheduler\generated_videos\video_2025-12-31_20.mp4
+2025-12-31 17:11:25,057 - INFO - Video uploading...
+2025-12-31 17:11:55,073 - WARNING - Could not set caption (might need manual adjustment): Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@contenteditable='true']"}
+  (Session info: chrome=143.0.7499.170); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x11b12d3
+	0x11b1314
+	0xf9e6dd
+	0xfe93a5
+	0xfe977b
+	0x1030382
+	0x100b534
+	0x102db13
+	0x100b2e6
+	0xfdd321
+	0xfde1d4
+	0x1405314
+	0x14008cb
+	0x141d1aa
+	0x11cb1d8
+	0x11d31dd
+	0x11b95d8
+	0x11b9799
+	0x11a3b28
+	0x76165d49
+	0x77dcd5db
+	0x77dcd561
+
+2025-12-31 17:11:57,320 - INFO - Visible buttons on page: ['', ' Õ„Ì·', '«·’›Õ… «·—∆Ì”Ì…', '„‰‘Ê—« ', '«· Õ·Ì·« ', ' ⁄·Ìﬁ« ', '«·≈·Â«„', '√ﬂ«œÌ„Ì… «·„»œ⁄Ì‰', '«·—»Õ', '√’Ê«  €Ì— „ÕœÊœ…', '«· ﬁ”Ì„ «·–ﬂÌ', '«·¬—«¡ Ê«·„·«ÕŸ« ', '', 'Ã—» «·¬‰', ' Ã«Â·', '„ «»⁄…', 'Õœœ «·›ÌœÌÊÂ« ', 'Ã—» «·¬‰']
+2025-12-31 17:11:57,401 - ERROR - Could not find Post button.
+2025-12-31 17:11:57,401 - ERROR - Failed to post.
+2025-12-31 17:11:57,406 - INFO - Job "TikTokScheduler.check_and_post (trigger: cron[minute='0,30'], next run at: 2025-12-31 17:30:00 +03)" executed successfully
+2025-12-31 17:30:00,037 - INFO - Running job "TikTokScheduler.check_and_post (trigger: cron[minute='0,30'], next run at: 2025-12-31 18:00:00 +03)" (scheduled at 2025-12-31 17:30:00+03:00)
+2025-12-31 17:30:00,046 - INFO - Checking schedule for 2025-12-31 at 17:30...
+2025-12-31 17:30:00,051 - INFO - Found pending post for 10:00: Daily Motivation #1 #motivation #quotes #fyp
+2025-12-31 17:30:00,051 - INFO - Checking login status...
+2025-12-31 17:30:12,741 - INFO - \u2705 Logged in successfully.
+2025-12-31 17:30:12,742 - INFO - \U0001f680 Starting upload for: C:\Users\WinDows\Documents\trae_projects\khaled1593\TikTok-Scheduler\generated_videos\video_2025-12-31_1.mp4
+2025-12-31 17:30:21,475 - INFO - Video uploading...
+2025-12-31 17:30:51,507 - WARNING - Could not set caption (might need manual adjustment): Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@contenteditable='true']"}
+  (Session info: chrome=143.0.7499.170); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x11b12d3
+	0x11b1314
+	0xf9e6dd
+	0xfe93a5
+	0xfe977b
+	0x1030382
+	0x100b534
+	0x102db13
+	0x100b2e6
+	0xfdd321
+	0xfde1d4
+	0x1405314
+	0x14008cb
+	0x141d1aa
+	0x11cb1d8
+	0x11d31dd
+	0x11b95d8
+	0x11b9799
+	0x11a3b28
+	0x76165d49
+	0x77dcd5db
+	0x77dcd561
+
+2025-12-31 17:30:53,759 - INFO - Visible buttons on page: ['', ' Õ„Ì·', '«·’›Õ… «·—∆Ì”Ì…', '„‰‘Ê—« ', '«· Õ·Ì·« ', ' ⁄·Ìﬁ« ', '«·≈·Â«„', '√ﬂ«œÌ„Ì… «·„»œ⁄Ì‰', '«·—»Õ', '√’Ê«  €Ì— „ÕœÊœ…', '«· ﬁ”Ì„ «·–ﬂÌ', '«·¬—«¡ Ê«·„·«ÕŸ« ', '', 'Ã—» «·¬‰', ' Ã«Â·', '„ «»⁄…', 'Õœœ «·›ÌœÌÊÂ« ', 'Ã—» «·¬‰']
+2025-12-31 17:30:53,843 - ERROR - Could not find Post button.
+2025-12-31 17:30:53,844 - ERROR - Failed to post.
+2025-12-31 17:30:53,844 - INFO - Found pending post for 11:00: Daily Motivation #2 #motivation #quotes #fyp
+2025-12-31 17:30:53,844 - INFO - Checking login status...
+2025-12-31 17:31:01,491 - INFO - \u2705 Logged in successfully.
+2025-12-31 17:31:01,491 - INFO - \U0001f680 Starting upload for: C:\Users\WinDows\Documents\trae_projects\khaled1593\TikTok-Scheduler\generated_videos\video_2025-12-31_2.mp4
+2025-12-31 17:31:09,269 - INFO - Video uploading...
+2025-12-31 17:31:39,286 - WARNING - Could not set caption (might need manual adjustment): Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@contenteditable='true']"}
+  (Session info: chrome=143.0.7499.170); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x11b12d3
+	0x11b1314
+	0xf9e6dd
+	0xfe93a5
+	0xfe977b
+	0x1030382
+	0x100b534
+	0x102db13
+	0x100b2e6
+	0xfdd321
+	0xfde1d4
+	0x1405314
+	0x14008cb
+	0x141d1aa
+	0x11cb1d8
+	0x11d31dd
+	0x11b95d8
+	0x11b9799
+	0x11a3b28
+	0x76165d49
+	0x77dcd5db
+	0x77dcd561
+
+2025-12-31 17:31:41,514 - INFO - Visible buttons on page: ['', ' Õ„Ì·', '«·’›Õ… «·—∆Ì”Ì…', '„‰‘Ê—« ', '«· Õ·Ì·« ', ' ⁄·Ìﬁ« ', '«·≈·Â«„', '√ﬂ«œÌ„Ì… «·„»œ⁄Ì‰', '«·—»Õ', '√’Ê«  €Ì— „ÕœÊœ…', '«· ﬁ”Ì„ «·–ﬂÌ', '«·¬—«¡ Ê«·„·«ÕŸ« ', '', 'Ã—» «·¬‰', ' Ã«Â·', '„ «»⁄…', 'Õœœ «·›ÌœÌÊÂ« ', 'Ã—» «·¬‰']
+2025-12-31 17:31:41,583 - ERROR - Could not find Post button.
+2025-12-31 17:31:41,583 - ERROR - Failed to post.
+2025-12-31 17:31:41,583 - INFO - Found pending post for 12:00: Daily Motivation #3 #motivation #quotes #fyp
+2025-12-31 17:31:41,583 - INFO - Checking login status...
+2025-12-31 17:31:49,116 - INFO - \u2705 Logged in successfully.
+2025-12-31 17:31:49,116 - INFO - \U0001f680 Starting upload for: C:\Users\WinDows\Documents\trae_projects\khaled1593\TikTok-Scheduler\generated_videos\video_2025-12-31_3.mp4
+2025-12-31 17:31:57,015 - INFO - Video uploading...
+2025-12-31 17:32:27,031 - WARNING - Could not set caption (might need manual adjustment): Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@contenteditable='true']"}
+  (Session info: chrome=143.0.7499.170); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x11b12d3
+	0x11b1314
+	0xf9e6dd
+	0xfe93a5
+	0xfe977b
+	0x1030382
+	0x100b534
+	0x102db13
+	0x100b2e6
+	0xfdd321
+	0xfde1d4
+	0x1405314
+	0x14008cb
+	0x141d1aa
+	0x11cb1d8
+	0x11d31dd
+	0x11b95d8
+	0x11b9799
+	0x11a3b28
+	0x76165d49
+	0x77dcd5db
+	0x77dcd561
+
+2025-12-31 17:32:29,290 - INFO - Visible buttons on page: ['', ' Õ„Ì·', '«·’›Õ… «·—∆Ì”Ì…', '„‰‘Ê—« ', '«· Õ·Ì·« ', ' ⁄·Ìﬁ« ', '«·≈·Â«„', '√ﬂ«œÌ„Ì… «·„»œ⁄Ì‰', '«·—»Õ', '√’Ê«  €Ì— „ÕœÊœ…', '«· ﬁ”Ì„ «·–ﬂÌ', '«·¬—«¡ Ê«·„·«ÕŸ« ', '', 'Ã—» «·¬‰', ' Ã«Â·', '„ «»⁄…', 'Õœœ «·›ÌœÌÊÂ« ', 'Ã—» «·¬‰']
+2025-12-31 17:32:29,370 - ERROR - Could not find Post button.
+2025-12-31 17:32:29,371 - ERROR - Failed to post.
+2025-12-31 17:32:29,371 - INFO - Found pending post for 13:00: Daily Motivation #4 #motivation #quotes #fyp
+2025-12-31 17:32:29,371 - INFO - Checking login status...
+2025-12-31 17:32:38,474 - INFO - \u2705 Logged in successfully.
+2025-12-31 17:32:38,475 - INFO - \U0001f680 Starting upload for: C:\Users\WinDows\Documents\trae_projects\khaled1593\TikTok-Scheduler\generated_videos\video_2025-12-31_4.mp4
+2025-12-31 17:32:46,195 - INFO - Video uploading...
+2025-12-31 17:33:16,211 - WARNING - Could not set caption (might need manual adjustment): Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@contenteditable='true']"}
+  (Session info: chrome=143.0.7499.170); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x11b12d3
+	0x11b1314
+	0xf9e6dd
+	0xfe93a5
+	0xfe977b
+	0x1030382
+	0x100b534
+	0x102db13
+	0x100b2e6
+	0xfdd321
+	0xfde1d4
+	0x1405314
+	0x14008cb
+	0x141d1aa
+	0x11cb1d8
+	0x11d31dd
+	0x11b95d8
+	0x11b9799
+	0x11a3b28
+	0x76165d49
+	0x77dcd5db
+	0x77dcd561
+
+2025-12-31 17:33:18,481 - INFO - Visible buttons on page: ['', ' Õ„Ì·', '«·’›Õ… «·—∆Ì”Ì…', '„‰‘Ê—« ', '«· Õ·Ì·« ', ' ⁄·Ìﬁ« ', '«·≈·Â«„', '√ﬂ«œÌ„Ì… «·„»œ⁄Ì‰', '«·—»Õ', '√’Ê«  €Ì— „ÕœÊœ…', '«· ﬁ”Ì„ «·–ﬂÌ', '«·¬—«¡ Ê«·„·«ÕŸ« ', '', 'Ã—» «·¬‰', ' Ã«Â·', '„ «»⁄…', 'Õœœ «·›ÌœÌÊÂ« ', 'Ã—» «·¬‰']
+2025-12-31 17:33:18,551 - ERROR - Could not find Post button.
+2025-12-31 17:33:18,552 - ERROR - Failed to post.
+2025-12-31 17:33:18,552 - INFO - Found pending post for 14:00: Daily Motivation #5 #motivation #quotes #fyp
+2025-12-31 17:33:18,552 - INFO - Checking login status...

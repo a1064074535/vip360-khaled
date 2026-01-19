@@ -1,0 +1,286 @@
+2025-12-28 22:54:27,787 - INFO - Setting up Chrome Driver...
+2025-12-28 22:54:27,787 - INFO - ====== WebDriver manager ======
+2025-12-28 22:54:29,599 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-28 22:54:30,297 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-28 22:54:30,933 - INFO - There is no [win64] chromedriver "143.0.7499.169" for browser google-chrome "143.0.7499" in cache
+2025-12-28 22:54:30,933 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-28 22:54:32,437 - INFO - WebDriver version 143.0.7499.169 selected
+2025-12-28 22:54:32,445 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/143.0.7499.169/win32/chromedriver-win32.zip
+2025-12-28 22:54:32,445 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/143.0.7499.169/win32/chromedriver-win32.zip
+2025-12-28 22:54:32,989 - INFO - Driver downloading response is 200
+2025-12-28 22:54:33,551 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-28 22:54:34,396 - INFO - Driver has been saved in cache [C:\Users\WinDows\.wdm\drivers\chromedriver\win64\143.0.7499.169]
+2025-12-28 22:54:36,509 - INFO - Checking login status...
+2025-12-28 22:54:44,888 - WARNING - \u26a0\ufe0f Not logged in! Please log in manually in the browser window.
+2025-12-28 22:54:44,888 - INFO - Waiting 60 seconds for manual login...
+2025-12-28 22:55:44,895 - ERROR - \u274c Failed to log in.
+2025-12-28 23:03:50,548 - INFO - Setting up Undetected Chrome Driver...
+2025-12-28 23:03:52,394 - INFO - patching driver executable C:\Users\WinDows\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-12-28 23:03:55,938 - INFO - Checking login status...
+2025-12-28 23:04:02,745 - WARNING - \u26a0\ufe0f Not logged in! Please log in manually in the browser window.
+2025-12-28 23:04:02,745 - INFO - Waiting 60 seconds for manual login...
+2025-12-28 23:05:02,759 - INFO - \u2705 Logged in successfully.
+2025-12-28 23:14:46,941 - INFO - Checking schedule for 2025-12-28...
+2025-12-28 23:14:46,941 - INFO - Found post for today: Daily TikTok Post #1 \U0001f680 #fyp #tiktok
+2025-12-28 23:14:46,941 - INFO - Setting up Undetected Chrome Driver...
+2025-12-28 23:14:48,331 - INFO - patching driver executable C:\Users\WinDows\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-12-28 23:14:51,554 - INFO - Checking login status...
+2025-12-28 23:15:00,043 - INFO - \u2705 Logged in successfully.
+2025-12-28 23:15:00,043 - INFO - \U0001f680 Starting upload for: ./videos/video_1.mp4
+2025-12-28 23:15:07,184 - INFO - Video uploading...
+2025-12-28 23:15:22,396 - WARNING - Could not set caption (might need manual adjustment): Message: unknown error: ChromeDriver only supports characters in the BMP
+  (Session info: chrome=143.0.7499.170)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x10612d3
+	0x1061314
+	0xe4e6dd
+	0xed3172
+	0xe93e5b
+	0xe93467
+	0xebb4ec
+	0xe8ec34
+	0xebb6a4
+	0xeddb13
+	0xebb2e6
+	0xe8d321
+	0xe8e1d4
+	0x12b5314
+	0x12b08cb
+	0x12cd1aa
+	0x107b1d8
+	0x10831dd
+	0x10695d8
+	0x1069799
+	0x1053b28
+	0x75b25d49
+	0x7702d5db
+	0x7702d561
+
+2025-12-28 23:15:24,408 - ERROR - \u274c Error during upload: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//button[div[text()='Post']] | //button[text()='Post']"}
+  (Session info: chrome=143.0.7499.170); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x10612d3
+	0x1061314
+	0xe4e6dd
+	0xe993a5
+	0xe9977b
+	0xee0382
+	0xebb534
+	0xeddb13
+	0xebb2e6
+	0xe8d321
+	0xe8e1d4
+	0x12b5314
+	0x12b08cb
+	0x12cd1aa
+	0x107b1d8
+	0x10831dd
+	0x10695d8
+	0x1069799
+	0x1053b28
+	0x75b25d49
+	0x7702d5db
+	0x7702d561
+
+2025-12-28 23:15:24,593 - ERROR - Failed to post.
+2025-12-29 15:57:09,747 - INFO - Checking schedule for 2025-12-29...
+2025-12-29 15:57:09,749 - INFO - Found post for today: Daily TikTok Post #2 \U0001f680 #fyp #tiktok
+2025-12-29 15:57:09,749 - INFO - Setting up Undetected Chrome Driver...
+2025-12-29 15:57:11,379 - INFO - patching driver executable C:\Users\WinDows\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-12-29 15:57:15,557 - INFO - Checking login status...
+2025-12-29 15:57:24,770 - INFO - \u2705 Logged in successfully.
+2025-12-29 15:57:24,770 - INFO - \U0001f680 Starting upload for: ./videos/video_1.mp4
+2025-12-29 15:57:32,101 - INFO - Video uploading...
+2025-12-29 15:57:47,116 - WARNING - Could not set caption (might need manual adjustment): Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@contenteditable='true']"}
+  (Session info: chrome=143.0.7499.170); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x3d12d3
+	0x3d1314
+	0x1be6dd
+	0x2093a5
+	0x20977b
+	0x250382
+	0x22b534
+	0x24db13
+	0x22b2e6
+	0x1fd321
+	0x1fe1d4
+	0x625314
+	0x6208cb
+	0x63d1aa
+	0x3eb1d8
+	0x3f31dd
+	0x3d95d8
+	0x3d9799
+	0x3c3b28
+	0x75b25d49
+	0x7702d5db
+	0x7702d561
+	0
+
+2025-12-29 15:57:49,127 - ERROR - \u274c Error during upload: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//button[div[text()='Post']] | //button[text()='Post']"}
+  (Session info: chrome=143.0.7499.170); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x3d12d3
+	0x3d1314
+	0x1be6dd
+	0x2093a5
+	0x20977b
+	0x250382
+	0x22b534
+	0x24db13
+	0x22b2e6
+	0x1fd321
+	0x1fe1d4
+	0x625314
+	0x6208cb
+	0x63d1aa
+	0x3eb1d8
+	0x3f31dd
+	0x3d95d8
+	0x3d9799
+	0x3c3b28
+	0x75b25d49
+	0x7702d5db
+	0x7702d561
+	0
+
+2025-12-29 15:57:49,443 - ERROR - Failed to post.
+2025-12-29 18:44:08,879 - INFO - Setting up Undetected Chrome Driver...
+2025-12-29 18:44:10,659 - INFO - patching driver executable C:\Users\WinDows\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-12-29 18:44:14,427 - INFO - Checking login status...
+2025-12-29 18:44:21,945 - INFO - \u2705 Logged in successfully.
+2025-12-29 18:47:10,341 - INFO - Checking schedule for 2025-12-29...
+2025-12-29 18:47:10,342 - INFO - Found post for today: Daily TikTok Post #2 \U0001f680 #fyp #tiktok
+2025-12-29 18:47:10,342 - INFO - Setting up Undetected Chrome Driver...
+2025-12-29 18:47:11,921 - INFO - patching driver executable C:\Users\WinDows\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-12-29 18:47:15,156 - INFO - Checking login status...
+2025-12-29 18:47:23,040 - INFO - \u2705 Logged in successfully.
+2025-12-29 18:47:23,041 - INFO - \U0001f680 Starting upload for: ./videos/video_1.mp4
+2025-12-29 18:47:29,959 - INFO - Video uploading...
+2025-12-29 18:47:45,113 - WARNING - Could not set caption (might need manual adjustment): Message: unknown error: ChromeDriver only supports characters in the BMP
+  (Session info: chrome=143.0.7499.170)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xa612d3
+	0xa61314
+	0x84e6dd
+	0x8d3172
+	0x893e5b
+	0x893467
+	0x8bb4ec
+	0x88ec34
+	0x8bb6a4
+	0x8ddb13
+	0x8bb2e6
+	0x88d321
+	0x88e1d4
+	0xcb5314
+	0xcb08cb
+	0xccd1aa
+	0xa7b1d8
+	0xa831dd
+	0xa695d8
+	0xa69799
+	0xa53b28
+	0x75b25d49
+	0x7702d5db
+	0x7702d561
+
+2025-12-29 18:47:47,126 - ERROR - \u274c Error during upload: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//button[div[text()='Post']] | //button[text()='Post']"}
+  (Session info: chrome=143.0.7499.170); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xa612d3
+	0xa61314
+	0x84e6dd
+	0x8993a5
+	0x89977b
+	0x8e0382
+	0x8bb534
+	0x8ddb13
+	0x8bb2e6
+	0x88d321
+	0x88e1d4
+	0xcb5314
+	0xcb08cb
+	0xccd1aa
+	0xa7b1d8
+	0xa831dd
+	0xa695d8
+	0xa69799
+	0xa53b28
+	0x75b25d49
+	0x7702d5db
+	0x7702d561
+
+2025-12-29 18:47:47,311 - ERROR - Failed to post.
+2025-12-29 18:48:28,395 - INFO - Checking schedule for 2025-12-29...
+2025-12-29 18:48:28,395 - INFO - Found post for today: Daily TikTok Post #2 \U0001f680 #fyp #tiktok
+2025-12-29 18:48:28,396 - INFO - Setting up Undetected Chrome Driver...
+2025-12-29 18:48:29,843 - INFO - patching driver executable C:\Users\WinDows\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-12-29 18:48:33,200 - INFO - Checking login status...
+2025-12-29 18:48:42,039 - INFO - \u2705 Logged in successfully.
+2025-12-29 18:48:42,040 - INFO - \U0001f680 Starting upload for: ./videos/video_1.mp4
+2025-12-29 18:48:48,963 - INFO - Video uploading...
+2025-12-29 18:49:18,964 - WARNING - \u26a0\ufe0f Removed emojis from caption due to ChromeDriver limitation.
+2025-12-29 18:49:20,435 - INFO - Caption set.
+2025-12-29 18:49:22,446 - ERROR - \u274c Error during upload: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//button[div[text()='Post']] | //button[text()='Post']"}
+  (Session info: chrome=143.0.7499.170); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xc012d3
+	0xc01314
+	0x9ee6dd
+	0xa393a5
+	0xa3977b
+	0xa80382
+	0xa5b534
+	0xa7db13
+	0xa5b2e6
+	0xa2d321
+	0xa2e1d4
+	0xe55314
+	0xe508cb
+	0xe6d1aa
+	0xc1b1d8
+	0xc231dd
+	0xc095d8
+	0xc09799
+	0xbf3b28
+	0x75b25d49
+	0x7702d5db
+	0x7702d561
+
+2025-12-29 18:49:22,622 - ERROR - Failed to post.
+2025-12-29 18:50:01,121 - INFO - Checking schedule for 2025-12-29...
+2025-12-29 18:50:01,122 - INFO - Found post for today: Daily TikTok Post #2 \U0001f680 #fyp #tiktok
+2025-12-29 18:50:01,123 - INFO - Setting up Undetected Chrome Driver...
+2025-12-29 18:50:02,461 - INFO - patching driver executable C:\Users\WinDows\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-12-29 18:50:05,910 - INFO - Checking login status...
+2025-12-29 18:50:13,789 - INFO - \u2705 Logged in successfully.
+2025-12-29 18:50:13,790 - INFO - \U0001f680 Starting upload for: ./videos/video_1.mp4
+2025-12-29 18:50:20,918 - INFO - Video uploading...
+2025-12-29 18:50:50,919 - WARNING - \u26a0\ufe0f Removed emojis from caption due to ChromeDriver limitation.
+2025-12-29 18:50:52,237 - INFO - Caption set.
+2025-12-29 18:50:54,639 - INFO - Visible buttons on page: ['', ' Õ„Ì·', '«·’›Õ… «·—∆Ì”Ì…', '„‰‘Ê—« ', '«· Õ·Ì·« ', ' ⁄·Ìﬁ« ', '«·≈·Â«„', '«·—»Õ', '√ﬂ«œÌ„Ì… «·„»œ⁄Ì‰', '√’Ê«  €Ì— „ÕœÊœ…', '«·¬—«¡ Ê«·„·«ÕŸ« ', '', '«” »œ«·', '⁄·«„«  Â«‘ «Ã', '–ˆﬂ—', '', '', '«·Ã„Ì⁄', ' ⁄œÌ·', '«·√’Ê« ', '‘—Õ', '‰‘—', 'Õ›Ÿ «·„‘—Ê⁄', ' Ã«Â·']
+2025-12-29 18:50:54,702 - ERROR - Could not find Post button.
+2025-12-29 18:50:54,702 - ERROR - Failed to post.
+2025-12-29 18:51:25,613 - INFO - Checking schedule for 2025-12-29...
+2025-12-29 18:51:25,613 - INFO - Found post for today: Daily TikTok Post #2 \U0001f680 #fyp #tiktok
+2025-12-29 18:51:25,613 - INFO - Setting up Undetected Chrome Driver...
+2025-12-29 18:51:27,035 - INFO - patching driver executable C:\Users\WinDows\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-12-29 18:51:30,340 - INFO - Checking login status...
+2025-12-29 18:51:37,406 - INFO - \u2705 Logged in successfully.
+2025-12-29 18:51:37,406 - INFO - \U0001f680 Starting upload for: ./videos/video_1.mp4
+2025-12-29 18:51:44,511 - INFO - Video uploading...
+2025-12-29 18:52:14,512 - WARNING - \u26a0\ufe0f Removed emojis from caption due to ChromeDriver limitation.
+2025-12-29 18:52:15,880 - INFO - Caption set.
+2025-12-29 18:52:18,251 - INFO - Visible buttons on page: ['', ' Õ„Ì·', '«·’›Õ… «·—∆Ì”Ì…', '„‰‘Ê—« ', '«· Õ·Ì·« ', ' ⁄·Ìﬁ« ', '«·≈·Â«„', '«·—»Õ', '√ﬂ«œÌ„Ì… «·„»œ⁄Ì‰', '√’Ê«  €Ì— „ÕœÊœ…', '«·¬—«¡ Ê«·„·«ÕŸ« ', '', '«” »œ«·', '⁄·«„«  Â«‘ «Ã', '–ˆﬂ—', '', '«·Ã„Ì⁄', ' ⁄œÌ·', '«·√’Ê« ', '‘—Õ', '‰‘—', 'Õ›Ÿ «·„‘—Ê⁄', ' Ã«Â·']
+2025-12-29 18:52:18,310 - INFO - Found Post button with selector: //button[div[text()='‰‘—']]
+2025-12-29 18:52:19,457 - INFO - \u2705 Post button clicked.
+2025-12-29 18:52:29,458 - INFO - \U0001f389 Daily post completed successfully!
