@@ -1,0 +1,41 @@
+name: Daily Job Scraper & Deploy
+
+on:
+  schedule:
+    - cron: '0 5 * * *' # Runs at 05:00 UTC (8:00 AM KSA) daily
+  workflow_dispatch: # Allows manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  update-jobs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run Job Scraper
+        run: node jobs_scraper.js
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name 'GitHub Action'
+          git config --global user.email 'action@github.com'
+          git add public_html/daily_jobs.json
+          # Only commit if there are changes
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update daily jobs [skip ci]" && git push)
+
+      - name: Deploy to GitHub Pages
+        run: |
+          git config --global user.name 'GitHub Action'
+          git config --global user.email 'action@github.com'
+          npm run deploy
