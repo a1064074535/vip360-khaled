@@ -1,6 +1,0 @@
-2026/01/18-16:49:49.833 5f10 Reusing MANIFEST C:\Users\WinDows\Documents\trae_projects\khaled1593\.wbot_session\session-khaled-bot\Default\Local Storage\leveldb/MANIFEST-000001
-2026/01/18-16:49:49.837 5f10 Recovering log #77
-2026/01/18-16:49:49.839 5f10 Reusing old log C:\Users\WinDows\Documents\trae_projects\khaled1593\.wbot_session\session-khaled-bot\Default\Local Storage\leveldb/000077.log 
-2026/01/18-18:20:44.389 3444 Level-0 table #82: started
-2026/01/18-18:20:44.395 3444 Level-0 table #82: 15062 bytes OK
-2026/01/18-18:20:44.397 3444 Delete type=0 #77
