@@ -755,25 +755,9 @@ const initializeClient = () => {
             }
 
             if (currentState === 'AWAITING_CHOICE') {
-                if (msgBody === '1' || msgBody === '١') {
-                    await message.reply(`*قائمة الخدمات المتاحة:*\n\n${servicesList}\n\n*الرجاء كتابة رقم الخدمة التي ترغب بها (مثلاً: 1) ليتم تزويدك بالتفاصيل.*\n\nلزيارة الموقع: ${SITE_URL}`);
-                    userStates.set(message.from, 'SELECTING_SERVICE');
-                    return;
-                } else if (msgBody === '2' || msgBody === '٢') {
-                    await message.reply(`شكرا لاستخدامك خدمات المكتبة الرقمية\nفي حال رغبتك للتواصل معنا مره\n\nرابط الموقع: ${SITE_URL}`);
-                    userStates.set(message.from, 'COMPLETED'); // Mark as completed instead of deleting
-                    return;
-                } else {
-                    // Check if it is a service number (3+) to allow direct access
-                    const serviceIndex = parseInt(msgBody) - 1;
-                    if (!isNaN(serviceIndex) && serviceIndex >= 2 && serviceIndex < services.length) {
-                        userStates.set(message.from, 'SELECTING_SERVICE');
-                        currentState = 'SELECTING_SERVICE';
-                    } else {
-                        await message.reply('عذراً، يرجى إرسال رقم 1 أو 2 فقط.');
-                        return;
-                    }
-                }
+                // Legacy code block removed to prevent conflict with service selection
+                userStates.set(message.from, 'SELECTING_SERVICE');
+                currentState = 'SELECTING_SERVICE';
             }
             
             if (currentState === 'SELECTING_SERVICE') {
