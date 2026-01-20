@@ -9,14 +9,14 @@ const { initSendPulse, addContact } = require('./sendpulse-service');
 const { processCommand } = require('./agent_brain');
 require('dotenv').config();
 
-const SITE_URL = 'https://vip360-khaled.netlify.app/';
+const SITE_URL = 'https://bit.ly/4sKzlZP';
 
 // Admin Configuration
 const ADMIN_NUMBER = '966545888559@c.us';
 
 // Initialize Express App
 const app = express();
-const port = 3000;
+const port = 3001;
 
 app.get('/damman-form', (req, res) => {
     res.sendFile(path.join(__dirname, 'public_html', 'cloned_site.html'));
@@ -581,8 +581,8 @@ const initializeClient = () => {
     
     client = new Client({
         authStrategy: new LocalAuth({
-            clientId: 'khaled-bot',
-            dataPath: './.wbot_session'
+            clientId: 'khaled-bot-new',
+            dataPath: './.auth_new_v5'
         }),
         puppeteer: {
             // executablePath: '/home/ubuntu/.cache/puppeteer/chrome/linux-1108766/chrome-linux/chrome',
