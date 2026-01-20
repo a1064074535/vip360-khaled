@@ -680,6 +680,56 @@
             100% { transform: translateX(-100%); }
         }
 
+        @keyframes popIn {
+            0% { transform: scale(0.8); opacity: 0; }
+            100% { transform: scale(1); opacity: 1; }
+        }
+        
+        .price-tag-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            animation: popIn 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        }
+        
+        .price-row {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            justify-content: center;
+        }
+        
+        .old-price-tag {
+            font-size: 1.4rem;
+            color: rgba(255,255,255,0.7);
+            text-decoration: line-through;
+            position: relative;
+            font-weight: 600;
+        }
+        
+        .new-price-tag {
+            font-size: 3rem;
+            font-weight: 800;
+            color: #fff;
+            text-shadow: 0 2px 15px rgba(0,0,0,0.2);
+            line-height: 1;
+        }
+        
+        .discount-badge {
+            background: #ff4757;
+            color: white;
+            padding: 6px 18px;
+            border-radius: 50px;
+            font-size: 1rem;
+            font-weight: bold;
+            margin-top: 10px;
+            box-shadow: 0 4px 15px rgba(255, 71, 87, 0.4);
+            animation: pulse 2s infinite;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+        }
+
         .submit-btn.loading .loader {
             display: block;
         }
@@ -916,9 +966,9 @@
                            
                            <div style="background: rgba(255,255,255,0.1); padding: 20px; border-radius: 10px; margin-bottom: 20px;"> 
                              <h4 style="margin-bottom: 15px; font-size: 20px;">✅ قيمة الخدمة:</h4> 
-                             <p style="font-size: 32px; font-weight: bold; text-align: center; margin: 10px 0;"> 
-                               <span id="servicePrice">0</span> ريال سعودي 
-                             </p> 
+                             <div id="servicePriceContainer" style="text-align: center; margin: 10px 0;">
+                                <!-- Price will be injected here -->
+                             </div>
                            </div> 
                            
                            <div style="background: rgba(255,255,255,0.1); padding: 20px; border-radius: 10px; margin-bottom: 15px;"> 
@@ -1355,7 +1405,24 @@ ${dependentsMsg}
             }
 
             if (price) {
-                document.getElementById('servicePrice').textContent = price;
+                const priceContainer = document.getElementById('servicePriceContainer');
+                
+                if (price === '10') {
+                    priceContainer.innerHTML = `
+                        <div class="price-tag-container">
+                            <div class="price-row">
+                                <span class="old-price-tag">39 ريال</span>
+                                <span class="new-price-tag">10 ريال</span>
+                            </div>
+                            <div class="discount-badge">
+                                <span>🔥 عرض لفترة محدودة</span>
+                            </div>
+                        </div>
+                    `;
+                } else {
+                    priceContainer.innerHTML = `<div style="font-size: 32px; font-weight: bold; text-align: center;">${price} ريال</div>`;
+                }
+
                 priceDisplay.style.display = 'block';
                 // Add animation
                 priceDisplay.style.animation = 'none';
