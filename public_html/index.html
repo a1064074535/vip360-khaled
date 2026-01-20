@@ -970,6 +970,14 @@
                          <div style="background: var(--bg-light); padding: 20px; border-radius: 12px; border: 1px solid var(--border);">
                              
                              <div class="form-group" style="margin-bottom: 15px;">
+                                 <label style="font-size: 14px; margin-bottom: 8px;">صورة الهوية الوطنية (مع تغطية الوجه) - خاص بالتدريس من المنزل</label>
+                                 <div style="position: relative;">
+                                     <input type="file" class="form-control" accept="image/*" onchange="this.style.borderColor = '#28a745'; this.nextElementSibling.style.display = 'block';">
+                                     <small style="display: none; color: #28a745; margin-top: 5px;">✅ تم اختيار الملف</small>
+                                 </div>
+                             </div>
+
+                             <div class="form-group" style="margin-bottom: 15px;">
                                  <label style="font-size: 14px; margin-bottom: 8px;">صورة شهادة التخرج / المؤهل العلمي</label>
                                  <div style="position: relative;">
                                      <input type="file" class="form-control" accept="image/*,application/pdf" onchange="this.style.borderColor = '#28a745'; this.nextElementSibling.style.display = 'block';">
@@ -1197,8 +1205,18 @@
 
         serviceSelect.addEventListener('change', function() {
             const serviceName = this.value;
+            
+            // Show attachment section if service requires it
             if (servicesWithAttachments.some(s => serviceName.includes(s))) {
                 attachmentsSection.style.display = 'block';
+                
+                // Toggle ID upload field visibility based on service
+                const idUploadField = attachmentsSection.querySelector('div:first-child');
+                if (serviceName.includes('التدريس من المنزل')) {
+                    idUploadField.style.display = 'block';
+                } else {
+                    idUploadField.style.display = 'none';
+                }
             } else {
                 attachmentsSection.style.display = 'none';
             }
@@ -1241,7 +1259,7 @@
 🎯 *الخدمة المطلوبة:*
 ${data.service}
 
-⚠️ *ملاحظة:* سأقوم بإرفاق صورة شهادة التخرج/المؤهل في الرسائل التالية.
+⚠️ *ملاحظة:* سأقوم بإرفاق صورة شهادة التخرج/المؤهل${data.service.includes('التدريس من المنزل') ? ' وصورة الهوية الوطنية' : ''} في الرسائل التالية.
 
 ━━━━━━━━━━━━━━━
 تم الإرسال من موقع المكتبة الرقمية
