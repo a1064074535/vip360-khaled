@@ -853,7 +853,14 @@ const initializeClient = () => {
             if (!isNaN(serviceIndex) && serviceIndex >= 0 && serviceIndex < services.length) {
                 const selectedService = services[serviceIndex];
 
-                // Special handling for "جديد الوظائف" (Index 15)
+                // 1. Send the standard requirements message first
+                const replyMsg = `✅ *لقد اخترت خدمة: ${selectedService.name}*\n\n📋 *المتطلبات لإتمام الخدمة:*\n${selectedService.requirements}\n\nيرجى تزويدنا بهذه البيانات هنا أو عبر الرابط:\n${SITE_URL}`;
+                message.reply(replyMsg);
+                
+                // 2. Mark as COMPLETED
+                userStates.set(message.from, 'COMPLETED');
+
+                // 3. Special handling for "جديد الوظائف" (Index 15) - Send Jobs Content
                 if (selectedService.name === "جديد الوظائف") {
                     if (fs.existsSync(JOBS_FILE)) {
                         try {
@@ -884,18 +891,9 @@ const initializeClient = () => {
                             }
                         });
                     }
-                    userStates.set(message.from, 'COMPLETED');
-                    return;
                 }
 
-                const replyMsg = `✅ *لقد اخترت خدمة: ${selectedService.name}*\n\n📋 *المتطلبات لإتمام الخدمة:*\n${selectedService.requirements}\n\nيرجى تزويدنا بهذه البيانات هنا أو عبر الرابط:\n${SITE_URL}`;
-                message.reply(replyMsg);
-                
-                // Mark as COMPLETED after successful service selection
-                // so subsequent messages (e.g. "Thanks") don't trigger the menu
-                userStates.set(message.from, 'COMPLETED');
-
-                // Add to SendPulse CRM
+                // 4. Add to SendPulse CRM
                 try {
                     const contact = await message.getContact();
                     const name = contact.pushname || contact.name || 'WhatsApp User';
