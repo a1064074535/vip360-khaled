@@ -957,6 +957,34 @@
                                 </button>
                             </div>
                         </div>
+
+                        <!-- قسم المرفقات (يظهر فقط لخدمة التدريس من المنزل) -->
+                        <div class="form-group" id="attachmentsSection" style="display: none; margin-top: 20px; animation: slideInRight 0.5s ease;">
+                             <label style="color: var(--primary-dark);">📄 المرفقات المطلوبة:</label>
+                             <div style="background: var(--bg-light); padding: 20px; border-radius: 12px; border: 1px solid var(--border);">
+                                 
+                                 <div class="form-group" style="margin-bottom: 15px;">
+                                     <label style="font-size: 14px; margin-bottom: 8px;">صورة الهوية الوطنية (مع تغطية الوجه)</label>
+                                     <div style="position: relative;">
+                                         <input type="file" class="form-control" accept="image/*" onchange="this.style.borderColor = '#28a745'; this.nextElementSibling.style.display = 'block';">
+                                         <small style="display: none; color: #28a745; margin-top: 5px;">✅ تم اختيار الملف (سيتم تذكيرك بإرساله في الواتساب)</small>
+                                     </div>
+                                 </div>
+
+                                 <div class="form-group" style="margin-bottom: 15px;">
+                                     <label style="font-size: 14px; margin-bottom: 8px;">صورة المؤهل العلمي</label>
+                                     <div style="position: relative;">
+                                         <input type="file" class="form-control" accept="image/*,application/pdf" onchange="this.style.borderColor = '#28a745'; this.nextElementSibling.style.display = 'block';">
+                                         <small style="display: none; color: #28a745; margin-top: 5px;">✅ تم اختيار الملف (سيتم تذكيرك بإرساله في الواتساب)</small>
+                                     </div>
+                                 </div>
+
+                                 <div style="background: #fff3cd; padding: 12px; border-radius: 8px; border: 1px solid #ffeeba; color: #856404; font-size: 13px; margin-top: 15px; display: flex; gap: 10px; align-items: flex-start;">
+                                     <span>⚠️</span>
+                                     <p style="margin: 0;">تنبيه هام: الموقع لا يقوم برفع الملفات مباشرة. يرجى تجهيز هذه الصور لإرسالها في محادثة الواتساب التي ستفتح بعد الضغط على زر "إرسال الطلب".</p>
+                                 </div>
+                             </div>
+                        </div>
                         
                         <!-- قسم معلومات الدفع --> 
                         <div id="priceDisplay" class="payment-section" style="margin-top: 40px; padding: 30px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 15px; color: white; display: none;"> 
@@ -1387,6 +1415,7 @@ ${data.service.includes('التدريس من المنزل') ? '\n⚠️ *تنب�
         // Price Display Logic
         const serviceSelect = document.getElementById('serviceSelect');
         const dependentsSection = document.getElementById('dependentsSection');
+        const attachmentsSection = document.getElementById('attachmentsSection');
 
         serviceSelect.addEventListener('change', function() {
             const priceDisplay = document.getElementById('priceDisplay');
@@ -1397,12 +1426,17 @@ ${data.service.includes('التدريس من المنزل') ? '\n⚠️ *تنب�
             // Toggle Dependents Section
             if (serviceName.includes('الضمان') || serviceName.includes('حساب المواطن')) {
                 dependentsSection.style.display = 'block';
-                // Enable inputs if any
                 dependentsList.querySelectorAll('input, select').forEach(el => el.disabled = false);
             } else {
                 dependentsSection.style.display = 'none';
-                // Disable inputs to prevent validation issues
                 dependentsList.querySelectorAll('input, select').forEach(el => el.disabled = true);
+            }
+
+            // Toggle Attachments Section for Teaching from Home
+            if (serviceName.includes('التدريس من المنزل')) {
+                attachmentsSection.style.display = 'block';
+            } else {
+                attachmentsSection.style.display = 'none';
             }
 
             if (price) {
