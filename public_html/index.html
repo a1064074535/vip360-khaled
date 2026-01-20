@@ -1364,7 +1364,7 @@
 🎯 *الخدمة المطلوبة:*
 ${data.service}
 ${dependentsMsg}
-${data.service.includes('التدريس من المنزل') ? '\n⚠️ *تنبيه:* سأقوم بإرفاق صورة الهوية والمؤهل في الرسائل التالية.\n' : ''}
+${['التدريس من المنزل', 'حافز', 'تمهير', 'قياس', 'توطين', 'إعداد السيرة الذاتية', 'متابعة التوظيف'].some(s => data.service.includes(s)) ? '\n⚠️ *تنبيه:* سأقوم بإرفاق صورة الهوية والمؤهل/الشهادة في الرسائل التالية.\n' : ''}
 ⏰ *موعد التواصل المفضل:*
 📅 التاريخ: ${data.appointmentDate}
 🕐 الوقت: ${data.appointmentTime}
@@ -1450,6 +1450,17 @@ ${data.service.includes('التدريس من المنزل') ? '\n⚠️ *تنب�
         const dependentsSection = document.getElementById('dependentsSection');
         const attachmentsSection = document.getElementById('attachmentsSection');
 
+        // Services that require attachments (ID + Qualification)
+        const servicesWithAttachments = [
+            'التدريس من المنزل',
+            'حافز',
+            'تمهير',
+            'قياس',
+            'توطين',
+            'إعداد السيرة الذاتية',
+            'متابعة التوظيف'
+        ];
+
         serviceSelect.addEventListener('change', function() {
             const priceDisplay = document.getElementById('priceDisplay');
             const selectedOption = this.options[this.selectedIndex];
@@ -1465,8 +1476,8 @@ ${data.service.includes('التدريس من المنزل') ? '\n⚠️ *تنب�
                 dependentsList.querySelectorAll('input, select').forEach(el => el.disabled = true);
             }
 
-            // Toggle Attachments Section for Teaching from Home
-            if (serviceName.includes('التدريس من المنزل')) {
+            // Toggle Attachments Section
+            if (servicesWithAttachments.some(s => serviceName.includes(s))) {
                 attachmentsSection.style.display = 'block';
             } else {
                 attachmentsSection.style.display = 'none';
