@@ -18,7 +18,7 @@ async function scrapeJobs() {
         // Select job cards based on the structure we saw
         // The container seems to be: div.bg-white.rounded-md.shadow.p-3.w-full
         $('.bg-white.rounded-md.shadow.p-3.w-full').each((i, el) => {
-            if (jobs.length >= 16) return false; // Stop after 16 jobs
+            if (jobs.length >= 15) return false; // Stop after 15 jobs
 
             const titleElement = $(el).find('.text-base.font-semibold a');
             const title = titleElement.text().trim();
@@ -49,7 +49,7 @@ async function scrapeJobs() {
         console.log(`Found ${jobs.length} jobs.`);
         
         // Check if we need more jobs from page 2
-        if (jobs.length < 16) {
+        if (jobs.length < 15) {
             console.log('Not enough jobs, fetching page 2...');
             try {
                 const page2Url = `${TARGET_URL}?page=2`;
@@ -57,7 +57,7 @@ async function scrapeJobs() {
                 const $2 = cheerio.load(data2);
                 
                 $2('.bg-white.rounded-md.shadow.p-3.w-full').each((i, el) => {
-                    if (jobs.length >= 16) return false;
+                    if (jobs.length >= 15) return false;
 
                     const titleElement = $2(el).find('.text-base.font-semibold a');
                     const title = titleElement.text().trim();

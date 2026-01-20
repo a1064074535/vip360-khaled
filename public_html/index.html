@@ -675,6 +675,11 @@
             to { transform: rotate(360deg); }
         }
 
+        @keyframes ticker {
+            0% { transform: translateX(100%); }
+            100% { transform: translateX(-100%); }
+        }
+
         .submit-btn.loading .loader {
             display: block;
         }
@@ -716,6 +721,12 @@
 
     <!-- Hero Section -->
     <section class="hero">
+        <div class="news-ticker" style="background: rgba(0,0,0,0.3); color: white; padding: 10px 0; margin-bottom: 20px; overflow: hidden; white-space: nowrap; position: relative;">
+            <div id="newsTickerContent" style="display: inline-block; animation: ticker 30s linear infinite; padding-right: 100%;">
+                <!-- Jobs will be loaded here -->
+                جارٍ تحميل أحدث الوظائف...
+            </div>
+        </div>
         <div class="hero-content">
             <h2>رحلتك نحو النجاح تبدأ هنا</h2>
             <p>نقدم لك مجموعة شاملة من الخدمات الحكومية والمهنية بكل احترافية وسرعة</p>
@@ -1081,7 +1092,28 @@
             
             // Expose for dynamic fields
             window.formatDateInput = formatDateInput;
+
+            // Load jobs for ticker
+            loadTickerJobs();
         });
+
+        async function loadTickerJobs() {
+            try {
+                const response = await fetch('daily_jobs.json?t=' + new Date().getTime());
+                const jobs = await response.json();
+                
+                if (jobs && jobs.length > 0) {
+                    const tickerContent = document.getElementById('newsTickerContent');
+                    const jobsHtml = jobs.map(job => 
+                        `<span style="margin: 0 20px;">🔥 <a href="${job.link}" target="_blank" style="color: white; text-decoration: none;">${job.title}</a></span>`
+                    ).join(' | ');
+                    tickerContent.innerHTML = jobsHtml;
+                }
+            } catch (error) {
+                console.error('Error loading ticker jobs:', error);
+                document.getElementById('newsTickerContent').innerHTML = '';
+            }
+        }
 
         // Hijri Date Validation Helper (Updated for DD/MM/YYYY)
         function isValidHijriDate(dateStr) {
