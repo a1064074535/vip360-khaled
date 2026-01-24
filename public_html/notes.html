@@ -1,0 +1,1027 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>دفتر ملاحظاتي الذكي</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+            background: linear-gradient(to bottom right, #fef3c7, #fed7aa, #fecaca);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        /* Header */
+        .header {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 30px;
+            border-radius: 20px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-bottom: 3px solid #fb923c;
+        }
+
+        .header h1 {
+            color: #c2410c;
+            font-size: 32px;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .header input {
+            width: 100%;
+            padding: 12px 16px;
+            border: 2px solid #fed7aa;
+            border-radius: 50px;
+            font-size: 16px;
+            text-align: right;
+            font-family: inherit;
+        }
+
+        .header input:focus {
+            outline: none;
+            border-color: #fb923c;
+            box-shadow: 0 0 0 3px rgba(251, 146, 60, 0.1);
+        }
+
+        /* Main Grid */
+        .main-grid {
+            display: grid;
+            grid-template-columns: 1fr 300px;
+            gap: 30px;
+        }
+
+        @media (max-width: 1024px) {
+            .main-grid {
+                grid-template-columns: 1fr;
+            }
+            .sidebar {
+                grid-row: 2;
+            }
+        }
+
+        /* New Note Button */
+        .btn-new {
+            width: 100%;
+            padding: 16px;
+            background: linear-gradient(135deg, #fb923c, #f97316);
+            color: white;
+            border: none;
+            border-radius: 16px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            margin-bottom: 20px;
+            transition: all 0.3s ease;
+            text-align: center;
+        }
+
+        .btn-new:hover {
+            transform: scale(1.02);
+            box-shadow: 0 10px 20px rgba(251, 146, 60, 0.3);
+        }
+
+        /* Note Form */
+        .note-form {
+            background: white;
+            padding: 24px;
+            border-radius: 16px;
+            border: 2px solid #fed7aa;
+            margin-bottom: 20px;
+            animation: slideIn 0.3s ease;
+        }
+
+        @keyframes slideIn {
+            from { opacity: 0; transform: translateY(-10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .note-form h2 {
+            color: #333;
+            margin-bottom: 16px;
+        }
+
+        .form-group {
+            margin-bottom: 16px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+            color: #555;
+        }
+
+        .form-group input,
+        .form-group textarea,
+        .form-group select {
+            width: 100%;
+            padding: 10px;
+            border: 2px solid #fed7aa;
+            border-radius: 8px;
+            font-family: inherit;
+            font-size: 14px;
+            text-align: right;
+        }
+
+        .form-group textarea {
+            min-height: 120px;
+            resize: none;
+        }
+
+        .form-group input:focus,
+        .form-group textarea:focus,
+        .form-group select:focus {
+            outline: none;
+            border-color: #fb923c;
+            box-shadow: 0 0 0 3px rgba(251, 146, 60, 0.1);
+        }
+
+        .priority-buttons {
+            display: flex;
+            gap: 10px;
+        }
+
+        .priority-btn {
+            flex: 1;
+            padding: 10px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            background: #f9fafb;
+            cursor: pointer;
+            font-weight: bold;
+            transition: all 0.2s ease;
+        }
+
+        .priority-btn.active {
+            border-color: #fb923c;
+            background: #fed7aa;
+        }
+
+        .color-options {
+            display: flex;
+            gap: 10px;
+        }
+
+        .color-btn {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            border: 3px solid #ddd;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .color-btn.active {
+            border-color: #333;
+            transform: scale(1.1);
+        }
+
+        .form-buttons {
+            display: flex;
+            gap: 10px;
+        }
+
+        .btn-cancel, .btn-save {
+            flex: 1;
+            padding: 12px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .btn-cancel {
+            background: #f0f0f0;
+            color: #333;
+        }
+
+        .btn-cancel:hover {
+            background: #ddd;
+        }
+
+        .btn-save {
+            background: linear-gradient(135deg, #fb923c, #f97316);
+            color: white;
+        }
+
+        .btn-save:hover {
+            box-shadow: 0 4px 12px rgba(251, 146, 60, 0.3);
+        }
+
+        /* Notes Container */
+        .notes-container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .empty-state {
+            text-align: center;
+            padding: 60px 20px;
+            color: #c2410c;
+            font-size: 18px;
+        }
+
+        /* Note Card */
+        .note-card {
+            padding: 20px;
+            border-radius: 16px;
+            border: 2px solid;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+            position: relative;
+        }
+
+        .note-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+        }
+
+        .note-card.yellow { background: #fef3c7; border-color: #fbbf24; }
+        .note-card.pink { background: #fce7f3; border-color: #f472b6; }
+        .note-card.blue { background: #dbeafe; border-color: #60a5fa; }
+        .note-card.green { background: #dcfce7; border-color: #4ade80; }
+        .note-card.purple { background: #f3e8ff; border-color: #d8b4fe; }
+
+        .note-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: start;
+            margin-bottom: 12px;
+        }
+
+        .note-badge {
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: bold;
+        }
+
+        .priority-high { background: #fecaca; color: #991b1b; }
+        .priority-normal { background: #fef3c7; color: #92400e; }
+        .priority-low { background: #dcfce7; color: #15803d; }
+
+        .note-pin {
+            font-size: 20px;
+            cursor: pointer;
+            background: none;
+            border: none;
+        }
+
+        .note-title {
+            font-size: 18px;
+            font-weight: bold;
+            color: #1f2937;
+            margin-bottom: 8px;
+            word-break: break-word;
+        }
+
+        .note-dates {
+            font-size: 12px;
+            color: #666;
+            margin-bottom: 12px;
+            line-height: 1.6;
+        }
+
+        .note-content {
+            color: #374151;
+            font-size: 14px;
+            line-height: 1.6;
+            margin-bottom: 12px;
+            max-height: 100px;
+            overflow: hidden;
+        }
+
+        .achievements-summary {
+            background: rgba(255, 255, 255, 0.6);
+            padding: 12px;
+            border-radius: 8px;
+            margin-bottom: 12px;
+            font-size: 12px;
+            border-left: 4px solid #fb923c;
+        }
+
+        .progress-bar {
+            width: 100%;
+            height: 8px;
+            background: #ddd;
+            border-radius: 4px;
+            overflow: hidden;
+            margin-top: 6px;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #fb923c, #f97316);
+            transition: width 0.3s ease;
+        }
+
+        .note-actions {
+            display: flex;
+            gap: 8px;
+        }
+
+        .btn-action {
+            flex: 1;
+            padding: 8px;
+            border: none;
+            border-radius: 8px;
+            background: rgba(255, 255, 255, 0.5);
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: bold;
+            transition: all 0.2s ease;
+        }
+
+        .btn-action:hover {
+            background: rgba(255, 255, 255, 0.8);
+        }
+
+        .btn-delete {
+            background: rgba(239, 68, 68, 0.2);
+            color: #dc2626;
+        }
+
+        /* Achievements Section */
+        .achievements-section {
+            background: rgba(255, 255, 255, 0.4);
+            padding: 16px;
+            border-top: 2px dashed currentColor;
+            margin-top: 12px;
+        }
+
+        .achievements-section h4 {
+            margin-bottom: 12px;
+            color: #1f2937;
+        }
+
+        .achievement-input {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 12px;
+        }
+
+        .achievement-input input {
+            flex: 1;
+            padding: 8px;
+            border: 2px solid currentColor;
+            border-radius: 6px;
+            font-family: inherit;
+            text-align: right;
+        }
+
+        .btn-add-achievement {
+            padding: 8px 16px;
+            background: #4ade80;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        .achievements-list {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .achievement-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px;
+            background: rgba(255, 255, 255, 0.5);
+            border-radius: 6px;
+        }
+
+        .achievement-checkbox {
+            width: 20px;
+            height: 20px;
+            cursor: pointer;
+        }
+
+        .achievement-text {
+            flex: 1;
+            font-size: 13px;
+        }
+
+        .achievement-text.completed {
+            text-decoration: line-through;
+            opacity: 0.6;
+        }
+
+        .btn-delete-achievement {
+            background: none;
+            border: none;
+            color: #dc2626;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        /* Sidebar */
+        .sidebar {
+            position: sticky;
+            top: 20px;
+            height: fit-content;
+        }
+
+        .calendar-card {
+            background: white;
+            padding: 20px;
+            border-radius: 16px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            border-bottom: 3px solid #fb923c;
+        }
+
+        .calendar-tabs {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 16px;
+            background: #f3f4f6;
+            padding: 4px;
+            border-radius: 8px;
+        }
+
+        .calendar-tab {
+            flex: 1;
+            padding: 10px;
+            border: none;
+            background: transparent;
+            cursor: pointer;
+            font-weight: bold;
+            border-radius: 6px;
+            transition: all 0.2s ease;
+            color: #666;
+        }
+
+        .calendar-tab.active {
+            background: white;
+            color: #fb923c;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+
+        .calendar-month {
+            text-align: center;
+            margin-bottom: 16px;
+        }
+
+        .calendar-month-title {
+            font-weight: bold;
+            color: #1f2937;
+            margin-bottom: 12px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .calendar-nav-btn {
+            background: none;
+            border: none;
+            font-size: 18px;
+            cursor: pointer;
+            padding: 4px 8px;
+        }
+
+        .calendar-days {
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            gap: 4px;
+        }
+
+        .calendar-day-header {
+            font-weight: bold;
+            color: #999;
+            font-size: 12px;
+            padding: 4px;
+        }
+
+        .calendar-day {
+            padding: 6px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 12px;
+            background: #f3f4f6;
+            text-align: center;
+            transition: all 0.2s ease;
+        }
+
+        .calendar-day:hover {
+            background: #e5e7eb;
+        }
+
+        .calendar-day.selected {
+            background: #fb923c;
+            color: white;
+            font-weight: bold;
+        }
+
+        .calendar-day.has-notes {
+            background: #fed7aa;
+            font-weight: bold;
+        }
+
+        /* Legend */
+        .legend {
+            margin-top: 20px;
+            padding-top: 16px;
+            border-top: 1px solid #e5e7eb;
+            font-size: 12px;
+        }
+
+        .legend-title {
+            font-weight: bold;
+            margin-bottom: 8px;
+            color: #1f2937;
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 6px;
+        }
+
+        .legend-color {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+        }
+
+        .legend-color.high { background: #fecaca; }
+        .legend-color.normal { background: #fef3c7; }
+        .legend-color.low { background: #dcfce7; }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .header {
+                padding: 20px;
+            }
+
+            .header h1 {
+                font-size: 24px;
+            }
+
+            .note-card {
+                padding: 16px;
+            }
+
+            .priority-buttons {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <h1>💡 دفتر ملاحظاتي الذكي</h1>
+            <input type="text" id="searchInput" placeholder="ابحث عن ملاحظاتك...">
+        </div>
+
+        <!-- Main Grid -->
+        <div class="main-grid">
+            <!-- Main Content -->
+            <div>
+                <!-- New Note Button -->
+                <button class="btn-new" onclick="toggleNewForm()">➕ ملاحظة جديدة</button>
+
+                <!-- New Note Form -->
+                <div id="newNoteForm" style="display: none;" class="note-form">
+                    <h2>✨ ملاحظة جديدة</h2>
+                    
+                    <div class="form-group">
+                        <label>العنوان</label>
+                        <input type="text" id="noteTitle" placeholder="أدخل عنوان الملاحظة...">
+                    </div>
+
+                    <div class="form-group">
+                        <label>المحتوى</label>
+                        <textarea id="noteContent" placeholder="اكتب محتوى الملاحظة..."></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label>درجة الأهمية</label>
+                        <div class="priority-buttons">
+                            <button class="priority-btn active" onclick="setPriority('high')">🔴 عالية</button>
+                            <button class="priority-btn" onclick="setPriority('normal')">🟡 عادية</button>
+                            <button class="priority-btn" onclick="setPriority('low')">🟢 منخفضة</button>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>التاريخ</label>
+                        <input type="date" id="noteDate">
+                    </div>
+
+                    <div class="form-group">
+                        <label>اللون</label>
+                        <div class="color-options">
+                            <button class="color-btn active" style="background: #fef3c7; border-color: #fbbf24;" onclick="setColor('yellow')"></button>
+                            <button class="color-btn" style="background: #fce7f3; border-color: #f472b6;" onclick="setColor('pink')"></button>
+                            <button class="color-btn" style="background: #dbeafe; border-color: #60a5fa;" onclick="setColor('blue')"></button>
+                            <button class="color-btn" style="background: #dcfce7; border-color: #4ade80;" onclick="setColor('green')"></button>
+                            <button class="color-btn" style="background: #f3e8ff; border-color: #d8b4fe;" onclick="setColor('purple')"></button>
+                        </div>
+                    </div>
+
+                    <div class="form-buttons">
+                        <button class="btn-cancel" onclick="toggleNewForm()">إلغاء</button>
+                        <button class="btn-save" onclick="saveNote()">حفظ الملاحظة</button>
+                    </div>
+                </div>
+
+                <!-- Notes Container -->
+                <div class="notes-container" id="notesContainer"></div>
+            </div>
+
+            <!-- Sidebar Calendar -->
+            <div class="sidebar">
+                <div class="calendar-card">
+                    <div class="calendar-tabs">
+                        <button class="calendar-tab active" onclick="switchCalendar('gregorian')">📅 ميلادي</button>
+                        <button class="calendar-tab" onclick="switchCalendar('hijri')">🕌 هجري</button>
+                    </div>
+
+                    <div id="gregorianCalendar" class="calendar-month">
+                        <div class="calendar-month-title">
+                            <button class="calendar-nav-btn" onclick="prevMonth()">❮</button>
+                            <span id="monthTitle"></span>
+                            <button class="calendar-nav-btn" onclick="nextMonth()">❯</button>
+                        </div>
+                        <div class="calendar-days" id="calendarDays"></div>
+                    </div>
+
+                    <div id="hijriCalendar" style="display: none; text-align: center; padding: 20px;">
+                        <p style="color: #666; font-size: 14px;">🕌 التقويم الهجري</p>
+                        <p style="color: #999; font-size: 12px; margin-top: 10px;">يتم الحساب تلقائياً من التاريخ الميلادي</p>
+                    </div>
+
+                    <div class="legend">
+                        <div class="legend-title">مستويات الأهمية:</div>
+                        <div class="legend-item">
+                            <div class="legend-color high"></div>
+                            <span>عالية</span>
+                        </div>
+                        <div class="legend-item">
+                            <div class="legend-color normal"></div>
+                            <span>عادية</span>
+                        </div>
+                        <div class="legend-item">
+                            <div class="legend-color low"></div>
+                            <span>منخفضة</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // البيانات
+        let notes = [];
+        let currentDate = new Date();
+        let selectedDate = new Date().toISOString().split('T')[0];
+        let selectedPriority = 'high';
+        let selectedColor = 'yellow';
+        let currentMonth = new Date();
+
+        // تحميل البيانات من localStorage
+        function loadNotes() {
+            const saved = localStorage.getItem('smartNotesData');
+            if (saved) {
+                notes = JSON.parse(saved);
+            }
+        }
+
+        // حفظ البيانات
+        function saveData() {
+            localStorage.setItem('smartNotesData', JSON.stringify(notes));
+            render();
+        }
+
+        // إظهار/إخفاء نموذج الملاحظة الجديدة
+        function toggleNewForm() {
+            const form = document.getElementById('newNoteForm');
+            form.style.display = form.style.display === 'none' ? 'block' : 'none';
+            if (form.style.display === 'block') {
+                document.getElementById('noteDate').value = selectedDate;
+            }
+        }
+
+        // تعيين الأولوية
+        function setPriority(priority) {
+            selectedPriority = priority;
+            document.querySelectorAll('.priority-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            event.target.classList.add('active');
+        }
+
+        // تعيين اللون
+        function setColor(color) {
+            selectedColor = color;
+            document.querySelectorAll('.color-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            event.target.classList.add('active');
+        }
+
+        // حفظ الملاحظة
+        function saveNote() {
+            const title = document.getElementById('noteTitle').value || 'ملاحظة بدون عنوان';
+            const content = document.getElementById('noteContent').value;
+            const date = document.getElementById('noteDate').value;
+
+            if (!content.trim()) {
+                alert('الرجاء كتابة محتوى الملاحظة');
+                return;
+            }
+
+            notes.unshift({
+                id: Date.now(),
+                title,
+                content,
+                date,
+                priority: selectedPriority,
+                color: selectedColor,
+                pinned: false,
+                achievements: [],
+                createdAt: new Date().toLocaleString('ar-SA')
+            });
+
+            document.getElementById('noteTitle').value = '';
+            document.getElementById('noteContent').value = '';
+            selectedPriority = 'high';
+            selectedColor = 'yellow';
+            toggleNewForm();
+            saveData();
+        }
+
+        // حذف الملاحظة
+        function deleteNote(id) {
+            if (confirm('هل أنت متأكد من حذف الملاحظة؟')) {
+                notes = notes.filter(n => n.id !== id);
+                saveData();
+            }
+        }
+
+        // تثبيت/إلغاء تثبيت الملاحظة
+        function togglePin(id) {
+            const note = notes.find(n => n.id === id);
+            if (note) {
+                note.pinned = !note.pinned;
+                saveData();
+            }
+        }
+
+        // إضافة إنجاز
+        function addAchievement(id) {
+            const input = document.getElementById(`achievement-input-${id}`);
+            const text = input.value.trim();
+            if (!text) return;
+
+            const note = notes.find(n => n.id === id);
+            if (note) {
+                note.achievements.push({
+                    id: Date.now(),
+                    text,
+                    completed: false
+                });
+                input.value = '';
+                saveData();
+            }
+        }
+
+        // تبديل إنجاز
+        function toggleAchievement(noteId, achievementId) {
+            const note = notes.find(n => n.id === noteId);
+            if (note) {
+                const achievement = note.achievements.find(a => a.id === achievementId);
+                if (achievement) {
+                    achievement.completed = !achievement.completed;
+                    saveData();
+                }
+            }
+        }
+
+        // حذف إنجاز
+        function deleteAchievement(noteId, achievementId) {
+            const note = notes.find(n => n.id === noteId);
+            if (note) {
+                note.achievements = note.achievements.filter(a => a.id !== achievementId);
+                saveData();
+            }
+        }
+
+        // تحويل ميلادي إلى هجري
+        function gregorianToHijri(dateString) {
+            const [y, m, d] = dateString.split('-').map(Number);
+            const a = Math.floor((14 - m) / 12);
+            const y2 = y + 4800 - a;
+            const m2 = m + 12 * a - 3;
+            const jdn = d + Math.floor((153 * m2 + 2) / 5) + 365 * y2 + Math.floor(y2 / 4) - Math.floor(y2 / 100) + Math.floor(y2 / 400) - 32045;
+            const N = jdn - 1948440;
+            const hy = Math.floor((N + 1) / 354.36667) + 1;
+            const rem = N % 354.36667;
+            const hm = Math.floor(rem / 29.53) + 1;
+            const hd = Math.floor((rem % 29.53) + 1);
+            return { day: Math.min(30, hd), month: Math.min(12, hm), year: hy };
+        }
+
+        // تنسيق التاريخ
+        function formatDate(dateString) {
+            const date = new Date(dateString + 'T00:00:00');
+            const gregorian = date.toLocaleDateString('ar-SA', {
+                weekday: 'long',
+                year: 'numeric',
+                month: 'long',
+                day: 'numeric'
+            });
+            const hijri = gregorianToHijri(dateString);
+            const hijriMonths = ['محرم', 'صفر', 'ربيع الأول', 'ربيع الثاني', 'جمادى الأولى', 'جمادى الآخرة', 'رجب', 'شعبان', 'رمضان', 'شوال', 'ذو القعدة', 'ذو الحجة'];
+            const hijriDate = `${hijri.day} ${hijriMonths[hijri.month - 1]} ${hijri.year} هـ`;
+            return { gregorian, hijriDate };
+        }
+
+        // البحث عن الملاحظات
+        function searchNotes() {
+            const search = document.getElementById('searchInput').value.toLowerCase();
+            return notes.filter(n => 
+                n.title.toLowerCase().includes(search) || 
+                n.content.toLowerCase().includes(search)
+            );
+        }
+
+        // ترتيب الملاحظات
+        function sortNotes(notesArray) {
+            const priorityOrder = { high: 0, normal: 1, low: 2 };
+            return notesArray.sort((a, b) => {
+                if (a.pinned !== b.pinned) return b.pinned ? 1 : -1;
+                return priorityOrder[a.priority] - priorityOrder[b.priority];
+            });
+        }
+
+        // عرض الملاحظات
+        function render() {
+            const filteredNotes = searchNotes();
+            const sortedNotes = sortNotes(filteredNotes);
+            const container = document.getElementById('notesContainer');
+
+            if (sortedNotes.length === 0) {
+                container.innerHTML = '<div class="empty-state">لا توجد ملاحظات</div>';
+                return;
+            }
+
+            container.innerHTML = sortedNotes.map(note => {
+                const { gregorian, hijriDate } = formatDate(note.date);
+                const achievements = note.achievements || [];
+                const completed = achievements.filter(a => a.completed).length;
+                const progressPercent = achievements.length > 0 ? (completed / achievements.length) * 100 : 0;
+
+                const priorityClass = `priority-${note.priority}`;
+                const priorityLabel = { high: '🔴 عالية', normal: '🟡 عادية', low: '🟢 منخفضة' }[note.priority];
+
+                return `
+                    <div class="note-card ${note.color}">
+                        <div class="note-header">
+                            <span class="note-badge ${priorityClass}">${priorityLabel}</span>
+                            <button class="note-pin" onclick="togglePin(${note.id})">${note.pinned ? '❤️' : '🤍'}</button>
+                        </div>
+
+                        <div class="note-title">${note.title}</div>
+
+                        <div class="note-dates">
+                            📅 ${gregorian}<br>
+                            🕌 ${hijriDate}
+                        </div>
+
+                        <div class="note-content">${note.content}</div>
+
+                        ${achievements.length > 0 ? `
+                            <div class="achievements-summary">
+                                📊 الإنجازات: <span style="color: #fb923c;">${completed}/${achievements.length}</span>
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="width: ${progressPercent}%"></div>
+                                </div>
+                            </div>
+                        ` : ''}
+
+                        <div class="note-actions">
+                            <button class="btn-action" onclick="toggleAchievements(${note.id})">📋 الإنجازات</button>
+                            <button class="btn-action" onclick="deleteNote(${note.id})" style="flex: 0.5;">🗑️</button>
+                        </div>
+
+                        <div id="achievements-${note.id}" style="display: none;" class="achievements-section">
+                            <h4>✅ قائمة الإنجازات</h4>
+                            <div class="achievement-input">
+                                <input type="text" id="achievement-input-${note.id}" placeholder="أضف إنجازاً...">
+                                <button class="btn-add-achievement" onclick="addAchievement(${note.id})">➕</button>
+                            </div>
+                            <div class="achievements-list">
+                                ${(note.achievements || []).map(ach => `
+                                    <div class="achievement-item">
+                                        <input type="checkbox" class="achievement-checkbox" ${ach.completed ? 'checked' : ''} onchange="toggleAchievement(${note.id}, ${ach.id})">
+                                        <span class="achievement-text ${ach.completed ? 'completed' : ''}">${ach.text}</span>
+                                        <button class="btn-delete-achievement" onclick="deleteAchievement(${note.id}, ${ach.id})">✕</button>
+                                    </div>
+                                `).join('')}
+                            </div>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        function toggleAchievements(id) {
+            const el = document.getElementById(`achievements-${id}`);
+            el.style.display = el.style.display === 'none' ? 'block' : 'none';
+        }
+
+        // إدارة التقويم
+        function renderCalendar() {
+            const year = currentMonth.getFullYear();
+            const month = currentMonth.getMonth();
+            const monthNames = ['يناير', 'فبراير', 'مارس', 'أبريل', 'مايو', 'يونيو', 'يوليو', 'أغسطس', 'سبتمبر', 'أكتوبر', 'نوفمبر', 'ديسمبر'];
+            const dayNames = ['ح', 'ن', 'ث', 'ر', 'خ', 'ج', 'س'];
+
+            document.getElementById('monthTitle').textContent = `${monthNames[month]} ${year}`;
+
+            const firstDay = new Date(year, month, 1).getDay();
+            const daysInMonth = new Date(year, month + 1, 0).getDate();
+
+            let html = dayNames.map(d => `<div class="calendar-day-header">${d}</div>`).join('');
+
+            for (let i = 0; i < firstDay; i++) {
+                html += '<div></div>';
+            }
+
+            for (let day = 1; day <= daysInMonth; day++) {
+                const dateStr = `${year}-${String(month + 1).padStart(2, '0')}-${String(day).padStart(2, '0')}`;
+                const isSelected = dateStr === selectedDate;
+                const hasNotes = notes.some(n => n.date === dateStr);
+                const classes = ['calendar-day'];
+                if (isSelected) classes.push('selected');
+                else if (hasNotes) classes.push('has-notes');
+
+                html += `<button class="${classes.join(' ')}" onclick="selectDate('${dateStr}')">${day}</button>`;
+            }
+
+            document.getElementById('calendarDays').innerHTML = html;
+        }
+
+        function selectDate(dateStr) {
+            selectedDate = dateStr;
+            document.getElementById('noteDate').value = dateStr;
+            renderCalendar();
+        }
+
+        function prevMonth() {
+            currentMonth = new Date(currentMonth.getFullYear(), currentMonth.getMonth() - 1);
+            renderCalendar();
+        }
+
+        function nextMonth() {
+            currentMonth = new Date(currentMonth.getFullYear(), currentMonth.getMonth() + 1);
+            renderCalendar();
+        }
+
+        function switchCalendar(type) {
+            document.getElementById('gregorianCalendar').style.display = type === 'gregorian' ? 'block' : 'none';
+            document.getElementById('hijriCalendar').style.display = type === 'hijri' ? 'block' : 'none';
+            document.querySelectorAll('.calendar-tab').forEach(tab => {
+                tab.classList.toggle('active');
+            });
+        }
+
+        // البحث
+        document.getElementById('searchInput').addEventListener('input', render);
+
+        // التهيئة
+        loadNotes();
+        document.getElementById('noteDate').valueAsDate = new Date();
+        selectedDate = new Date().toISOString().split('T')[0];
+        renderCalendar();
+        render();
+    </script>
+</body>
+</html>

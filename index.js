@@ -58,6 +58,11 @@ app.get('/jobs', (req, res) => {
     res.sendFile(path.join(__dirname, 'public_html', 'jobs.html'));
 });
 
+// Serve Notes Page
+app.get('/notes', (req, res) => {
+    res.sendFile(path.join(__dirname, 'public_html', 'notes.html'));
+});
+
 // 2. Assistant Chat API
 app.post('/api/chat', async (req, res) => {
     const { message } = req.body;
@@ -690,15 +695,11 @@ const initializeClient = () => {
         // Prevent bot from replying to its own automated messages (loops)
         // But ALLOW it to reply to explicit commands from the owner if needed
         if (message.fromMe) {
-            // If it's the Admin/Bot owner sending a command
-            if (msgBody.startsWith('!broadcast')) {
-                // Allow execution
-            } else if (msgBody === 'services' || msgBody === 'خدمات' || msgBody === 'الخدمات') {
-                // Optional: Allow owner to test 'services' menu? 
-                // Better to allow it for testing, but ensure the REPLY doesn't trigger this again.
-                // The reply will be "Here is the list...", which doesn't equal "services". So it's safe.
-            } else if (!isNaN(parseInt(msgBody)) || msgBody === 'test' || msgBody === 'تجربة') {
-                 // Allow testing numbers/test
+            // Allow processing of numbers or specific commands
+            if (!isNaN(parseInt(msgBody)) || msgBody === 'services' || msgBody === 'خدمات' || msgBody === 'الخدمات' || msgBody === 'test' || msgBody === 'تجربة') {
+                // Allow fall-through to main logic
+            } else if (msgBody.startsWith('!broadcast')) {
+                 // Allow execution
             } else {
                 // Ignore other random text from self to avoid spam
                 return; 
@@ -708,8 +709,19 @@ const initializeClient = () => {
         // --- Special Handling for Specific User (Owner's request) ---
         // If 966507866885 or 966500797353 or 966544432884 sends ANY message, reply with the website list
         if (message.from === '966507866885@c.us' || message.from === '966500797353@c.us' || message.from === '966544432884@c.us') {
-            await message.reply(`*قائمة الخدمات المتاحة:*\n\n${servicesList}\n\n*الرجاء كتابة رقم الخدمة التي ترغب بها (مثلاً: 1) ليتم تزويدك بالتفاصيل.*\n\nلزيارة الموقع: ${SITE_URL}`);
-            return;
+            const potentialServiceIndex = parseInt(msgBody) - 1;
+            const isServiceNumber = !isNaN(potentialServiceIndex) && potentialServiceIndex >= 0 && potentialServiceIndex < services.length;
+
+            if (isServiceNumber) {
+                // Allow them to pick a service normally
+                userStates.set(message.from, 'SELECTING_SERVICE');
+                // IMPORTANT: Mark as seen so they don't get trapped in the "New User" block below
+                markUserAsSeen(message.from);
+                // Don't return, let it fall through to the service processing logic below
+            } else {
+                await message.reply(`*قائمة الخدمات المتاحة:*\n\n${servicesList}\n\n*الرجاء كتابة رقم الخدمة التي ترغب بها (مثلاً: 1) ليتم تزويدك بالتفاصيل.*\n\nلزيارة الموقع: ${SITE_URL}`);
+                return;
+            }
         }
 
         // --- New User Handling (First Time Contact) ---
@@ -749,9 +761,19 @@ const initializeClient = () => {
             }
 
             if (currentState === 'INITIAL') {
-                await message.reply(`مرحباً بك في المكتبة الرقمية 📚\n\n*قائمة الخدمات المتاحة:*\n\n${servicesList}\n\n*الرجاء كتابة رقم الخدمة التي ترغب بها (مثلاً: 1) ليتم تزويدك بالتفاصيل.*\n\nلزيارة الموقع: ${SITE_URL}`);
-                userStates.set(message.from, 'SELECTING_SERVICE');
-                return;
+                // Check if message is a number immediately to avoid forcing them to say 'hi' first
+                const potentialServiceIndex = parseInt(msgBody) - 1;
+                const isServiceNumber = !isNaN(potentialServiceIndex) && potentialServiceIndex >= 0 && potentialServiceIndex < services.length;
+
+                if (isServiceNumber) {
+                    userStates.set(message.from, 'SELECTING_SERVICE');
+                    currentState = 'SELECTING_SERVICE';
+                    // Allow to fall through to processing
+                } else {
+                    await message.reply(`مرحباً بك في المكتبة الرقمية 📚\n\n*قائمة الخدمات المتاحة:*\n\n${servicesList}\n\n*الرجاء كتابة رقم الخدمة التي ترغب بها (مثلاً: 1) ليتم تزويدك بالتفاصيل.*\n\nلزيارة الموقع: ${SITE_URL}`);
+                    userStates.set(message.from, 'SELECTING_SERVICE');
+                    return;
+                }
             }
 
             if (currentState === 'AWAITING_CHOICE') {
@@ -831,32 +853,50 @@ const initializeClient = () => {
         } else if (msgBody === 'hello' || msgBody === 'hi' || msgBody === 'test' || msgBody === 'تجربة') {
             message.reply('Bot is working! / البوت يعمل بنجاح!\nأرسل "خدمات" لعرض القائمة.');
         } else {
-            // Check if message is a number 1-15
+            // Check if message is a number 1-16
             const serviceIndex = parseInt(msgBody) - 1;
+            console.log(`Checking service index for input '${msgBody}': ${serviceIndex}`);
             
             if (!isNaN(serviceIndex) && serviceIndex >= 0 && serviceIndex < services.length) {
                 const selectedService = services[serviceIndex];
+                console.log(`Selected service: ${selectedService.name}`);
 
                 // 1. Send the standard requirements message first
                 const replyMsg = `✅ *لقد اخترت خدمة: ${selectedService.name}*\n\n📋 *المتطلبات لإتمام الخدمة:*\n${selectedService.requirements}\n\nيرجى تزويدنا بهذه البيانات هنا أو عبر الرابط:\n${SITE_URL}`;
-                message.reply(replyMsg);
+                await message.reply(replyMsg); // Added await here to ensure order
                 
                 // 2. Mark as COMPLETED
                 userStates.set(message.from, 'COMPLETED');
 
                 // 3. Special handling for "جديد الوظائف" (Index 15) - Send Jobs Content
-                if (selectedService.name === "جديد الوظائف") {
+                // Check by name OR index to be safe
+                if (selectedService.name === "جديد الوظائف" || serviceIndex === 15) {
+                    console.log('User selected jobs service. Processing...');
+                    console.log('Jobs file path:', JOBS_FILE);
+                    
                     if (fs.existsSync(JOBS_FILE)) {
                         try {
                             const jobs = JSON.parse(fs.readFileSync(JOBS_FILE, 'utf8'));
-                            let jobsMsg = "🆕 *أحدث الوظائف اليومية:*\n\n";
-                            jobs.forEach((job, i) => {
-                                 jobsMsg += `*${i+1}. ${job.title}*\n🏢 ${job.company}\n🕒 ${job.time}\n🔗 ${job.link}\n\n`;
-                            });
-                            jobsMsg += `\nللمزيد من الوظائف: https://www.ewdifh.com/`;
-                            message.reply(jobsMsg);
+                            console.log(`Read ${jobs.length} jobs from file.`);
+                            
+                            // Split into chunks of 10 to avoid long message issues
+                            const chunkSize = 10;
+                            for (let i = 0; i < jobs.length; i += chunkSize) {
+                                const chunk = jobs.slice(i, i + chunkSize);
+                                let jobsMsg = i === 0 ? "🆕 *أحدث الوظائف اليومية:*\n\n" : "";
+                                chunk.forEach((job, index) => {
+                                     jobsMsg += `*${i + index + 1}. ${job.title}*\n🏢 ${job.company}\n🕒 ${job.time}\n🔗 ${job.link}\n\n`;
+                                });
+                                
+                                if (i + chunkSize >= jobs.length) {
+                                    jobsMsg += `\nللمزيد من الوظائف: https://www.ewdifh.com/`;
+                                }
+                                
+                                console.log(`Sending chunk ${i/chunkSize + 1}...`);
+                                await message.reply(jobsMsg);
+                            }
                         } catch (e) {
-                            console.error('Error reading jobs file:', e);
+                            console.error('Error reading jobs file or sending message:', e);
                             message.reply('عذراً، حدث خطأ أثناء جلب الوظائف.');
                         }
                     } else {
