@@ -7,7 +7,7 @@ on:
 
 jobs:
   run-bot:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
@@ -20,7 +20,7 @@ jobs:
       - name: Install dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y libnss3 libatk-bridge2.0-0 libxcomposite1 libxdamage1 libxrandr2 libgbm1 libasound2 libpango-1.0-0 libpangocairo-1.0-0 libgtk-3-0
+          sudo apt-get install -y libnss3 libatk-bridge2.0-0 libxcomposite1 libxdamage1 libxrandr2 libgbm1 libasound2 libpango-1.0-0 libpangocairo-1.0-0 libgtk-3-0 libxshmfence1
           npm install
 
       - name: Run Bot
@@ -30,6 +30,6 @@ jobs:
           # Note: WhatsApp Web requires a saved session to run headlessly without QR.
           # This action will start the bot, but if session is missing, it will wait for QR and timeout.
           # For 24/7 operation, consider using a VPS or Render.com with the provided Dockerfile.
-          node index.js & 
+          node index.js &
           sleep 60
           kill $!
